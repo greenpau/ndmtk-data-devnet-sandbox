@@ -1,31 +1,26 @@
-Logging console:                disabled
-Logging monitor:                disabled
+Logging console:                enabled (Severity: critical)
+Logging monitor:                enabled (Severity: notifications)
 Logging linecard:               enabled (Severity: notifications)
-Logging timestamp:              Milliseconds
+Logging timestamp:              Seconds
 Logging loopback :              disabled
-Logging server:                 enabled
-{10.63.103.100}
-        server severity:        notifications
-        server facility:        local7
-        server VRF:             default
-        server port:            514
+Logging server:                 disabled
 Logging origin_id :             disabled
 Logging logflash:               disabled
 Logging rate-limit:             enabled
 Logging logfile:                enabled
-        Name - aaa: Severity - information Size - 4096
+        Name - messages: Severity - notifications Size - 4194304
 
 Logging persistent :            disabled (Reason: Logflash CF card not online.)
 
 
 Syslog History Table: '1' maximum table entries
 saving level 'warnings' or higher
-3042 messages ignored, 0 dropped, 1199148 table entries flushed
+219 messages ignored, 0 dropped, 20 table entries flushed
 SNMP notifications disabled
 
-        entry number 1199149: VSHD-2-VSHD_SYSLOG_EOL_ERR
-         EOL function show_interface_tables_func from library libif_manager.so exited due to Signal 11
-        Timestamp: 1694672980
+        entry number 21: LICMGR-2-LOG_LICAPP_NO_LIC
+         Application bgp running without LAN_ENTERPRISE_SERVICES_PKG license, shutdown in 119 days
+        Timestamp: 8065
 
 
 Facility        Default Severity        Current Session Severity
@@ -35,8 +30,7 @@ aclmgr                  3                       3
 adbm                    2                       2
 auth                    0                       0
 authpriv                3                       3
-bfd                     5                       5
-bfd_app                 2                       2
+bgp                     5                       5
 bootvar                 5                       5
 callhome                2                       2
 capability              2                       2
@@ -49,7 +43,6 @@ copp                    2                       2
 cron                    3                       3
 daemon                  3                       3
 dftm                    2                       2
-dhcp_snoop              2                       2
 ecp                     5                       5
 eltm                    2                       2
 eltmc                   2                       2
@@ -60,11 +53,9 @@ evms                    2                       2
 feature-mgr             2                       2
 fs-daemon               2                       2
 ftp                     3                       3
-hsrp_engine             3                       3
 ifmgr                   5                       5
 iftmc                   2                       2
 igmp_1                  5                       5
-interface-vlan          2                       2
 ip                      3                       3
 ipv6                    3                       3
 kern                    3                       3
@@ -73,7 +64,6 @@ l2pt                    3                       3
 l3vm                    5                       5
 licmgr                  6                       6
 lim                     2                       2
-lldp                    2                       2
 local0                  3                       3
 local1                  3                       3
 local2                  3                       3
@@ -94,8 +84,8 @@ mtm                     2                       2
 mvsh                    2                       2
 news                    3                       3
 ntp                     2                       2
-nxapi                   2                       2
 ori_fwd                 3                       3
+ospf_1                  5                       5
 otm                     3                       3
 patch-installer         3                       3
 pfstat                  2                       2
@@ -117,7 +107,6 @@ spm                     2                       2
 stp                     3                       3
 syslog                  3                       3
 sysmgr                  3                       3
-tacacs                  3                       3
 u6rib                   5                       5
 ufdm                    2                       2
 urib                    5                       5
@@ -126,7 +115,6 @@ uucp                    3                       3
 vdc_mgr                 6                       6
 virtual-service         5                       5
 vlan_mgr                2                       2
-vpc                     2                       2
 vpc_config_sync         2                       2
 vshd                    5                       5
 xmlma                   3                       3
