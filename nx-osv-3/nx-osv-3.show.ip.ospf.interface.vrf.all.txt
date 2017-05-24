@@ -1,0 +1,45 @@
+ loopback0 is up, line protocol is up
+    IP address 192.168.0.3/32
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State LOOPBACK, Network type LOOPBACK, cost 1
+    Index 1
+ Ethernet2/1 is up, line protocol is up
+    IP address 10.0.0.10/30
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State BDR, Network type BROADCAST, cost 40
+    Index 4, Transmit delay 1 sec, Router Priority 1
+    Designated Router ID: 192.168.0.1, address: 10.0.0.9
+    Backup Designated Router ID: 192.168.0.3, address: 10.0.0.10
+    1 Neighbors, flooding to 0, adjacent with 0
+    Timer intervals: Hello 10, Dead 40, Wait 40, Retransmit 5
+      Hello timer due in 00:00:07
+    No authentication
+    Number of opaque link LSAs: 0, checksum sum 0
+ Ethernet2/2 is up, line protocol is up
+    IP address 10.0.0.18/30
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State BDR, Network type BROADCAST, cost 40
+    Index 3, Transmit delay 1 sec, Router Priority 1
+    Designated Router ID: 192.168.0.2, address: 10.0.0.17
+    Backup Designated Router ID: 192.168.0.3, address: 10.0.0.18
+    1 Neighbors, flooding to 1, adjacent with 1
+    Timer intervals: Hello 10, Dead 40, Wait 40, Retransmit 5
+      Hello timer due in 00:00:02
+    No authentication
+    Number of opaque link LSAs: 0, checksum sum 0
+ Ethernet2/3 is up, line protocol is up
+    IP address 10.0.0.25/30
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State BDR, Network type BROADCAST, cost 40
+    Index 2, Transmit delay 1 sec, Router Priority 1
+    Designated Router ID: 192.168.0.4, address: 10.0.0.26
+    Backup Designated Router ID: 192.168.0.3, address: 10.0.0.25
+    1 Neighbors, flooding to 1, adjacent with 1
+    Timer intervals: Hello 10, Dead 40, Wait 40, Retransmit 5
+      Hello timer due in 00:00:09
+    No authentication
+    Number of opaque link LSAs: 0, checksum sum 0
