@@ -19,12 +19,8 @@ vdc nx-osv-4 id 1
   limit-resource m6route-mem minimum 8 maximum 8
 
 feature telnet
-cfs eth distribute
 feature ospf
 feature bgp
-feature interface-vlan
-feature vpc
-feature nxapi
 
 username admin password 5 $1$KuOSBsvW$Cy0TSD..gEBGBPjzpDgf51  role network-admin
 username adminbackup password 5 !  role network-operator
@@ -65,12 +61,11 @@ interface mgmt0
   vrf member management
   ip address 172.16.1.93/24
 
-interface Vlan1
-
 interface Ethernet2/1
   description to nx-osv-1
   no switchport
   ip address 10.0.0.14/30
+  no ip ospf passive-interface
   ip router ospf 1 area 0.0.0.0
   no shutdown
 
@@ -78,12 +73,15 @@ interface Ethernet2/2
   description to nx-osv-3
   no switchport
   ip address 10.0.0.26/30
+  no ip ospf passive-interface
   ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/3
   description Ethernet2/3
   no switchport
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/4
@@ -801,6 +799,8 @@ boot kickstart bootflash:/titanium-d1-kickstart.7.2.0.ZD.0.120.bin sup-1
 boot system bootflash:/titanium-d1.7.2.0.ZD.0.120.bin sup-1
 router ospf 1
   router-id 192.168.0.4
+  log-adjacency-changes detail
+  passive-interface default
 router bgp 1
   router-id 192.168.0.4
   address-family ipv4 unicast
