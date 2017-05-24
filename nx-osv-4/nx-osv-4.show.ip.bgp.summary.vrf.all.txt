@@ -1,11 +1,11 @@
 BGP summary information for VRF default, address family IPv4 Unicast
 BGP router identifier 192.168.0.4, local AS number 1
-BGP table version is 3, IPv4 Unicast config peers 3, capable peers 0
-1 network entries and 1 paths using 140 bytes of memory
-BGP attribute entries [1/144], BGP AS path entries [0/0]
+BGP table version is 13, IPv4 Unicast config peers 3, capable peers 2
+3 network entries and 3 paths using 420 bytes of memory
+BGP attribute entries [2/288], BGP AS path entries [0/0]
 BGP community entries [0/0], BGP clusterlist entries [0/0]
 
 Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
-192.168.0.1     4     1       0       0        0    0    0     1w2d Idle
-192.168.0.2     4     1       0       0        0    0    0     1w2d Idle
-192.168.0.3     4     1       0       0        0    0    0     1w2d Active
+192.168.0.1     4     1       0       0        0    0    0 04:01:13 Active
+192.168.0.2     4     1     247     247       13    0    0 04:00:24 1
+192.168.0.3     4     1     247     247       13    0    0 04:00:21 1
