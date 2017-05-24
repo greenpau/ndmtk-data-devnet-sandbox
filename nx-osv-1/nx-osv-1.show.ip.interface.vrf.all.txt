@@ -1,5 +1,5 @@
 IP Interface Status for VRF "default"
-Vlan2, Interface status: protocol-down/link-down/admin-up, iod: 39,
+Vlan2, Interface status: protocol-up/link-up/admin-up, iod: 39,
   IP address: 10.1.10.10, IP subnet: 10.1.10.0/24
   IP broadcast address: 255.255.255.255
   IP multicast groups locally joined: none
@@ -135,10 +135,10 @@ Ethernet2/1, Interface status: protocol-up/link-up/admin-up, iod: 44,
   IP load sharing: none
   IP interface statistics last reset: never
   IP interface software stats: (sent/received/forwarded/originated/consumed)
-    Unicast packets    : 0/0/0/0/0
-    Unicast bytes      : 0/0/0/0/0
-    Multicast packets  : 471276/1408818/0/471276/2817636
-    Multicast bytes    : 38644632/90164352/0/38644632/90164352
+    Unicast packets    : 5118/2719/0/5118/5438
+    Unicast bytes      : 498744/141388/0/498744/282776
+    Multicast packets  : 473886/1413100/0/473886/2826200
+    Multicast bytes    : 38865928/90445260/0/38865928/90445260
     Broadcast packets  : 0/0/0/0/0
     Broadcast bytes    : 0/0/0/0/0
     Labeled packets    : 0/0/0/0/0
@@ -165,10 +165,10 @@ Ethernet2/2, Interface status: protocol-up/link-up/admin-up, iod: 45,
   IP load sharing: none
   IP interface statistics last reset: never
   IP interface software stats: (sent/received/forwarded/originated/consumed)
-    Unicast packets    : 0/0/0/0/0
-    Unicast bytes      : 0/0/0/0/0
-    Multicast packets  : 471331/1409078/0/471331/2818156
-    Multicast bytes    : 38649142/90180992/0/38649142/90180992
+    Unicast packets    : 4989/2652/0/4989/5304
+    Unicast bytes      : 486302/137904/0/486302/275808
+    Multicast packets  : 473925/1413296/0/473925/2826592
+    Multicast bytes    : 38868874/90457620/0/38868874/90457620
     Broadcast packets  : 0/0/0/0/0
     Broadcast bytes    : 0/0/0/0/0
     Labeled packets    : 0/0/0/0/0
@@ -196,12 +196,12 @@ mgmt0, Interface status: protocol-up/link-up/admin-up, iod: 2,
   IP load sharing: none
   IP interface statistics last reset: never
   IP interface software stats: (sent/received/forwarded/originated/consumed)
-    Unicast packets    : 152114/138535/27207/124907/222656
-    Unicast bytes      : 52341942/14591093/6222154/46119788/17363761
-    Multicast packets  : 0/48571850/0/0/0
-    Multicast bytes    : 0/5356948447/0/0/0
-    Broadcast packets  : 0/208856/0/0/208856
-    Broadcast bytes    : 0/67335476/0/0/67335476
+    Unicast packets    : 159411/145679/27331/132080/236696
+    Unicast bytes      : 54482558/15341801/6253075/48229483/18805417
+    Multicast packets  : 0/48846958/0/0/0
+    Multicast bytes    : 0/5387053997/0/0/0
+    Broadcast packets  : 0/210279/0/0/210279
+    Broadcast bytes    : 0/67798517/0/0/67798517
     Labeled packets    : 0/0/0/0/0
     Labeled bytes      : 0/0/0/0/0
   WCCP Redirect outbound: disabled
