@@ -313,6 +313,7 @@ interface Ethernet2/1
   no switchport
   mtu 9000
   ip address 10.0.0.5/30
+  no ip ospf passive-interface
   ip router ospf 1 area 0.0.0.0
   no shutdown
 
@@ -321,6 +322,7 @@ interface Ethernet2/2
   no switchport
   mtu 1600
   ip address 10.0.0.9/30
+  no ip ospf passive-interface
   ip router ospf 1 area 0.0.0.0
   no shutdown
 
@@ -328,6 +330,7 @@ interface Ethernet2/3
   description to nx-osv-4
   switchport
   switchport mode trunk
+  no ip ospf passive-interface
   no shutdown
 
 interface Ethernet2/4
@@ -1060,8 +1063,11 @@ boot kickstart bootflash:/titanium-d1-kickstart.7.2.0.ZD.0.120.bin sup-1
 boot system bootflash:/titanium-d1.7.2.0.ZD.0.120.bin sup-1
 router ospf 1
   router-id 192.168.0.1
+  log-adjacency-changes detail
+  passive-interface default
 router ospf 100
   router-id 172.16.1.1
+  network 10.10.90.0/24 area 0.0.0.0
 router bgp 65000
 no system default switchport shutdown
 nxapi https port 443
