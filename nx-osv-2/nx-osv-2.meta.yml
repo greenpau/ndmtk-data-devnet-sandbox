@@ -1,267 +1,256 @@
 ndmtk_files:
 - allow_empty_response: false
   cli: show running-config
+  dst_path_sha1: 393e41d81df7846b98be26539b38cd0b55f5cab5
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '929'
+  lines: '823'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.running-config.txt
-  sha1: 393e41d81df7846b98be26539b38cd0b55f5cab5
+  sha1: bf7d3bf427caee3818b193f9b357d9a68db56bad
   source: os_default
   status: ok
   tags:
   - configuration
-  time_start: '1495638069685'
-  timestamp: 2017-05-24T15:01:09 UTC
+  time_start: '1495654147582'
+  timestamp: 2017-05-24T19:29:07 UTC
 - allow_empty_response: false
   cli: show version
+  dst_path_sha1: 65693578de1c28e97495d3aa373f8a919080d5db
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '36'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.version.txt
-  sha1: 65693578de1c28e97495d3aa373f8a919080d5db
+  sha1: 01fc1996983d864145d0dce57d83761ed887cfc8
   source: os_default
   status: ok
   tags:
   - version
-  time_start: '1495638073873'
-  timestamp: 2017-05-24T15:01:13 UTC
+  time_start: '1495654151757'
+  timestamp: 2017-05-24T19:29:11 UTC
 - allow_empty_response: false
-  cli: show ip arp vrf all
+  cli: show ip bgp vrf all
+  description: BGP neighbor details
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '11'
   mode: analytics
-  path: nx-osv-2/nx-osv-2.show.ip.arp.vrf.all.txt
-  sha1: bfc2284e819a33cb528db265cdfa1611c37d859b
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.vrf.all.txt
+  sha1: 646cc9a35f41d6c8cbb92a10ab92581dcede4f00
   source: os_default
   status: ok
-  time_start: '1495638074815'
-  timestamp: 2017-05-24T15:01:14 UTC
+  time_start: '1495654152406'
+  timestamp: 2017-05-24T19:29:12 UTC
+- allow_empty_response: false
+  child_cli_id:
+  - show ip bgp neighbors 192.168.0.1 vrf default
+  - show ip bgp neighbors 192.168.0.1 advertised-routes vrf default
+  - show ip bgp neighbors 192.168.0.1 received-routes vrf default
+  - show ip bgp neighbors 192.168.0.3 vrf default
+  - show ip bgp neighbors 192.168.0.3 advertised-routes vrf default
+  - show ip bgp neighbors 192.168.0.3 received-routes vrf default
+  - show ip bgp neighbors 192.168.0.4 vrf default
+  - show ip bgp neighbors 192.168.0.4 advertised-routes vrf default
+  - show ip bgp neighbors 192.168.0.4 received-routes vrf default
+  cli: show ip bgp summary vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '12'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.summary.vrf.all.txt
+  sha1: 6bca295351e1439c23d5b2c0776a2f097b523455
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654152858'
+  timestamp: 2017-05-24T19:29:12 UTC
+- allow_empty_response: false
+  cli: show ip arp vrf all
+  dst_path_sha1: bfc2284e819a33cb528db265cdfa1611c37d859b
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '13'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.arp.vrf.all.txt
+  sha1: 04e322deb9fd4cfe4b95064b1e7793f77a804330
+  source: os_default
+  status: ok
+  time_start: '1495654153446'
+  timestamp: 2017-05-24T19:29:13 UTC
 - allow_empty_response: false
   cli: show clock
+  dst_path_sha1: 2be71956d8d801aa8a8ea74c38c194e9d6d2dc19
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '3'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.clock.txt
-  sha1: 2be71956d8d801aa8a8ea74c38c194e9d6d2dc19
+  sha1: f3a5262629c29442d7de15a83d47c0026f000777
   source: os_default
   status: ok
-  time_start: '1495638075299'
-  timestamp: 2017-05-24T15:01:15 UTC
+  time_start: '1495654153970'
+  timestamp: 2017-05-24T19:29:13 UTC
 - allow_empty_response: false
   cli: show ip route vrf all
+  dst_path_sha1: 62813cb67b839d20406fefc2a474b2b1ca611b97
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '34'
+  lines: '41'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.ip.route.vrf.all.txt
-  sha1: 62813cb67b839d20406fefc2a474b2b1ca611b97
+  sha1: 1132166d4b9fdbeddb84dc4311f43305ffae2f21
   source: os_default
   status: ok
-  time_start: '1495638077114'
-  timestamp: 2017-05-24T15:01:17 UTC
+  time_start: '1495654156180'
+  timestamp: 2017-05-24T19:29:16 UTC
 - allow_empty_response: false
   cli: show ip route detail vrf all
+  dst_path_sha1: 75a05750158bfb70e73041aa7a91987934478946
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '68'
+  lines: '80'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.ip.route.detail.vrf.all.txt
-  sha1: 75a05750158bfb70e73041aa7a91987934478946
+  sha1: da98d924f4177a8bc5da01a487f8fd7fdd73a26f
   source: os_default
   status: ok
-  time_start: '1495638077917'
-  timestamp: 2017-05-24T15:01:17 UTC
-- allow_empty_response: false
-  cli: show ntp peer-status
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '7'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.ntp.peer-status.txt
-  sha1: c0b3a26ace5c4c6d9050fc6b39aa0f86610ae2a9
-  source: os_default
-  status: ok
-  time_start: '1495638078685'
-  timestamp: 2017-05-24T15:01:18 UTC
-- allow_empty_response: false
-  cli: show ntp status
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '3'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.ntp.status.txt
-  sha1: 09fcc028a42522d6024285c36062e6ee15caf24a
-  source: os_default
-  status: ok
-  time_start: '1495638079248'
-  timestamp: 2017-05-24T15:01:19 UTC
+  time_start: '1495654157272'
+  timestamp: 2017-05-24T19:29:17 UTC
 - allow_empty_response: false
   cli: show startup-config
+  dst_path_sha1: 866bbfeae3016bae2768cc328134ddfe2a3c371f
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '924'
+  lines: '824'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.startup-config.txt
-  sha1: 866bbfeae3016bae2768cc328134ddfe2a3c371f
+  sha1: abe4533fae1b3b54d127a004c0aba653f0955efd
   source: os_default
   status: ok
-  time_start: '1495638079714'
-  timestamp: 2017-05-24T15:01:19 UTC
+  time_start: '1495654158071'
+  timestamp: 2017-05-24T19:29:18 UTC
 - allow_empty_response: false
   cli: show interface
+  dst_path_sha1: 09527651264bbc9475034d221c2232ab8db8581c
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '6358'
+  lines: '6371'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.interface.txt
-  sha1: 09527651264bbc9475034d221c2232ab8db8581c
+  sha1: cbf34076cf32184b65908051535eb29695f48171
   source: os_default
   status: ok
-  time_start: '1495638084319'
-  timestamp: 2017-05-24T15:01:24 UTC
+  time_start: '1495654160443'
+  timestamp: 2017-05-24T19:29:20 UTC
 - allow_empty_response: false
   cli: show vlan
+  dst_path_sha1: bb0c80bf22347697a54f927e150b71c64780d856
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '113'
+  lines: '15'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.vlan.txt
-  sha1: bb0c80bf22347697a54f927e150b71c64780d856
+  sha1: ce16b56840a6ce2fa4254f965bd3cfe2e82413fd
   source: os_default
   status: ok
-  time_start: '1495638102160'
-  timestamp: 2017-05-24T15:01:42 UTC
-- allow_empty_response: false
-  cli: show port-channel database
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '17'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.port-channel.database.txt
-  sha1: 517d5f20fdecd0d1cb531e076e70b772d31ad208
-  source: os_default
-  status: ok
-  time_start: '1495638105675'
-  timestamp: 2017-05-24T15:01:45 UTC
-- allow_empty_response: false
-  cli: show port-channel traffic
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '6'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.port-channel.traffic.txt
-  sha1: 007aff1e21929e92c49d7e823b7b6ff826e750cb
-  source: os_default
-  status: ok
-  time_start: '1495638107797'
-  timestamp: 2017-05-24T15:01:47 UTC
+  time_start: '1495654181421'
+  timestamp: 2017-05-24T19:29:41 UTC
 - allow_empty_response: false
   cli: show mac address-table
+  dst_path_sha1: a5697157599b84fc81cc283a0c641e1707948411
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '11'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.mac.address-table.txt
-  sha1: a5697157599b84fc81cc283a0c641e1707948411
+  sha1: e713ee401354d6996896eacb8c49a9a8497731d0
   source: os_default
   status: ok
-  time_start: '1495638108382'
-  timestamp: 2017-05-24T15:01:48 UTC
+  time_start: '1495654182111'
+  timestamp: 2017-05-24T19:29:42 UTC
 - allow_empty_response: false
   cli: show ip interface vrf all
+  dst_path_sha1: 201956292e6aaa375c8695edad5b5916de4a0c20
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '122'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.ip.interface.vrf.all.txt
-  sha1: 201956292e6aaa375c8695edad5b5916de4a0c20
+  sha1: 9be9d91c348d18e1bd5541fa5824485df34437c5
   source: os_default
   status: ok
-  time_start: '1495638110731'
-  timestamp: 2017-05-24T15:01:50 UTC
-- allow_empty_response: false
-  cli: show ip access-list
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '120'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.ip.access-list.txt
-  sha1: c5f4bdaf243eaa76868ec923685aff1bfe6feff1
-  source: os_default
-  status: ok
-  time_start: '1495638113396'
-  timestamp: 2017-05-24T15:01:53 UTC
+  time_start: '1495654186393'
+  timestamp: 2017-05-24T19:29:46 UTC
 - allow_empty_response: false
   cli: show inventory
+  dst_path_sha1: 56122155bb606ffff1ac5a13fbc53dc2e95176ce
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '28'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.inventory.txt
-  sha1: 56122155bb606ffff1ac5a13fbc53dc2e95176ce
+  sha1: 85240d4086d1f90e0f78a78a3980a300d01026a2
   source: os_default
   status: ok
-  time_start: '1495638114265'
-  timestamp: 2017-05-24T15:01:54 UTC
+  time_start: '1495654187250'
+  timestamp: 2017-05-24T19:29:47 UTC
 - allow_empty_response: false
   cli: show module
+  dst_path_sha1: d38d827e8c490e4f5b651d86b0e74929c10b5f93
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '24'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.module.txt
-  sha1: d38d827e8c490e4f5b651d86b0e74929c10b5f93
+  sha1: 408a6e8af3ed176bf04fc4ebcd41e17ca264fd48
   source: os_default
   status: ok
-  time_start: '1495638116517'
-  timestamp: 2017-05-24T15:01:56 UTC
+  time_start: '1495654187762'
+  timestamp: 2017-05-24T19:29:47 UTC
 - allow_empty_response: false
   child_cli_id:
   - show vrf default detail
   - show vrf management detail
-  - show vrf vPC_Keepalive detail
   cli: show vrf all
   description: Collect VRF status
+  dst_path_sha1: c1e967ccbad830d0b48d17c10f8f14067d6b8034
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '5'
+  lines: '4'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.vrf.all.txt
-  sha1: c1e967ccbad830d0b48d17c10f8f14067d6b8034
+  sha1: 883d21ed8a8cec60c758a97ba3ccb9f6dc7402cb
   source: os_default
   status: ok
   tags:
   - vxlan
   - vrf
   - test
-  time_start: '1495638117077'
-  timestamp: 2017-05-24T15:01:57 UTC
+  time_start: '1495654189615'
+  timestamp: 2017-05-24T19:29:49 UTC
 - allow_empty_response: false
   cli: show system internal capability
   description: Collects internal system capabilities
+  dst_path_sha1: 96ae0a2b5a1b164d238418ffedc07fc811d22e29
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -273,75 +262,46 @@ ndmtk_files:
   status: ok
   tags:
   - internals
-  time_start: '1495638118680'
-  timestamp: 2017-05-24T15:01:58 UTC
-- allow_empty_response: true
-  cli: show lldp neighbors detail
-  description: Collects LLDP neighbor information
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '45'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.lldp.neighbors.detail.txt
-  sha1: c66a0c58b36cdefc1e8c02eea9785b7f57a20594
-  source: os_default
-  status: ok
-  tags:
-  - lldp
-  time_start: '1495638131160'
-  timestamp: 2017-05-24T15:02:11 UTC
-- allow_empty_response: false
-  cli: show system internal lldp info
-  description: Collects LLDP service status
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '19'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.system.internal.lldp.info.txt
-  sha1: 5f5af24496996db281e0463e3f6998bcf6e9c7f2
-  source: os_default
-  status: ok
-  tags:
-  - lldp
-  time_start: '1495638131815'
-  timestamp: 2017-05-24T15:02:11 UTC
+  time_start: '1495654191168'
+  timestamp: 2017-05-24T19:29:51 UTC
 - allow_empty_response: false
   cli: show cdp neighbors detail
   description: Collects CDP neighbor information
+  dst_path_sha1: e8576769cb684fe938180c9326812e26ad2832c7
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '153'
+  lines: '96'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.cdp.neighbors.detail.txt
-  sha1: e8576769cb684fe938180c9326812e26ad2832c7
+  sha1: 53827b9ca1dfdff378cc9d33dc2dc544f93980e0
   source: os_default
   status: ok
   tags:
   - cdp
-  time_start: '1495638132694'
-  timestamp: 2017-05-24T15:02:12 UTC
+  time_start: '1495654206985'
+  timestamp: 2017-05-24T19:30:06 UTC
 - allow_empty_response: false
   cli: show cdp internal global-info
   description: Collects CDP service status
+  dst_path_sha1: 591e48360dea6b192dfea937807aba583cff759f
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '12'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.cdp.internal.global-info.txt
-  sha1: 591e48360dea6b192dfea937807aba583cff759f
+  sha1: 6dc6442d187bc618d2195a72c3c138047b852db8
   source: os_default
   status: ok
   tags:
   - cdp
-  time_start: '1495638135417'
-  timestamp: 2017-05-24T15:02:15 UTC
+  time_start: '1495654207559'
+  timestamp: 2017-05-24T19:30:07 UTC
 - allow_empty_response: false
   cli: show cdp all
   description: Collects CDP configuration on per interface basis
+  dst_path_sha1: 35570914a80eccdbdfeab653177a1711ddc62763
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -353,28 +313,30 @@ ndmtk_files:
   status: ok
   tags:
   - cdp
-  time_start: '1495638136358'
-  timestamp: 2017-05-24T15:02:16 UTC
+  time_start: '1495654208201'
+  timestamp: 2017-05-24T19:30:08 UTC
 - allow_empty_response: false
   cli: show snmp
   description: Collect SNMP status
+  dst_path_sha1: f2a4ae12fe9c6dd2e5ace61da97b9e73330e42a2
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '66'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.snmp.txt
-  sha1: f2a4ae12fe9c6dd2e5ace61da97b9e73330e42a2
+  sha1: cda9dd88f26705377dbd2e952884f06d161025a0
   source: os_default
   status: ok
   tags:
   - management
   - snmp
-  time_start: '1495638142167'
-  timestamp: 2017-05-24T15:02:22 UTC
+  time_start: '1495654214319'
+  timestamp: 2017-05-24T19:30:14 UTC
 - allow_empty_response: false
   cli: show snmp community
   description: Collect SNMP community strings
+  dst_path_sha1: a15c1e49f86f308a44d3c8ccaed9bf012280eda5
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -387,28 +349,30 @@ ndmtk_files:
   tags:
   - management
   - snmp
-  time_start: '1495638142692'
-  timestamp: 2017-05-24T15:02:22 UTC
+  time_start: '1495654214986'
+  timestamp: 2017-05-24T19:30:14 UTC
 - allow_empty_response: false
   cli: show snmp engineID
   description: Collect SNMP engineID
+  dst_path_sha1: d6017a282fda0d24eb5c02c2a8d63e55164719f7
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '3'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.snmp.engineID.txt
-  sha1: d6017a282fda0d24eb5c02c2a8d63e55164719f7
+  sha1: 2081a7cd39de39565f60917e7eb4837995922d0c
   source: os_default
   status: ok
   tags:
   - management
   - snmp
-  time_start: '1495638144703'
-  timestamp: 2017-05-24T15:02:24 UTC
+  time_start: '1495654215430'
+  timestamp: 2017-05-24T19:30:15 UTC
 - allow_empty_response: false
   cli: show snmp group
   description: Collect SNMP roles
+  dst_path_sha1: 8760377217c93252189d15c5972e8a240deb3831
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -421,11 +385,12 @@ ndmtk_files:
   tags:
   - management
   - snmp
-  time_start: '1495638146524'
-  timestamp: 2017-05-24T15:02:26 UTC
+  time_start: '1495654215962'
+  timestamp: 2017-05-24T19:30:15 UTC
 - allow_empty_response: true
   cli: show snmp sessions
   description: Collect SNMP sessions
+  dst_path_sha1: e1de8aaeb81335548092677ebb102a0d72a8b6b7
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -438,28 +403,30 @@ ndmtk_files:
   tags:
   - management
   - snmp
-  time_start: '1495638147438'
-  timestamp: 2017-05-24T15:02:27 UTC
+  time_start: '1495654216709'
+  timestamp: 2017-05-24T19:30:16 UTC
 - allow_empty_response: false
   cli: show snmp trap
   description: Collect SNMP notifications enabled or disabled
+  dst_path_sha1: b085a7a0ca81ac57346e7c8f00ed68512af15c92
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '59'
+  lines: '58'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.snmp.trap.txt
-  sha1: b085a7a0ca81ac57346e7c8f00ed68512af15c92
+  sha1: 4b693dc6bf2d7dd16c3e600c49afaabac3828932
   source: os_default
   status: ok
   tags:
   - management
   - snmp
-  time_start: '1495638148042'
-  timestamp: 2017-05-24T15:02:28 UTC
+  time_start: '1495654217252'
+  timestamp: 2017-05-24T19:30:17 UTC
 - allow_empty_response: false
   cli: show snmp user
   description: Collect SNMP users
+  dst_path_sha1: 857ca0eed98700ab8e075eaba64151cebee3bc9f
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -472,45 +439,48 @@ ndmtk_files:
   tags:
   - management
   - snmp
-  time_start: '1495638150412'
-  timestamp: 2017-05-24T15:02:30 UTC
+  time_start: '1495654217892'
+  timestamp: 2017-05-24T19:30:17 UTC
 - allow_empty_response: false
   cli: show interface snmp-ifindex
   description: Collect SNMP ifIndex numbers of interface
+  dst_path_sha1: 30f94c9a7c53f3b044e586559d3e757e56b07ee5
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
   lines: '151'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.interface.snmp-ifindex.txt
-  sha1: 30f94c9a7c53f3b044e586559d3e757e56b07ee5
+  sha1: fb6edfc11fe8140f0290100007e10f28f6fb5c7b
   source: os_default
   status: ok
   tags:
   - management
   - snmp
-  time_start: '1495638150899'
-  timestamp: 2017-05-24T15:02:30 UTC
+  time_start: '1495654218337'
+  timestamp: 2017-05-24T19:30:18 UTC
 - allow_empty_response: false
   cli: show logging info
   description: Collect logging configuration
+  dst_path_sha1: 4b31344ac3ebad455cb65e6a6017837cbbf1db6a
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '138'
+  lines: '126'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.logging.info.txt
-  sha1: 4b31344ac3ebad455cb65e6a6017837cbbf1db6a
+  sha1: 921bc2dea423441056f0f9d12372e2eaf05e9651
   source: os_default
   status: ok
   tags:
   - management
   - logging
-  time_start: '1495638154114'
-  timestamp: 2017-05-24T15:02:34 UTC
+  time_start: '1495654221243'
+  timestamp: 2017-05-24T19:30:21 UTC
 - allow_empty_response: false
   cli: show privilege
   description: Collect user privilege information
+  dst_path_sha1: 345040d4619e5c5afa91133ac342cb5440b117ee
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
@@ -522,59 +492,299 @@ ndmtk_files:
   status: ok
   tags:
   - aaa
-  time_start: '1495638163969'
-  timestamp: 2017-05-24T15:02:43 UTC
+  time_start: '1495654235546'
+  timestamp: 2017-05-24T19:30:35 UTC
+- allow_empty_response: false
+  cli: show ip ospf vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '37'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.vrf.all.txt
+  sha1: 67bafefb7ba08ece8579d7cc53b9de35fd862768
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654236624'
+  timestamp: 2017-05-24T19:30:36 UTC
+- allow_empty_response: false
+  cli: show ip ospf database vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '15'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.database.vrf.all.txt
+  sha1: 1af1541889c93ef96ce51f1433d22f23cbc2ef41
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654238595'
+  timestamp: 2017-05-24T19:30:38 UTC
+- allow_empty_response: false
+  cli: show ip ospf database detail vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '121'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.database.detail.vrf.all.txt
+  sha1: 94ebda392b4c8366d1f9b6ee07b53035acf6a323
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654240726'
+  timestamp: 2017-05-24T19:30:40 UTC
+- allow_empty_response: false
+  cli: show ip ospf interface vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '33'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.interface.vrf.all.txt
+  sha1: 070fefda17bd3a08bf3b3b7afdf7a5ddb445f3c0
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654241663'
+  timestamp: 2017-05-24T19:30:41 UTC
+- allow_empty_response: false
+  cli: show ip ospf neighbor summary vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '6'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.neighbor.summary.vrf.all.txt
+  sha1: d65238369accd1163e4109596e687da94b9abe1b
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654242294'
+  timestamp: 2017-05-24T19:30:42 UTC
+- allow_empty_response: false
+  cli: show ip ospf neighbor detail vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '19'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.neighbor.detail.vrf.all.txt
+  sha1: eb54fb5e9ecf744b49d4af928c911dba6e156692
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654243145'
+  timestamp: 2017-05-24T19:30:43 UTC
+- allow_empty_response: false
+  cli: show ip ospf route vrf all
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '20'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.ospf.route.vrf.all.txt
+  sha1: c2244e8a7f78d6ff98bb4fe0a2d611e756468dbd
+  source: os_default
+  status: ok
+  tags:
+  - routing
+  - ospf
+  time_start: '1495654243997'
+  timestamp: 2017-05-24T19:30:43 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.1 vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '34'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_1.vrf.default.txt
+  sha1: 4d62d3a6f55ad0fc2b6d667a2fc4a263b03fae91
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654244631'
+  timestamp: 2017-05-24T19:30:44 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.1 advertised-routes vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '9'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_1.advertised-routes.vrf.default.txt
+  sha1: 19b18db44c38aa4509fc341110763f0d399097d6
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654245371'
+  timestamp: 2017-05-24T19:30:45 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.1 received-routes vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '2'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_1.received-routes.vrf.default.txt
+  sha1: b343a8c18a706b3cbbfe84da2d924779f56c7bd5
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654247820'
+  timestamp: 2017-05-24T19:30:47 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.3 vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '58'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_3.vrf.default.txt
+  sha1: 8da28f1597982b6ac33296c54ad8c4065d942e82
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654250177'
+  timestamp: 2017-05-24T19:30:50 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.3 advertised-routes vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '10'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_3.advertised-routes.vrf.default.txt
+  sha1: 5d9ae9088076f4e79830cee6d65e0adb49f93e7c
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654252853'
+  timestamp: 2017-05-24T19:30:52 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.3 received-routes vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '2'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_3.received-routes.vrf.default.txt
+  sha1: fbef4512f6aab42160e5e8f663a567fd72a1e396
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654253693'
+  timestamp: 2017-05-24T19:30:53 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.4 vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '58'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_4.vrf.default.txt
+  sha1: 95fdfef12dde8ae36a7c58f2f6397a5ccf98e65e
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654255848'
+  timestamp: 2017-05-24T19:30:55 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.4 advertised-routes vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '10'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_4.advertised-routes.vrf.default.txt
+  sha1: 4dd86168837d0d63303ff7ecee80a287ffd9bc10
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654256592'
+  timestamp: 2017-05-24T19:30:56 UTC
+- allow_empty_response: false
+  cli: show ip bgp neighbors 192.168.0.4 received-routes vrf default
+  format: txt
+  fqdn: nx-osv-2
+  host: nx-osv-2
+  lines: '2'
+  mode: analytics
+  path: nx-osv-2/nx-osv-2.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_4.received-routes.vrf.default.txt
+  sha1: fe5d421585aa9431ea467fd24850b2805e03ff4b
+  source: derivative
+  status: ok
+  tags:
+  - routing
+  - bgp
+  time_start: '1495654257428'
+  timestamp: 2017-05-24T19:30:57 UTC
 - allow_empty_response: false
   cli: show vrf default detail
   description: Collect detailed information about VRF default
+  dst_path_sha1: 39a5b23d0f906f696bd0958cfc1621d9614cb807
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '8'
+  lines: '7'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.vrf.default.detail.txt
-  sha1: 39a5b23d0f906f696bd0958cfc1621d9614cb807
+  sha1: 0b624f88544689c7a4c489c25e231d41c6c24192
   source: derivative
   status: ok
   tags:
   - vxlan
   - vrf
   - test
-  time_start: '1495638165326'
-  timestamp: 2017-05-24T15:02:45 UTC
+  time_start: '1495654258268'
+  timestamp: 2017-05-24T19:30:58 UTC
 - allow_empty_response: false
   cli: show vrf management detail
   description: Collect detailed information about VRF management
+  dst_path_sha1: cacc40ff17a9eb7d44a3b9d564ac9fb3cf60df74
   format: txt
   fqdn: nx-osv-2
   host: nx-osv-2
-  lines: '8'
+  lines: '7'
   mode: analytics
   path: nx-osv-2/nx-osv-2.show.vrf.management.detail.txt
-  sha1: cacc40ff17a9eb7d44a3b9d564ac9fb3cf60df74
+  sha1: a3a14d8ab171761a176be5b93b3d8f5d7c79a916
   source: derivative
   status: ok
   tags:
   - vxlan
   - vrf
   - test
-  time_start: '1495638165878'
-  timestamp: 2017-05-24T15:02:45 UTC
-- allow_empty_response: false
-  cli: show vrf vPC_Keepalive detail
-  description: Collect detailed information about VRF vPC_Keepalive
-  format: txt
-  fqdn: nx-osv-2
-  host: nx-osv-2
-  lines: '8'
-  mode: analytics
-  path: nx-osv-2/nx-osv-2.show.vrf.vPC_US_Keepalive.detail.txt
-  sha1: b689519df788ca2e4d0e60b7da02665959ed9676
-  source: derivative
-  status: ok
-  tags:
-  - vxlan
-  - vrf
-  - test
-  time_start: '1495638166449'
-  timestamp: 2017-05-24T15:02:46 UTC
+  time_start: '1495654260320'
+  timestamp: 2017-05-24T19:31:00 UTC
