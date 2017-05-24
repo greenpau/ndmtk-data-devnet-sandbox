@@ -1,0 +1,26 @@
+ Neighbor 192.168.0.1, interface address 10.0.0.9
+    Process ID 1 VRF default, in area 0.0.0.0 via interface Ethernet2/1
+    State is EXSTART, 3 state changes, last change 03:57:38
+    Neighbor priority is 1
+    DR is 10.0.0.9 BDR is 10.0.0.10
+    We are master in DBD exchange, seqnr 0x5fb77e9d
+    Hello options 0x2, dbd options 0
+    Last non-hello packet received never
+      Dead timer due in 00:00:39
+      DBD rxmit timer due in 00:00:03
+ Neighbor 192.168.0.2, interface address 10.0.0.17
+    Process ID 1 VRF default, in area 0.0.0.0 via interface Ethernet2/2
+    State is FULL, 5 state changes, last change 03:57:33
+    Neighbor priority is 1
+    DR is 10.0.0.17 BDR is 10.0.0.18
+    Hello options 0x2, dbd options 0x42
+    Last non-hello packet received never
+      Dead timer due in 00:00:38
+ Neighbor 192.168.0.4, interface address 10.0.0.26
+    Process ID 1 VRF default, in area 0.0.0.0 via interface Ethernet2/3
+    State is FULL, 5 state changes, last change 03:56:58
+    Neighbor priority is 1
+    DR is 10.0.0.26 BDR is 10.0.0.25
+    Hello options 0x2, dbd options 0x42
+    Last non-hello packet received never
+      Dead timer due in 00:00:39
