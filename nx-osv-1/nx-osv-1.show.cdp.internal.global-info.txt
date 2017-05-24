@@ -1,0 +1,13 @@
+----------------------------------------
+system_name: nx-osv-1 , valid: yes
+domain_name: rahul , valid: yes
+fqdn: nx-osv-1.rahul
+syslocation:  , valid: yes
+device serial num: TB3EE4392FB
+device mac addr: [00.00.00.00.00.2f]
+cdpd_pktmgr_register_done: yes  cdpd_vtp_up: no
+vtpdomainname_valid: no   cdpd_vlan_mgr_up: yes
+svi info, num_if: 6 :
+if_index: 0x9010002, inet_addr: [10.1.10.10]
+if_index: 0x901000a, inet_addr: [172.16.10.1]
+----------------------------------------
