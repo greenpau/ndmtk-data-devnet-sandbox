@@ -3,192 +3,235 @@
         {
             "allow_empty_response": false,
             "cli": "show running-config",
+            "dst_path_sha1": "dc2bff0943129fc228a44c86a61a2f5839040b49",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "899",
+            "lines": "824",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.running-config.txt",
-            "sha1": "dc2bff0943129fc228a44c86a61a2f5839040b49",
+            "sha1": "48228f17b61329ebb6b900764962e360ca556e77",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "configuration"
             ],
-            "time_start": "1495638069643",
-            "timestamp": "2017-05-24T15:01:09 UTC"
+            "time_start": "1495654147166",
+            "timestamp": "2017-05-24T19:29:07 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show version",
+            "dst_path_sha1": "eccdffe3d25165fee7f5f95afedb0ab615c734d5",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
             "lines": "36",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.version.txt",
-            "sha1": "eccdffe3d25165fee7f5f95afedb0ab615c734d5",
+            "sha1": "45261f1dec04f209b35b9edb93ce88ec10108a46",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "version"
             ],
-            "time_start": "1495638073561",
-            "timestamp": "2017-05-24T15:01:13 UTC"
+            "time_start": "1495654151080",
+            "timestamp": "2017-05-24T19:29:11 UTC"
         },
         {
             "allow_empty_response": false,
-            "cli": "show ip arp vrf all",
+            "cli": "show ip bgp vrf all",
+            "description": "BGP neighbor details",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "11",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.vrf.all.txt",
+            "sha1": "0f4bfd9f0c8af1d621edf0dbc32437a667413dfc",
+            "source": "os_default",
+            "status": "ok",
+            "time_start": "1495654151650",
+            "timestamp": "2017-05-24T19:29:11 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "child_cli_id": [
+                "show ip bgp neighbors 192.168.0.1 vrf default",
+                "show ip bgp neighbors 192.168.0.1 advertised-routes vrf default",
+                "show ip bgp neighbors 192.168.0.1 received-routes vrf default",
+                "show ip bgp neighbors 192.168.0.2 vrf default",
+                "show ip bgp neighbors 192.168.0.2 advertised-routes vrf default",
+                "show ip bgp neighbors 192.168.0.2 received-routes vrf default",
+                "show ip bgp neighbors 192.168.0.4 vrf default",
+                "show ip bgp neighbors 192.168.0.4 advertised-routes vrf default",
+                "show ip bgp neighbors 192.168.0.4 received-routes vrf default"
+            ],
+            "cli": "show ip bgp summary vrf all",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
             "lines": "12",
             "mode": "analytics",
-            "path": "nx-osv-3/nx-osv-3.show.ip.arp.vrf.all.txt",
-            "sha1": "9883a269f68e6b3d6406178e5797b7818d6b57e2",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.summary.vrf.all.txt",
+            "sha1": "d8116334a77e38a55e593e7a75aa40149960ddd8",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638074327",
-            "timestamp": "2017-05-24T15:01:14 UTC"
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654153772",
+            "timestamp": "2017-05-24T19:29:13 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip arp vrf all",
+            "dst_path_sha1": "9883a269f68e6b3d6406178e5797b7818d6b57e2",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "14",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.arp.vrf.all.txt",
+            "sha1": "8d70f8e4fbe55be5415934ccb5064820d19f5c6e",
+            "source": "os_default",
+            "status": "ok",
+            "time_start": "1495654154417",
+            "timestamp": "2017-05-24T19:29:14 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show clock",
+            "dst_path_sha1": "ffa205030f55919e81c8a78f14431f3db3b11a29",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
             "lines": "3",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.clock.txt",
-            "sha1": "ffa205030f55919e81c8a78f14431f3db3b11a29",
+            "sha1": "2f0f8d9b613fbb981c877647c70a9b7ce90441aa",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638074818",
-            "timestamp": "2017-05-24T15:01:14 UTC"
+            "time_start": "1495654154927",
+            "timestamp": "2017-05-24T19:29:14 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show ip route vrf all",
+            "dst_path_sha1": "2e92e2ba3f40acaa66bc9b3fba89ceacca943bee",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "35",
+            "lines": "43",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.ip.route.vrf.all.txt",
-            "sha1": "2e92e2ba3f40acaa66bc9b3fba89ceacca943bee",
+            "sha1": "8d1a3ebf3a90a3980278d30e73b4b53400dde0b8",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638075305",
-            "timestamp": "2017-05-24T15:01:15 UTC"
+            "time_start": "1495654155382",
+            "timestamp": "2017-05-24T19:29:15 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show ip route detail vrf all",
+            "dst_path_sha1": "752d6b00c07b0b5c7c331df2ff7e88cb775f172e",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "68",
+            "lines": "88",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.ip.route.detail.vrf.all.txt",
-            "sha1": "752d6b00c07b0b5c7c331df2ff7e88cb775f172e",
+            "sha1": "e5484c26acce20065437ab385f7f9c30ad5a61dc",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638077236",
-            "timestamp": "2017-05-24T15:01:17 UTC"
+            "time_start": "1495654155908",
+            "timestamp": "2017-05-24T19:29:15 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show startup-config",
+            "dst_path_sha1": "8d921816c12063b439c1f5b43d51fa4cc2961cb6",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "556",
+            "lines": "824",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.startup-config.txt",
-            "sha1": "8d921816c12063b439c1f5b43d51fa4cc2961cb6",
+            "sha1": "ebcd35720651280aecd68da2568e804e121a8f68",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638077933",
-            "timestamp": "2017-05-24T15:01:17 UTC"
+            "time_start": "1495654158501",
+            "timestamp": "2017-05-24T19:29:18 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show interface",
+            "dst_path_sha1": "d0d0a2d052284eca5df2f9354b5fa8d8626ca4ae",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "6356",
+            "lines": "6372",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.interface.txt",
-            "sha1": "d0d0a2d052284eca5df2f9354b5fa8d8626ca4ae",
+            "sha1": "2542c78192dd9dc99a13ce66274457b506a522f1",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638082139",
-            "timestamp": "2017-05-24T15:01:22 UTC"
+            "time_start": "1495654161158",
+            "timestamp": "2017-05-24T19:29:21 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show vlan",
+            "dst_path_sha1": "0ccb13dd6b91fcdd3c7b80cf9c943f32c159e226",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "71",
+            "lines": "15",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.vlan.txt",
-            "sha1": "0ccb13dd6b91fcdd3c7b80cf9c943f32c159e226",
+            "sha1": "ce16b56840a6ce2fa4254f965bd3cfe2e82413fd",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638106613",
-            "timestamp": "2017-05-24T15:01:46 UTC"
-        },
-        {
-            "allow_empty_response": false,
-            "cli": "show port-channel database",
-            "format": "txt",
-            "fqdn": "nx-osv-3",
-            "host": "nx-osv-3",
-            "lines": "8",
-            "mode": "analytics",
-            "path": "nx-osv-3/nx-osv-3.show.port-channel.database.txt",
-            "sha1": "3fc3618180d455c7ba532f76bf1c9dbfdb4ee53f",
-            "source": "os_default",
-            "status": "ok",
-            "time_start": "1495638107514",
-            "timestamp": "2017-05-24T15:01:47 UTC"
+            "time_start": "1495654176029",
+            "timestamp": "2017-05-24T19:29:36 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show mac address-table",
+            "dst_path_sha1": "8213f1ae221de631dd3bad08434c600d496292ac",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "12",
+            "lines": "11",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.mac.address-table.txt",
-            "sha1": "8213f1ae221de631dd3bad08434c600d496292ac",
+            "sha1": "46f9608c99400920ca16f81ced31bfaa776a5c57",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638108732",
-            "timestamp": "2017-05-24T15:01:48 UTC"
+            "time_start": "1495654177976",
+            "timestamp": "2017-05-24T19:29:37 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show ip interface vrf all",
+            "dst_path_sha1": "2754b4d2085ea2793df39e2159c1b9e1ca4b359e",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "239",
+            "lines": "152",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.ip.interface.vrf.all.txt",
-            "sha1": "2754b4d2085ea2793df39e2159c1b9e1ca4b359e",
+            "sha1": "5f39fdded8dfe0e2e372c22c684301ea1ee9a2e7",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638110955",
-            "timestamp": "2017-05-24T15:01:50 UTC"
+            "time_start": "1495654178748",
+            "timestamp": "2017-05-24T19:29:38 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show inventory",
+            "dst_path_sha1": "909e0bf1b64a79beecb05f224ff27ba771be3a17",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -198,12 +241,13 @@
             "sha1": "909e0bf1b64a79beecb05f224ff27ba771be3a17",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638112232",
-            "timestamp": "2017-05-24T15:01:52 UTC"
+            "time_start": "1495654179579",
+            "timestamp": "2017-05-24T19:29:39 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show module",
+            "dst_path_sha1": "359b5aa80aa84cdb3a6a157554f9f8c670dc9fd1",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -213,8 +257,8 @@
             "sha1": "359b5aa80aa84cdb3a6a157554f9f8c670dc9fd1",
             "source": "os_default",
             "status": "ok",
-            "time_start": "1495638112732",
-            "timestamp": "2017-05-24T15:01:52 UTC"
+            "time_start": "1495654180116",
+            "timestamp": "2017-05-24T19:29:40 UTC"
         },
         {
             "allow_empty_response": false,
@@ -224,6 +268,7 @@
             ],
             "cli": "show vrf all",
             "description": "Collect VRF status",
+            "dst_path_sha1": "883d21ed8a8cec60c758a97ba3ccb9f6dc7402cb",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -238,13 +283,14 @@
                 "vrf",
                 "test"
             ],
-            "time_start": "1495638113306",
-            "timestamp": "2017-05-24T15:01:53 UTC"
+            "time_start": "1495654181875",
+            "timestamp": "2017-05-24T19:29:41 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show system internal capability",
             "description": "Collects internal system capabilities",
+            "dst_path_sha1": "96ae0a2b5a1b164d238418ffedc07fc811d22e29",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -257,51 +303,54 @@
             "tags": [
                 "internals"
             ],
-            "time_start": "1495638115251",
-            "timestamp": "2017-05-24T15:01:55 UTC"
+            "time_start": "1495654183792",
+            "timestamp": "2017-05-24T19:29:43 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show cdp neighbors detail",
             "description": "Collects CDP neighbor information",
+            "dst_path_sha1": "cb455fff99c9c549c424d40318459e314b19ad54",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "174",
+            "lines": "115",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.cdp.neighbors.detail.txt",
-            "sha1": "cb455fff99c9c549c424d40318459e314b19ad54",
+            "sha1": "dbeca19faa7c7633b52ce09dbd712f2e6e93281b",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "cdp"
             ],
-            "time_start": "1495638134645",
-            "timestamp": "2017-05-24T15:02:14 UTC"
+            "time_start": "1495654201938",
+            "timestamp": "2017-05-24T19:30:01 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show cdp internal global-info",
             "description": "Collects CDP service status",
+            "dst_path_sha1": "4149242fe86efd9d6a598ef3f53d5348786805d8",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "16",
+            "lines": "12",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.cdp.internal.global-info.txt",
-            "sha1": "4149242fe86efd9d6a598ef3f53d5348786805d8",
+            "sha1": "877735bcf19533cb74a21a4153665a852e766456",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "cdp"
             ],
-            "time_start": "1495638135331",
-            "timestamp": "2017-05-24T15:02:15 UTC"
+            "time_start": "1495654202745",
+            "timestamp": "2017-05-24T19:30:02 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show cdp all",
             "description": "Collects CDP configuration on per interface basis",
+            "dst_path_sha1": "35570914a80eccdbdfeab653177a1711ddc62763",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -314,33 +363,35 @@
             "tags": [
                 "cdp"
             ],
-            "time_start": "1495638137368",
-            "timestamp": "2017-05-24T15:02:17 UTC"
+            "time_start": "1495654203475",
+            "timestamp": "2017-05-24T19:30:03 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show snmp",
             "description": "Collect SNMP status",
+            "dst_path_sha1": "844837ff85c6757b0702914f6856b634fef2fb25",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
             "lines": "66",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.snmp.txt",
-            "sha1": "844837ff85c6757b0702914f6856b634fef2fb25",
+            "sha1": "fd456615003ecb498858f9e17c86e45b8b77b576",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638140832",
-            "timestamp": "2017-05-24T15:02:20 UTC"
+            "time_start": "1495654209460",
+            "timestamp": "2017-05-24T19:30:09 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show snmp community",
             "description": "Collect SNMP community strings",
+            "dst_path_sha1": "a15c1e49f86f308a44d3c8ccaed9bf012280eda5",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -354,13 +405,14 @@
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638141385",
-            "timestamp": "2017-05-24T15:02:21 UTC"
+            "time_start": "1495654209938",
+            "timestamp": "2017-05-24T19:30:09 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show snmp engineID",
             "description": "Collect SNMP engineID",
+            "dst_path_sha1": "8f14602faa3719ebe9fa9687c6686fd76c35c5a9",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -374,13 +426,14 @@
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638141926",
-            "timestamp": "2017-05-24T15:02:21 UTC"
+            "time_start": "1495654210380",
+            "timestamp": "2017-05-24T19:30:10 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show snmp group",
             "description": "Collect SNMP roles",
+            "dst_path_sha1": "8760377217c93252189d15c5972e8a240deb3831",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -394,13 +447,14 @@
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638142489",
-            "timestamp": "2017-05-24T15:02:22 UTC"
+            "time_start": "1495654210827",
+            "timestamp": "2017-05-24T19:30:10 UTC"
         },
         {
             "allow_empty_response": true,
             "cli": "show snmp sessions",
             "description": "Collect SNMP sessions",
+            "dst_path_sha1": "e1de8aaeb81335548092677ebb102a0d72a8b6b7",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -414,33 +468,35 @@
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638144774",
-            "timestamp": "2017-05-24T15:02:24 UTC"
+            "time_start": "1495654211504",
+            "timestamp": "2017-05-24T19:30:11 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show snmp trap",
             "description": "Collect SNMP notifications enabled or disabled",
+            "dst_path_sha1": "864e6aa52fce34a251c5aa6fdefb9c4bd0e7c681",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "56",
+            "lines": "60",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.snmp.trap.txt",
-            "sha1": "864e6aa52fce34a251c5aa6fdefb9c4bd0e7c681",
+            "sha1": "cb8654d4452dc8617f529e2f73eee4698cbb808a",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638146686",
-            "timestamp": "2017-05-24T15:02:26 UTC"
+            "time_start": "1495654212050",
+            "timestamp": "2017-05-24T19:30:12 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show snmp user",
             "description": "Collect SNMP users",
+            "dst_path_sha1": "857ca0eed98700ab8e075eaba64151cebee3bc9f",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -454,53 +510,56 @@
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638147469",
-            "timestamp": "2017-05-24T15:02:27 UTC"
+            "time_start": "1495654212636",
+            "timestamp": "2017-05-24T19:30:12 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show interface snmp-ifindex",
             "description": "Collect SNMP ifIndex numbers of interface",
+            "dst_path_sha1": "30f94c9a7c53f3b044e586559d3e757e56b07ee5",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
             "lines": "151",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.interface.snmp-ifindex.txt",
-            "sha1": "30f94c9a7c53f3b044e586559d3e757e56b07ee5",
+            "sha1": "fb6edfc11fe8140f0290100007e10f28f6fb5c7b",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "management",
                 "snmp"
             ],
-            "time_start": "1495638148270",
-            "timestamp": "2017-05-24T15:02:28 UTC"
+            "time_start": "1495654213175",
+            "timestamp": "2017-05-24T19:30:13 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show logging info",
             "description": "Collect logging configuration",
+            "dst_path_sha1": "159a2469e1623f548da88d48f1fd56fb37b5b2c8",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
-            "lines": "129",
+            "lines": "126",
             "mode": "analytics",
             "path": "nx-osv-3/nx-osv-3.show.logging.info.txt",
-            "sha1": "159a2469e1623f548da88d48f1fd56fb37b5b2c8",
+            "sha1": "6b9e4f0925f847942f74ed219d4bcc142c0cc5db",
             "source": "os_default",
             "status": "ok",
             "tags": [
                 "management",
                 "logging"
             ],
-            "time_start": "1495638151949",
-            "timestamp": "2017-05-24T15:02:31 UTC"
+            "time_start": "1495654216185",
+            "timestamp": "2017-05-24T19:30:16 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show privilege",
             "description": "Collect user privilege information",
+            "dst_path_sha1": "345040d4619e5c5afa91133ac342cb5440b117ee",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -513,13 +572,318 @@
             "tags": [
                 "aaa"
             ],
-            "time_start": "1495638161317",
-            "timestamp": "2017-05-24T15:02:41 UTC"
+            "time_start": "1495654230458",
+            "timestamp": "2017-05-24T19:30:30 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "63",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.vrf.all.txt",
+            "sha1": "6be8ce3e00fcf92d9ca073869b97550fafd75c67",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654231349",
+            "timestamp": "2017-05-24T19:30:31 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf database vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "17",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.database.vrf.all.txt",
+            "sha1": "76e44b310ff76d2b68d3052e0d0a7726172d36b6",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654231878",
+            "timestamp": "2017-05-24T19:30:31 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf database detail vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "124",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.database.detail.vrf.all.txt",
+            "sha1": "8942cec0e015c9b4a043f890fb81b0b38631afd6",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654232433",
+            "timestamp": "2017-05-24T19:30:32 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf interface vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "46",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.interface.vrf.all.txt",
+            "sha1": "98df69cd03bac715ab5e19e66aa4d161ee2907fb",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654233151",
+            "timestamp": "2017-05-24T19:30:33 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf neighbor summary vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "7",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.neighbor.summary.vrf.all.txt",
+            "sha1": "fe2c7ce163b8d5e89b41a571502ca699f48e2973",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654233706",
+            "timestamp": "2017-05-24T19:30:33 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf neighbor detail vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "27",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.neighbor.detail.vrf.all.txt",
+            "sha1": "394514ce8343c59d0ee2212865ff1b03f8d14ac3",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654234359",
+            "timestamp": "2017-05-24T19:30:34 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip ospf route vrf all",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "24",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.ospf.route.vrf.all.txt",
+            "sha1": "c6746a2cf946724d06ab6ed337cc5e05bf4d2d83",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "ospf"
+            ],
+            "time_start": "1495654235010",
+            "timestamp": "2017-05-24T19:30:35 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.1 vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "34",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_1.vrf.default.txt",
+            "sha1": "4a2486c8d1e31da4fa1bc0b5ce133bba0a0872f0",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654235562",
+            "timestamp": "2017-05-24T19:30:35 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.1 advertised-routes vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "9",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_1.advertised-routes.vrf.default.txt",
+            "sha1": "eab836113e8534c8773369c05dfd3b8c095a5446",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654236362",
+            "timestamp": "2017-05-24T19:30:36 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.1 received-routes vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "2",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_1.received-routes.vrf.default.txt",
+            "sha1": "b343a8c18a706b3cbbfe84da2d924779f56c7bd5",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654237227",
+            "timestamp": "2017-05-24T19:30:37 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.2 vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "58",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_2.vrf.default.txt",
+            "sha1": "fdb9c288f854d634e5999fda92a1fa53069e22ae",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654238067",
+            "timestamp": "2017-05-24T19:30:38 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.2 advertised-routes vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "10",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_2.advertised-routes.vrf.default.txt",
+            "sha1": "a3e91e6f616e3a4c2eaa95a9b62e7a9c6db0b7a6",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654238716",
+            "timestamp": "2017-05-24T19:30:38 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.2 received-routes vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "2",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_2.received-routes.vrf.default.txt",
+            "sha1": "20ddb9e7a4a99c0c794139b569a77d41a4620340",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654241364",
+            "timestamp": "2017-05-24T19:30:41 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.4 vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "58",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_4.vrf.default.txt",
+            "sha1": "bb1e874ba46c889bd133a02e6b14da4fb0b1cffe",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654242300",
+            "timestamp": "2017-05-24T19:30:42 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.4 advertised-routes vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "10",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_4.advertised-routes.vrf.default.txt",
+            "sha1": "b2b656c74c01c03cede06cc0e1d3401ae552a563",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654243137",
+            "timestamp": "2017-05-24T19:30:43 UTC"
+        },
+        {
+            "allow_empty_response": false,
+            "cli": "show ip bgp neighbors 192.168.0.4 received-routes vrf default",
+            "format": "txt",
+            "fqdn": "nx-osv-3",
+            "host": "nx-osv-3",
+            "lines": "2",
+            "mode": "analytics",
+            "path": "nx-osv-3/nx-osv-3.show.ip.bgp.neighbors.192_DOT_168_DOT_0_DOT_4.received-routes.vrf.default.txt",
+            "sha1": "fe5d421585aa9431ea467fd24850b2805e03ff4b",
+            "source": "derivative",
+            "status": "ok",
+            "tags": [
+                "routing",
+                "bgp"
+            ],
+            "time_start": "1495654244083",
+            "timestamp": "2017-05-24T19:30:44 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show vrf default detail",
             "description": "Collect detailed information about VRF default",
+            "dst_path_sha1": "0b624f88544689c7a4c489c25e231d41c6c24192",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -534,13 +898,14 @@
                 "vrf",
                 "test"
             ],
-            "time_start": "1495638162289",
-            "timestamp": "2017-05-24T15:02:42 UTC"
+            "time_start": "1495654244950",
+            "timestamp": "2017-05-24T19:30:44 UTC"
         },
         {
             "allow_empty_response": false,
             "cli": "show vrf management detail",
             "description": "Collect detailed information about VRF management",
+            "dst_path_sha1": "a3a14d8ab171761a176be5b93b3d8f5d7c79a916",
             "format": "txt",
             "fqdn": "nx-osv-3",
             "host": "nx-osv-3",
@@ -555,8 +920,8 @@
                 "vrf",
                 "test"
             ],
-            "time_start": "1495638163285",
-            "timestamp": "2017-05-24T15:02:43 UTC"
+            "time_start": "1495654245579",
+            "timestamp": "2017-05-24T19:30:45 UTC"
         }
     ]
 }
