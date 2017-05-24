@@ -1,0 +1,44 @@
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID
+
+Chassis id: fa16.3ef3.5ef4
+Port id: Eth2/1
+Local Port id: Eth2/1
+Port Description: to nx-osv-1
+System Name: nx-osv-2.cisco.com
+System Description: Cisco NX-OS(tm) titanium, Software (titanium-d1), Version 7.2(0)D1(1), Interim version 7.2(0)ZD(0.120), RELEASE SOFTWARE Copyright (c) 2002-2013 by Cisco Systems, Inc. Compiled 3/8/2015 1:00:00
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 172.16.1.91
+Vlan ID: not advertised
+
+
+Chassis id: fa16.3ec1.0862
+Port id: Eth2/2
+Local Port id: Eth2/2
+Port Description: to nx-osv-3
+System Name: nx-osv-1.rahul
+System Description: Cisco NX-OS(tm) titanium, Software (titanium-d1), Version 7.2(0)D1(1), Interim version 7.2(0)ZD(0.120), RELEASE SOFTWARE Copyright (c) 2002-2013 by Cisco Systems, Inc. Compiled 3/8/2015 1:00:00
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 172.16.1.90
+Vlan ID: not advertised
+
+
+Chassis id: fa16.3ea5.d25e
+Port id: Eth2/3
+Local Port id: Eth2/3
+Port Description: to nx-osv-4
+System Name: nx-osv-1.rahul
+System Description: Cisco NX-OS(tm) titanium, Software (titanium-d1), Version 7.2(0)D1(1), Interim version 7.2(0)ZD(0.120), RELEASE SOFTWARE Copyright (c) 2002-2013 by Cisco Systems, Inc. Compiled 3/8/2015 1:00:00
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 172.16.1.90
+Vlan ID: 1
+
+Total entries displayed: 3
