@@ -1,6 +1,6 @@
 !Command: show startup-config
-!Time: Wed May 24 15:37:09 2017
-!Startup config saved at: Wed Nov  9 12:15:39 2016
+!Time: Wed May 24 21:55:47 2017
+!Startup config saved at: Wed May 24 17:59:20 2017
 
 version 7.2(0)D1(1)
 power redundancy-mode redundant
@@ -11,6 +11,7 @@ vdc nx-osv-3 id 1
   limit-resource module-type m1 m1xl m2xl f2e
   allocate interface Ethernet2/1-48
   allocate interface Ethernet3/1-48
+  allocate interface Ethernet4/1-48
   limit-resource vlan minimum 16 maximum 4094
   limit-resource vrf minimum 2 maximum 4096
   limit-resource port-channel minimum 0 maximum 768
@@ -23,7 +24,7 @@ feature telnet
 feature ospf
 feature bgp
 
-username admin password 5 $1$KuOSBsvW$Cy0TSD..gEBGBPjzpDgf51  role network-admin
+username admin password 5 $5$giXu0LWR$8uz9Qj/R9H4QzerMqGW4oCml3284sHNsyMTCvcYsVX/  role network-admin
 username adminbackup password 5 !  role network-operator
 username adminbackup passphrase  lifetime 99999 warntime 14 gracetime 3
 username cisco password 5 $1$Nk7ZkwH0$fyiRmMMfIheqE3BqvcL0C1  role network-operator
@@ -31,7 +32,6 @@ username cisco role network-admin
 username cisco passphrase  lifetime 99999 warntime 14 gracetime 3
 username lab password 5 $1$buoy/oqy$.EXQz8rCn72ii8qtdldj00  role network-admin
 username lab passphrase  lifetime 99999 warntime 14 gracetime 3
-no password strength-check
 ip domain-lookup
 vlan dot1Q tag native
 system default switchport
@@ -39,7 +39,7 @@ system jumbomtu 0
 no logging event trunk-status enable
 copp profile strict
 snmp-server user lab network-admin auth md5 0x5ceb414591539ee35159fca86fdfa101 priv 0x5ceb414591539ee35159fca86fdfa101 localizedkey
-snmp-server user admin network-admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey
+snmp-server user admin network-admin auth md5 0x8132cad3f9ab3fd47c2b861270270566 priv 0x8132cad3f9ab3fd47c2b861270270566 localizedkey
 snmp-server user cisco network-admin
 snmp-server user cisco network-operator
 snmp-server user admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey engineID 128:0:0:9:3:0:0:0:0:0:0
@@ -66,17 +66,24 @@ interface Ethernet2/1
   description to nx-osv-1
   no switchport
   ip address 10.0.0.10/30
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/2
   description to nx-osv-2
   no switchport
   ip address 10.0.0.18/30
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/3
   description to nx-osv-4
   no switchport
+  ip address 10.0.0.25/30
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/4
@@ -544,11 +551,272 @@ interface Ethernet3/48
   no switchport
   mac-address fa16.3e87.c95e
 
+interface Ethernet4/1
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/2
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/3
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/4
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/5
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/6
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/7
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/8
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/9
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/10
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/11
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/12
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/13
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/14
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/15
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/16
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/17
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/18
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/19
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/20
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/21
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/22
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/23
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/24
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/25
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/26
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/27
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/28
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/29
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/30
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/31
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/32
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/33
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/34
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/35
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/36
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/37
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/38
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/39
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/40
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/41
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/42
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/43
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/44
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/45
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/46
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/47
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
+interface Ethernet4/48
+  shutdown
+  no switchport
+  mac-address fa16.3e87.c95e
+
 interface loopback0
   description Loopback
   ip address 192.168.0.3/32
+  ip router ospf 1 area 0.0.0.0
 line console
 line vty
 boot kickstart bootflash:/titanium-d1-kickstart.7.2.0.ZD.0.120.bin sup-1
 boot system bootflash:/titanium-d1.7.2.0.ZD.0.120.bin sup-1
+router ospf 1
+  router-id 192.168.0.3
+  log-adjacency-changes detail
+  passive-interface default
+router bgp 1
+  router-id 192.168.0.3
+  address-family ipv4 unicast
+    network 192.168.0.3/32
+  neighbor 192.168.0.1 remote-as 1
+    description iBGP peer nx-osv-1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.2 remote-as 1
+    description iBGP peer nx-osv-2
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.4 remote-as 1
+    description iBGP peer nx-osv-4
+    update-source loopback0
+    address-family ipv4 unicast
 no system default switchport shutdown
