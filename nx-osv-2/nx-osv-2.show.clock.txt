@@ -1,0 +1,2 @@
+Time source is NTP
+15:38:27.656 UTC Wed May 24 2017
