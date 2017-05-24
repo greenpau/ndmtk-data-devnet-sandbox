@@ -1,0 +1,1 @@
+% Inbound soft reconfiguration for IPv4 Unicast not enabled on 192.168.0.4
