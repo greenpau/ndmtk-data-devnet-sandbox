@@ -1,0 +1,22 @@
+ Neighbor 192.168.0.2, interface address 10.0.0.6
+    Process ID 1 VRF default, in area 0.0.0.0 via interface Ethernet2/1
+    State is EXCHANGE, 6 state changes, last change 03:58:55
+    Neighbor priority is 1
+    DR is 10.0.0.5 BDR is 10.0.0.6
+    We are slave in DBD exchange, seqnr 0x2b7f310d , all DBDs sent
+    0 LSAs on request-list, 0 outstanding, 0 retransmissions
+    Hello options 0x2, dbd options 0x42
+    Last non-hello packet received never
+      Dead timer due in 00:00:40
+      Retransmit timer due in 00:00:00
+ Neighbor 192.168.0.3, interface address 10.0.0.10
+    Process ID 1 VRF default, in area 0.0.0.0 via interface Ethernet2/2
+    State is EXCHANGE, 6 state changes, last change 03:57:57
+    Neighbor priority is 1
+    DR is 10.0.0.9 BDR is 10.0.0.10
+    We are slave in DBD exchange, seqnr 0x5fb77e9d , all DBDs sent
+    0 LSAs on request-list, 0 outstanding, 0 retransmissions
+    Hello options 0x2, dbd options 0x42
+    Last non-hello packet received never
+      Dead timer due in 00:00:38
+      Retransmit timer due in 00:00:04
