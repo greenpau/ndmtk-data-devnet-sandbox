@@ -4,7 +4,9 @@ Flags: * - Adjacencies learnt on non-active FHRP router
        D - Static Adjacencies attached to down interface
 
 IP ARP Table for all contexts
-Total number of entries: 2
+Total number of entries: 4
 Address         Age       MAC Address     Interface
-172.16.1.254    00:00:06  0050.56bb.3b5f  mgmt0
-10.0.0.17       00:02:59  fa16.3ef3.5f22  Ethernet2/2
+172.16.1.254    00:00:07  0050.56bb.3b5f  mgmt0
+10.0.0.9        00:18:37  fa16.3e3d.0792  Ethernet2/1
+10.0.0.17       00:18:37  fa16.3e95.1b78  Ethernet2/2
+10.0.0.26       00:16:11  fa16.3e22.418e  Ethernet2/3
