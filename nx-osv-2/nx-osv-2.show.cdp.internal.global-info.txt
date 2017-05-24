@@ -1,0 +1,11 @@
+----------------------------------------
+system_name: nx-osv-2 , valid: yes
+domain_name: cisco.com , valid: yes
+fqdn: nx-osv-2.cisco.com
+syslocation:  , valid: yes
+device serial num: TB3EA75626B
+device mac addr: [00.00.00.00.00.2f]
+cdpd_pktmgr_register_done: yes  cdpd_vtp_up: no
+vtpdomainname_valid: no   cdpd_vlan_mgr_up: yes
+svi info, num_if: 2 :
+----------------------------------------
