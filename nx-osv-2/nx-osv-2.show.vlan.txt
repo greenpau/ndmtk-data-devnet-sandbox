@@ -1,0 +1,111 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Po10
+10   test                             active
+12   tes2                             active
+13   test3                            active
+14   test1                            active
+15   VLAN0015                         active
+20   HOSTS                            active    Eth2/4
+30   VLAN30                           active
+51   WEB1                             active
+59   HYUNGSOK_VLAN_59                 active
+60   WEBGROUP                         active
+61   VLAN0061                         active
+62   Hello                            active
+64   VLAN0064                         active
+80   VLAN0080                         active
+100  MG_TEST1                         active
+101  esv1-nvn-core-101                active
+103  esv1-nvn-monitor-103             active
+104  esv1-gvn-mgmt-104                active
+105  esv1-gvn-vmotion-mgmt-105        active
+106  esv1-nvn-sec-106                 active
+107  esv1-nvn-nac-107                 active
+108  esv1-svn-monitor-108             active
+109  esv1-svn-monitor-109             active
+110  esv1-svn-gaudit-110              active
+111  esv1-svn-gaudit-stage-111        active
+112  esv1-svn-gaudit-patch-112        active
+204  Rahul                            active
+300  esv1-uc-vn-300                   active
+301  esv1-uc-vn-301                   active
+310  esv1-uc-vn-310                   active
+320  esv1-uc-vn-320                   active
+340  esv1-uc-vn-vmotion-340           active
+400  mg_10                            active
+401  mg_2                             active
+402  mg_3                             active
+503  Ganesha                          active
+505  Om                               active
+556  new_vlan_556                     active
+557  new_vlan_557                     active
+560  pula_560                         active
+577  pula_name_577                    active
+578  pula_novi_vlan_578               active
+752  VLAN0752                         active
+754  edn1-xvn-mgmt-754                active
+755  VLAN0755                         active
+777  JJPARK                           active
+3001 TechWise_01                      active
+3002 TechWise_02                      active
+3092 VLAN3092                         active
+
+VLAN Type         Vlan-mode
+---- -----        ----------
+1    enet         CE
+10   enet         CE
+12   enet         CE
+13   enet         CE
+14   enet         CE
+15   enet         CE
+20   enet         CE
+30   enet         CE
+51   enet         CE
+59   enet         CE
+60   enet         CE
+61   enet         CE
+62   enet         CE
+64   enet         CE
+80   enet         CE
+100  enet         CE
+101  enet         CE
+103  enet         CE
+104  enet         CE
+105  enet         CE
+106  enet         CE
+107  enet         CE
+108  enet         CE
+109  enet         CE
+110  enet         CE
+111  enet         CE
+112  enet         CE
+204  enet         CE
+300  enet         CE
+301  enet         CE
+310  enet         CE
+320  enet         CE
+340  enet         CE
+400  enet         CE
+401  enet         CE
+402  enet         CE
+503  enet         CE
+505  enet         CE
+556  enet         CE
+557  enet         CE
+560  enet         CE
+577  enet         CE
+578  enet         CE
+752  enet         CE
+754  enet         CE
+755  enet         CE
+777  enet         CE
+3001 enet         CE
+3002 enet         CE
+3092 enet         CE
+
+Remote SPAN VLANs
+-------------------------------------------------------------------------------
+
+Primary  Secondary  Type             Ports
+-------  ---------  ---------------  -------------------------------------------
