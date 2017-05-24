@@ -28,7 +28,7 @@ Hardware
   Device name: nx-osv-1
   bootflash:    1582402 kB
 
-Kernel uptime is 47 day(s), 19 hour(s), 6 minute(s), 13 second(s)
+Kernel uptime is 48 day(s), 1 hour(s), 24 minute(s), 50 second(s)
 
 
 plugin
