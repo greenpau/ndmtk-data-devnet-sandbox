@@ -1,0 +1,148 @@
+Role: network-admin
+  Description: Predefined network admin role has access to all commands
+  on the switch
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  1       permit  read-write
+
+Role: network-operator
+  Description: Predefined network operator role has access to all read
+  commands on the switch
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  1       permit  read
+
+Role: vdc-admin
+  Description: Predefined vdc admin role has access to all commands within
+  a VDC instance
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  1       permit  read-write
+
+Role: vdc-operator
+  Description: Predefined vdc operator role has access to all read commands
+  within a VDC instance
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  1       permit  read
+
+Role: priv-15
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  1       permit  read-write
+
+Role: priv-14
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  1       permit  read-write
+
+Role: priv-13
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-12
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-11
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-10
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-9
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-8
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-7
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-6
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-5
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-4
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-3
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-2
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-1
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+
+Role: priv-0
+  Description: This is a system defined privilege role.
+  Vlan policy: permit (default)
+  Interface policy: permit (default)
+  Vrf policy: permit (default)
+  -------------------------------------------------------------------
+  Rule    Perm    Type        Scope               Entity
+  -------------------------------------------------------------------
+  10      permit  command                         traceroute6 *
+  9       permit  command                         traceroute *
+  8       permit  command                         telnet6 *
+  7       permit  command                         telnet *
+  6       permit  command                         ping6 *
+  5       permit  command                         ping *
+  4       permit  command                         ssh6 *
+  3       permit  command                         ssh *
+  2       permit  command                         enable *
+  1       permit  read
