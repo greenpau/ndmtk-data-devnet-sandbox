@@ -1,0 +1,9 @@
+ OSPF Process ID 1 VRF default, Routing Table
+  (D) denotes route is directly attached      (R) denotes route is in RIB
+  (NHR) denotes next-hop is in RIB
+10.0.0.12/30 (intra)(D) area 0.0.0.0
+     via 10.0.0.12/Eth2/1*  , cost 40 distance 110 (NHR)
+10.0.0.24/30 (intra)(D) area 0.0.0.0
+     via 10.0.0.24/Eth2/2*  , cost 40 distance 110 (NHR)
+192.168.0.4/32 (intra)(D) area 0.0.0.0
+     via 192.168.0.4/Lo0*  , cost 1 distance 110 (NHR)
