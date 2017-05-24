@@ -1,5 +1,5 @@
 IP Interface Status for VRF "default"
-loopback0, Interface status: protocol-up/link-up/admin-up, iod: 37,
+loopback0, Interface status: protocol-up/link-up/admin-up, iod: 84,
   IP address: 192.168.0.4, IP subnet: 192.168.0.4/32
   IP broadcast address: 255.255.255.255
   IP multicast groups locally joined: none
@@ -17,8 +17,8 @@ loopback0, Interface status: protocol-up/link-up/admin-up, iod: 37,
   IP load sharing: none
   IP interface statistics last reset: never
   IP interface software stats: (sent/received/forwarded/originated/consumed)
-    Unicast packets    : 0/0/0/0/0
-    Unicast bytes      : 0/0/0/0/0
+    Unicast packets    : 0/0/0/0/926
+    Unicast bytes      : 0/0/0/0/57818
     Multicast packets  : 0/0/0/0/0
     Multicast bytes    : 0/0/0/0/0
     Broadcast packets  : 0/0/0/0/0
@@ -28,7 +28,7 @@ loopback0, Interface status: protocol-up/link-up/admin-up, iod: 37,
   WCCP Redirect outbound: disabled
   WCCP Redirect inbound: disabled
   WCCP Redirect exclude: disabled
-Ethernet2/1, Interface status: protocol-up/link-up/admin-up, iod: 38,
+Ethernet2/1, Interface status: protocol-up/link-up/admin-up, iod: 36,
   IP address: 10.0.0.14, IP subnet: 10.0.0.12/30
   IP broadcast address: 255.255.255.255
   IP multicast groups locally joined:
@@ -49,8 +49,8 @@ Ethernet2/1, Interface status: protocol-up/link-up/admin-up, iod: 38,
   IP interface software stats: (sent/received/forwarded/originated/consumed)
     Unicast packets    : 0/0/0/0/0
     Unicast bytes      : 0/0/0/0/0
-    Multicast packets  : 92405/277212/0/92405/554424
-    Multicast bytes    : 7577210/17741568/0/7577210/17741568
+    Multicast packets  : 1663/0/0/1663/0
+    Multicast bytes    : 136366/0/0/136366/0
     Broadcast packets  : 0/0/0/0/0
     Broadcast bytes    : 0/0/0/0/0
     Labeled packets    : 0/0/0/0/0
@@ -58,7 +58,7 @@ Ethernet2/1, Interface status: protocol-up/link-up/admin-up, iod: 38,
   WCCP Redirect outbound: disabled
   WCCP Redirect inbound: disabled
   WCCP Redirect exclude: disabled
-Ethernet2/2, Interface status: protocol-up/link-up/admin-up, iod: 39,
+Ethernet2/2, Interface status: protocol-up/link-up/admin-up, iod: 37,
   IP address: 10.0.0.26, IP subnet: 10.0.0.24/30
   IP broadcast address: 255.255.255.255
   IP multicast groups locally joined:
@@ -77,10 +77,10 @@ Ethernet2/2, Interface status: protocol-up/link-up/admin-up, iod: 39,
   IP load sharing: none
   IP interface statistics last reset: never
   IP interface software stats: (sent/received/forwarded/originated/consumed)
-    Unicast packets    : 0/0/0/0/0
-    Unicast bytes      : 0/0/0/0/0
-    Multicast packets  : 92467/277398/0/92467/554796
-    Multicast bytes    : 7582294/17753472/0/7582294/17753472
+    Unicast packets    : 913/944/0/913/962
+    Unicast bytes      : 74008/59382/0/74008/60946
+    Multicast packets  : 1690/1688/0/1690/3374
+    Multicast bytes    : 146080/116188/0/146080/116124
     Broadcast packets  : 0/0/0/0/0
     Broadcast bytes    : 0/0/0/0/0
     Labeled packets    : 0/0/0/0/0
@@ -108,12 +108,12 @@ mgmt0, Interface status: protocol-up/link-up/admin-up, iod: 2,
   IP load sharing: none
   IP interface statistics last reset: never
   IP interface software stats: (sent/received/forwarded/originated/consumed)
-    Unicast packets    : 13847/13556/6718/7129/13676
-    Unicast bytes      : 3601216/1953210/1372243/2228973/1403782
-    Multicast packets  : 0/9473034/0/0/0
-    Multicast bytes    : 0/1048633433/0/0/0
-    Broadcast packets  : 0/50284/0/0/50284
-    Broadcast bytes    : 0/16288488/0/0/16288488
+    Unicast packets    : 4160/3724/80/4080/7288
+    Unicast bytes      : 1365499/375644/19679/1345820/714438
+    Multicast packets  : 0/177262/0/0/0
+    Multicast bytes    : 0/19324928/0/0/0
+    Broadcast packets  : 0/884/0/0/884
+    Broadcast bytes    : 0/287867/0/0/287867
     Labeled packets    : 0/0/0/0/0
     Labeled bytes      : 0/0/0/0/0
   WCCP Redirect outbound: disabled
