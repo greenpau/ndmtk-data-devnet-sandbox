@@ -1,0 +1,6 @@
+ OSPF Process ID 1 VRF default, Neighbor Summary
+ Interface Down Attempt Init TwoWay ExStart Exchange Loading Full  Total
+     Total    0       0    0      0       1        0       0    2      3
+    Eth2/1    0       0    0      0       1        0       0    0      1
+    Eth2/2    0       0    0      0       0        0       0    1      1
+    Eth2/3    0       0    0      0       0        0       0    1      1
