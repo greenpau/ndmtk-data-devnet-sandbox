@@ -15,12 +15,12 @@ Logging persistent :            disabled (Reason: Logflash CF card not online.)
 
 Syslog History Table: '1' maximum table entries
 saving level 'warnings' or higher
-209 messages ignored, 0 dropped, 115808 table entries flushed
+210 messages ignored, 0 dropped, 18 table entries flushed
 SNMP notifications disabled
 
-        entry number 115809: OSPF-4-SYSLOG_SL_MSG_WARNING
-         OSPF-4-DUPRID: message repeated 8 times in last 12 sec
-        Timestamp: 80994368
+        entry number 19: LICMGR-2-LOG_LICAPP_NO_LIC
+         Application bgp running without LAN_ENTERPRISE_SERVICES_PKG license, shutdown in 119 days
+        Timestamp: 8003
 
 
 Facility        Default Severity        Current Session Severity
@@ -56,7 +56,6 @@ ftp                     3                       3
 ifmgr                   5                       5
 iftmc                   2                       2
 igmp_1                  5                       5
-interface-vlan          2                       2
 ip                      3                       3
 ipv6                    3                       3
 kern                    3                       3
@@ -85,7 +84,6 @@ mtm                     2                       2
 mvsh                    2                       2
 news                    3                       3
 ntp                     2                       2
-nxapi                   2                       2
 ori_fwd                 3                       3
 ospf_1                  5                       5
 otm                     3                       3
@@ -117,7 +115,6 @@ uucp                    3                       3
 vdc_mgr                 6                       6
 virtual-service         5                       5
 vlan_mgr                2                       2
-vpc                     2                       2
 vpc_config_sync         2                       2
 vshd                    5                       5
 xmlma                   3                       3
