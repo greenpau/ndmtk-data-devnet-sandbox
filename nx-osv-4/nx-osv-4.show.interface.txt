@@ -1,6 +1,6 @@
 mgmt0 is up
 admin state is up
-  Hardware: Ethernet, address: fa16.3e8b.08a3 (bia fa16.3e8b.08a3)
+  Hardware: Ethernet, address: fa16.3e42.8b81 (bia fa16.3e42.8b81)
   Description: OOB Management
   Internet Address is 172.16.1.93/24
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
@@ -11,18 +11,18 @@ admin state is up
   Auto-Negotiation is turned on
   Auto-mdix is turned off
   EtherType is 0x0000
-  1 minute input rate 14000 bits/sec, 13 packets/sec
-  1 minute output rate 24 bits/sec, 0 packets/sec
+  1 minute input rate 15104 bits/sec, 14 packets/sec
+  1 minute output rate 3440 bits/sec, 1 packets/sec
   Rx
-    10323148 input packets 7196 unicast packets 9984039 multicast packets
-    331913 broadcast packets 1303321110 bytes
+    195691 input packets 3298 unicast packets 186326 multicast packets
+    6067 broadcast packets 24376627 bytes
   Tx
-    27431 output packets 13930 unicast packets 13498 multicast packets
-    3 broadcast packets 6433567 bytes
+    3842 output packets 3597 unicast packets 243 multicast packets
+    2 broadcast packets 1100847 bytes
 
 Ethernet2/1 is up
 admin state is up, Dedicated Interface
-  Hardware: 10/100/1000 Ethernet, address: fa16.3e4f.b7ec (bia fa16.3e4f.b7be)
+  Hardware: 10/100/1000 Ethernet, address: fa16.3e22.418e (bia fa16.3e22.4160)
   Description: to nx-osv-1
   Internet Address is 10.0.0.14/30
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
@@ -37,7 +37,7 @@ admin state is up, Dedicated Interface
   Switchport monitor is off
   EtherType is 0x8100
   EEE (efficient-ethernet) : n/a
-  Last link flapped 1week(s) 2day(s)
+  Last link flapped 04:01:31
   Last clearing of "show interface" counters never
   1 interface resets
   Load-Interval #1: 0 seconds
@@ -67,7 +67,7 @@ admin state is up, Dedicated Interface
 
 Ethernet2/2 is up
 admin state is up, Dedicated Interface
-  Hardware: 10/100/1000 Ethernet, address: fa16.3e4f.b7ec (bia fa16.3e5f.88a5)
+  Hardware: 10/100/1000 Ethernet, address: fa16.3e22.418e (bia fa16.3ed5.6c7a)
   Description: to nx-osv-3
   Internet Address is 10.0.0.26/30
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
@@ -82,7 +82,7 @@ admin state is up, Dedicated Interface
   Switchport monitor is off
   EtherType is 0x8100
   EEE (efficient-ethernet) : n/a
-  Last link flapped 1week(s) 2day(s)
+  Last link flapped 04:01:31
   Last clearing of "show interface" counters never
   1 interface resets
   Load-Interval #1: 0 seconds
@@ -112,7 +112,7 @@ admin state is up, Dedicated Interface
 
 Ethernet2/3 is up
 admin state is up, Dedicated Interface
-  Hardware:  Ethernet, address: fa16.3e4f.b7ec (bia fa16.3e04.96c0)
+  Hardware:  Ethernet, address: fa16.3e22.418e (bia fa16.3eed.9bf0)
   Description: Ethernet2/3
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
@@ -126,7 +126,7 @@ admin state is up, Dedicated Interface
   Switchport monitor is off
   EtherType is 0x8100
   EEE (efficient-ethernet) : n/a
-  Last link flapped 1week(s) 2day(s)
+  Last link flapped 04:01:31
   Last clearing of "show interface" counters never
   1 interface resets
   Load-Interval #1: 0 seconds
@@ -157,7 +157,7 @@ admin state is up, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/4 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -201,7 +201,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/5 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -245,7 +245,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/6 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -289,7 +289,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/7 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -333,7 +333,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/8 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -377,7 +377,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/9 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -421,7 +421,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/10 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -465,7 +465,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/11 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -509,7 +509,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/12 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -553,7 +553,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/13 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -597,7 +597,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/14 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -641,7 +641,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/15 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -685,7 +685,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/16 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -729,7 +729,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/17 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -773,7 +773,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/18 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -817,7 +817,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/19 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -861,7 +861,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/20 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -905,7 +905,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/21 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -949,7 +949,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/22 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -993,7 +993,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/23 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1037,7 +1037,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/24 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1081,7 +1081,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/25 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1125,7 +1125,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/26 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1169,7 +1169,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/27 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1213,7 +1213,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/28 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1257,7 +1257,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/29 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1301,7 +1301,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/30 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1345,7 +1345,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/31 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1389,7 +1389,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/32 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1433,7 +1433,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/33 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1477,7 +1477,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/34 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1521,7 +1521,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/35 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1565,7 +1565,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/36 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1609,7 +1609,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/37 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1653,7 +1653,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/38 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1697,7 +1697,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/39 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1741,7 +1741,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/40 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1785,7 +1785,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/41 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1829,7 +1829,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/42 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1873,7 +1873,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/43 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1917,7 +1917,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/44 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -1961,7 +1961,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/45 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2005,7 +2005,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/46 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2049,7 +2049,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/47 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2093,7 +2093,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet2/48 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2136,7 +2136,7 @@ admin state is down, Dedicated Interface
 
 Ethernet3/1 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e4f.b7ec)
+  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e22.418e)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2179,7 +2179,7 @@ admin state is down, Dedicated Interface
 
 Ethernet3/2 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e4f.b7ec)
+  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e22.418e)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2222,7 +2222,7 @@ admin state is down, Dedicated Interface
 
 Ethernet3/3 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware:  Ethernet, address: 0000.0000.002f (bia fa16.3e4f.b7ec)
+  Hardware:  Ethernet, address: 0000.0000.002f (bia fa16.3e22.418e)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2266,7 +2266,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/4 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2310,7 +2310,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/5 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2354,7 +2354,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/6 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2398,7 +2398,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/7 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2442,7 +2442,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/8 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2486,7 +2486,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/9 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2530,7 +2530,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/10 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2574,7 +2574,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/11 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2618,7 +2618,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/12 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2662,7 +2662,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/13 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2706,7 +2706,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/14 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2750,7 +2750,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/15 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2794,7 +2794,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/16 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2838,7 +2838,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/17 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2882,7 +2882,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/18 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2926,7 +2926,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/19 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -2970,7 +2970,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/20 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3014,7 +3014,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/21 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3058,7 +3058,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/22 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3102,7 +3102,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/23 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3146,7 +3146,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/24 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3190,7 +3190,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/25 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3234,7 +3234,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/26 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3278,7 +3278,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/27 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3322,7 +3322,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/28 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3366,7 +3366,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/29 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3410,7 +3410,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/30 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3454,7 +3454,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/31 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3498,7 +3498,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/32 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3542,7 +3542,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/33 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3586,7 +3586,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/34 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3630,7 +3630,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/35 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3674,7 +3674,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/36 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3718,7 +3718,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/37 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3762,7 +3762,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/38 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3806,7 +3806,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/39 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3850,7 +3850,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/40 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3894,7 +3894,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/41 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3938,7 +3938,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/42 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -3982,7 +3982,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/43 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4026,7 +4026,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/44 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4070,7 +4070,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/45 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4114,7 +4114,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/46 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4158,7 +4158,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/47 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4202,7 +4202,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet3/48 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4245,7 +4245,7 @@ admin state is down, Dedicated Interface
 
 Ethernet4/1 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e4f.b7ec)
+  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e22.418e)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4288,7 +4288,7 @@ admin state is down, Dedicated Interface
 
 Ethernet4/2 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e4f.b7ec)
+  Hardware: 10/100/1000 Ethernet, address: 0000.0000.002f (bia fa16.3e22.418e)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4331,7 +4331,7 @@ admin state is down, Dedicated Interface
 
 Ethernet4/3 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware:  Ethernet, address: 0000.0000.002f (bia fa16.3e4f.b7ec)
+  Hardware:  Ethernet, address: 0000.0000.002f (bia fa16.3e22.418e)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4375,7 +4375,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/4 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4419,7 +4419,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/5 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4463,7 +4463,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/6 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4507,7 +4507,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/7 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4551,7 +4551,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/8 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4595,7 +4595,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/9 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4639,7 +4639,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/10 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4683,7 +4683,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/11 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4727,7 +4727,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/12 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4771,7 +4771,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/13 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4815,7 +4815,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/14 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4859,7 +4859,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/15 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4903,7 +4903,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/16 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4947,7 +4947,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/17 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -4991,7 +4991,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/18 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5035,7 +5035,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/19 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5079,7 +5079,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/20 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5123,7 +5123,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/21 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5167,7 +5167,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/22 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5211,7 +5211,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/23 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5255,7 +5255,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/24 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5299,7 +5299,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/25 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5343,7 +5343,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/26 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5387,7 +5387,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/27 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5431,7 +5431,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/28 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5475,7 +5475,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/29 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5519,7 +5519,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/30 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5563,7 +5563,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/31 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5607,7 +5607,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/32 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5651,7 +5651,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/33 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5695,7 +5695,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/34 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5739,7 +5739,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/35 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5783,7 +5783,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/36 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5827,7 +5827,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/37 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5871,7 +5871,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/38 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5915,7 +5915,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/39 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -5959,7 +5959,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/40 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6003,7 +6003,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/41 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6047,7 +6047,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/42 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6091,7 +6091,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/43 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6135,7 +6135,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/44 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6179,7 +6179,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/45 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6223,7 +6223,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/46 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6267,7 +6267,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/47 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6311,7 +6311,7 @@ admin state is down, Dedicated Interface
 crdcfg_get_port_cap failed with Bad parameters passed in
 Ethernet4/48 is down (Administratively down)
 admin state is down, Dedicated Interface
-  Hardware: 10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
+  Hardware: 1000/10000/40000/100000 Ethernet, address: 0000.0000.002f (bia 0000.0000.0000)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
@@ -6362,28 +6362,9 @@ admin state is up
   Encapsulation LOOPBACK, medium is broadcast
   Port mode is routed
   Auto-mdix is turned off
-    0 packets input 0 bytes
+    926 packets input 57818 bytes
     0 multicast frames 0 compressed
     0 input errors 0 frame 0 overrun 0 fifo
     0 packets output 0 bytes 0 underruns
     0 output errors 0 collisions 0 fifo
     0 out_carrier_errors
-
-Vlan1 is down (Administratively down), line protocol is down, autostate enabled
-  Hardware is EtherSVI, address is  fa16.3e4f.b7ec
-  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec,
-   reliability 255/255, txload 1/255, rxload 1/255
-  Encapsulation ARPA, loopback not set
-  Keepalive not supported
-  ARP type: ARPA
-  Last clearing of "show interface" counters never
-  60 seconds input rate 0 bits/sec, 0 packets/sec
-  60 seconds output rate 0 bits/sec, 0 packets/sec
-  Load-Interval #2: 5 minute (300 seconds)
-    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
-  L3 Switched:
-    input: 0 pkts, 0 bytes - output: 0 pkts, 0 bytes
-  L3 in Switched:
-    ucast: 0 pkts, 0 bytes - mcast: 0 pkts, 0 bytes
-  L3 out Switched:
-    ucast: 0 pkts, 0 bytes - mcast: 0 pkts, 0 bytes
