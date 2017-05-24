@@ -5,30 +5,50 @@ IP Route Table for VRF "default"
 '%<string>' in via output denotes VRF <string>
 
 0.0.0.0/32, ubest/mbest: 1/0, pending
-    *via Null0, [220/0], 1w2d, broadcast, discard
+    *via Null0, [220/0], 04:02:39, broadcast, discard
 127.0.0.0/8, ubest/mbest: 1/0, pending
-    *via Null0, [220/0], 1w2d, broadcast, discard
+    *via Null0, [220/0], 04:02:39, broadcast, discard
 255.255.255.255/32, ubest/mbest: 1/0, pending
-    *via sup-eth1, [0/0], 1w2d, broadcast
+    *via sup-eth1, [0/0], 04:02:03, broadcast
+10.0.0.4/30, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/120], 03:55:44, ospf-1, intra
+10.0.0.8/30, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/80], 03:55:44, ospf-1, intra
 10.0.0.12/30, ubest/mbest: 1/0, attached
-    *via 10.0.0.14, Eth2/1, [0/0], 1w2d, direct
+    *via 10.0.0.14, Eth2/1, [0/0], 04:01:26, direct
 10.0.0.12/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.12, Null0, [0/0], 1w2d, broadcast
+    *via 10.0.0.12, Null0, [0/0], 04:01:26, broadcast
 10.0.0.14/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.14, Eth2/1, [0/0], 1w2d, local
+    *via 10.0.0.14, Eth2/1, [0/0], 04:01:26, local
 10.0.0.15/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.15, Eth2/1, [0/0], 1w2d, broadcast
+    *via 10.0.0.15, Eth2/1, [0/0], 04:01:26, broadcast
+10.0.0.16/30, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/80], 03:55:44, ospf-1, intra
 10.0.0.24/30, ubest/mbest: 1/0, attached
-    *via 10.0.0.26, Eth2/2, [0/0], 1w2d, direct
+    *via 10.0.0.26, Eth2/2, [0/0], 04:01:26, direct
 10.0.0.24/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.24, Null0, [0/0], 1w2d, broadcast
+    *via 10.0.0.24, Null0, [0/0], 04:01:26, broadcast
+10.0.0.25/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.25, Eth2/2, [250/0], 04:01:15, am
 10.0.0.26/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.26, Eth2/2, [0/0], 1w2d, local
+    *via 10.0.0.26, Eth2/2, [0/0], 04:01:26, local
 10.0.0.27/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.27, Eth2/2, [0/0], 1w2d, broadcast
+    *via 10.0.0.27, Eth2/2, [0/0], 04:01:26, broadcast
+192.168.0.2/32, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/81], 03:55:44, ospf-1, intra
+     via 192.168.0.2, [200/0], 03:55:41, bgp-1, internal, tag 1,  (hidden)
+         client-specific data: 2
+         recursive next hop: 192.168.0.2/32
+         extended route information: BGP origin AS 1 BGP peer AS 1
+192.168.0.3/32, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/41], 03:55:44, ospf-1, intra
+     via 192.168.0.3, [200/0], 03:55:41, bgp-1, internal, tag 1,  (hidden)
+         client-specific data: 2
+         recursive next hop: 192.168.0.3/32
+         extended route information: BGP origin AS 1 BGP peer AS 1
 192.168.0.4/32, ubest/mbest: 2/0, attached
-    *via 192.168.0.4, Lo0, [0/0], 1w2d, local
-    *via 192.168.0.4, Lo0, [0/0], 1w2d, direct
+    *via 192.168.0.4, Lo0, [0/0], 04:01:27, local
+    *via 192.168.0.4, Lo0, [0/0], 04:01:27, direct
 
 IP Route Table for VRF "management"
 '*' denotes best ucast next-hop
@@ -37,21 +57,21 @@ IP Route Table for VRF "management"
 '%<string>' in via output denotes VRF <string>
 
 0.0.0.0/32, ubest/mbest: 1/0
-    *via Null0, [220/0], 1w2d, broadcast, discard
+    *via Null0, [220/0], 04:02:39, broadcast, discard
 127.0.0.0/8, ubest/mbest: 1/0
-    *via Null0, [220/0], 1w2d, broadcast, discard
+    *via Null0, [220/0], 04:02:39, broadcast, discard
 255.255.255.255/32, ubest/mbest: 1/0
-    *via sup-eth1, [0/0], 1w2d, broadcast
+    *via sup-eth1, [0/0], 04:02:03, broadcast
 0.0.0.0/0, ubest/mbest: 1/0
-    *via 172.16.1.254, [1/0], 1w2d, static
+    *via 172.16.1.254, [1/0], 04:01:26, static
          recursive next hop: 172.16.1.254/32
 172.16.1.0/24, ubest/mbest: 1/0, attached
-    *via 172.16.1.93, mgmt0, [0/0], 1w2d, direct
+    *via 172.16.1.93, mgmt0, [0/0], 04:01:27, direct
 172.16.1.0/32, ubest/mbest: 1/0, attached
-    *via 172.16.1.0, Null0, [0/0], 1w2d, broadcast
+    *via 172.16.1.0, Null0, [0/0], 04:01:27, broadcast
 172.16.1.93/32, ubest/mbest: 1/0, attached
-    *via 172.16.1.93, mgmt0, [0/0], 1w2d, local
+    *via 172.16.1.93, mgmt0, [0/0], 04:01:27, local
 172.16.1.254/32, ubest/mbest: 1/0, attached
-    *via 172.16.1.254, mgmt0, [250/0], 1w2d, am
+    *via 172.16.1.254, mgmt0, [250/0], 04:01:26, am
 172.16.1.255/32, ubest/mbest: 1/0, attached
-    *via 172.16.1.255, mgmt0, [0/0], 1w2d, broadcast
+    *via 172.16.1.255, mgmt0, [0/0], 04:01:27, broadcast
