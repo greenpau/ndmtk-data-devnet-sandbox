@@ -1,0 +1,27 @@
+NAME: "Chassis",  DESCR: "NX-OSv Chassis "
+PID: N7K-C7018           ,  VID: V00
+,  SN: TB3E8B08A3B
+
+NAME: "Slot 1",  DESCR: "NX-OSv Supervisor Module"
+PID: N7K-SUP1            ,  VID: V00
+,  SN: TM3E8B08A3B
+
+NAME: "Slot 2",  DESCR: "NX-OSv Ethernet Module"
+PID: N7K-F248XP-25       ,  VID: V00
+,  SN: TM3E8B08A3C
+
+NAME: "Slot 3",  DESCR: "NX-OSv Ethernet Module"
+PID: N7K-F248XP-25       ,  VID: V00
+,  SN: TM3E8B08A3D
+
+NAME: "Slot 4",  DESCR: "NX-OSv Ethernet Module"
+PID: N7K-F248XP-25       ,  VID: V00
+,  SN: TM3E8B08A3E
+
+NAME: "Slot 33",  DESCR: "NX-OSv Chassis Power Supply"
+PID:                     ,  VID: V00
+,  SN:
+
+NAME: "Slot 35",  DESCR: "NX-OSv Chassis Fan Module"
+PID:                     ,  VID: V00
+,  SN:
