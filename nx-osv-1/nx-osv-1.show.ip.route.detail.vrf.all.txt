@@ -1,0 +1,68 @@
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/32, ubest/mbest: 1/0, pending
+    *via Null0, [220/0], 6w5d, broadcast, discard
+127.0.0.0/8, ubest/mbest: 1/0, pending
+    *via Null0, [220/0], 6w5d, broadcast, discard
+255.255.255.255/32, ubest/mbest: 1/0, pending
+    *via sup-eth1, [0/0], 6w5d, broadcast
+1.1.1.5/32, ubest/mbest: 2/0, attached
+    *via 1.1.1.5, Lo5, [0/0], 6w5d, local
+    *via 1.1.1.5, Lo5, [0/0], 6w5d, direct
+10.0.0.4/30, ubest/mbest: 1/0, attached
+    *via 10.0.0.5, Eth2/1, [0/0], 6w5d, direct
+10.0.0.4/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.4, Null0, [0/0], 6w5d, broadcast
+10.0.0.5/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.5, Eth2/1, [0/0], 6w5d, local
+10.0.0.7/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.7, Eth2/1, [0/0], 6w5d, broadcast
+10.0.0.8/30, ubest/mbest: 1/0, attached
+    *via 10.0.0.9, Eth2/2, [0/0], 6w5d, direct
+10.0.0.8/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.8, Null0, [0/0], 6w5d, broadcast
+10.0.0.9/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.9, Eth2/2, [0/0], 6w5d, local
+10.0.0.11/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.11, Eth2/2, [0/0], 6w5d, broadcast
+172.16.10.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.10.1, Vlan10, [0/0], 6w2d, direct
+172.16.10.0/32, ubest/mbest: 1/0, attached
+    *via 172.16.10.0, Null0, [0/0], 6w2d, broadcast
+172.16.10.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.10.1, Vlan10, [0/0], 6w2d, local
+172.16.10.255/32, ubest/mbest: 1/0, attached
+    *via 172.16.10.255, Vlan10, [0/0], 6w2d, broadcast
+192.168.0.1/32, ubest/mbest: 2/0, attached
+    *via 192.168.0.1, Lo0, [0/0], 6w5d, local
+    *via 192.168.0.1, Lo0, [0/0], 6w5d, direct
+
+IP Route Table for VRF "management"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/32, ubest/mbest: 1/0
+    *via Null0, [220/0], 6w5d, broadcast, discard
+127.0.0.0/8, ubest/mbest: 1/0
+    *via Null0, [220/0], 6w5d, broadcast, discard
+255.255.255.255/32, ubest/mbest: 1/0
+    *via sup-eth1, [0/0], 6w5d, broadcast
+0.0.0.0/0, ubest/mbest: 1/0
+    *via 172.16.1.254, [1/0], 6w5d, static
+         recursive next hop: 172.16.1.254/32
+172.16.1.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.1.90, mgmt0, [0/0], 6w5d, direct
+172.16.1.0/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.0, Null0, [0/0], 6w5d, broadcast
+172.16.1.90/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.90, mgmt0, [0/0], 6w5d, local
+172.16.1.254/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.254, mgmt0, [250/0], 6w5d, am
+172.16.1.255/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.255, mgmt0, [0/0], 6w5d, broadcast
