@@ -1,0 +1,57 @@
+BGP neighbor is 192.168.0.4,  remote AS 1, ibgp link,  Peer index 3
+  Description: iBGP peer nx-osv-4
+  BGP version 4, remote router ID 192.168.0.4
+  BGP state = Established, up for 04:01:58
+  Using loopback0 as update source for this peer
+  Last read 00:00:54, hold time = 180, keepalive interval is 60 seconds
+  Last written 00:00:53, keepalive timer expiry due 00:00:06
+  Received 248 messages, 0 notifications, 0 bytes in queue
+  Sent 248 messages, 0 notifications, 0 bytes in queue
+  Connections established 1, dropped 0
+  Last reset by us never, due to No error
+  Last reset by peer never, due to No error
+
+  Neighbor capabilities:
+  Dynamic capability: advertised (mp, refresh, gr) received (mp, refresh, gr)
+  Dynamic capability (old): advertised received
+  Route refresh capability (new): advertised received
+  Route refresh capability (old): advertised received
+  4-Byte AS capability: advertised received
+  Address family IPv4 Unicast: advertised received
+  Graceful Restart capability: advertised received
+
+  Graceful Restart Parameters:
+  Address families advertised to peer:
+    IPv4 Unicast
+  Address families received from peer:
+    IPv4 Unicast
+  Forwarding state preserved by peer for:
+  Restart time advertised to peer: 120 seconds
+  Stale time for routes advertised by peer: 300 seconds
+  Restart time advertised by peer: 120 seconds
+  Extended Next Hop Encoding Capability: advertised received
+  Receive IPv6 next hop encoding Capability for AF:
+    IPv4 Unicast
+
+  Message statistics:
+                              Sent               Rcvd
+  Opens:                         1                  1
+  Notifications:                 0                  0
+  Updates:                       2                  2
+  Keepalives:                  243                243
+  Route Refresh:                 0                  0
+  Capability:                    2                  2
+  Total:                       248                248
+  Total bytes:                4740               4740
+  Bytes in queue:                0                  0
+
+  For address family: IPv4 Unicast
+  BGP table version 15, neighbor version 15
+  1 accepted paths consume 84 bytes of memory
+  1 sent paths
+  Third-party Nexthop will not be computed.
+  Last End-of-RIB received 00:00:01 after session start
+
+  Local host: 192.168.0.2, Local port: 179
+  Foreign host: 192.168.0.4, Foreign port: 36606
+  fd = 68
