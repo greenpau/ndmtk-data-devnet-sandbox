@@ -1,5 +1,0 @@
-NOTE: Clear the port-channel member counters to get accurate statistics
-
-ChanId      Port Rx-Ucst Tx-Ucst Rx-Mcst Tx-Mcst Rx-Bcst Tx-Bcst
------- --------- ------- ------- ------- ------- ------- -------
-  2000    Eth2/3    0.0%    0.0%    0.0%    0.0%    0.0%    0.0%
