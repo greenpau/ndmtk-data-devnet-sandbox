@@ -1,15 +1,11 @@
 ----------------------------------------
 system_name: nx-osv-3 , valid: yes
-domain_name: example.com , valid: yes
-fqdn: nx-osv-3.example.com
+domain_name:  , valid: yes
+fqdn: nx-osv-3
 syslocation:  , valid: yes
 device serial num: TB3E91DFBCB
 device mac addr: [00.00.00.00.00.2f]
 cdpd_pktmgr_register_done: yes  cdpd_vtp_up: no
 vtpdomainname_valid: no   cdpd_vlan_mgr_up: yes
-svi info, num_if: 5 :
-if_index: 0x9010014, inet_addr: [172.16.100.3]
-if_index: 0x90102f0, inet_addr: [10.3.33.3]
-if_index: 0x90102f2, inet_addr: [172.19.159.131]
-if_index: 0x90102f3, inet_addr: [10.3.34.3]
+svi info, num_if: 0 :
 ----------------------------------------
