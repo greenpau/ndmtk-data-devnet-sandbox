@@ -1,0 +1,33 @@
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.0.0.4/30, ubest/mbest: 1/0, attached
+    *via 10.0.0.6, Eth2/1, [0/0], 9w4d, direct
+10.0.0.6/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.6, Eth2/1, [0/0], 9w4d, local
+10.0.0.16/30, ubest/mbest: 1/0, attached
+    *via 10.0.0.17, Eth2/2, [0/0], 28w0d, direct
+10.0.0.17/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.17, Eth2/2, [0/0], 28w0d, local
+
+IP Route Table for VRF "management"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/0, ubest/mbest: 1/0
+    *via 172.16.1.254, [1/0], 28w0d, static
+172.16.1.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.1.91, mgmt0, [0/0], 28w0d, direct
+172.16.1.91/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.91, mgmt0, [0/0], 28w0d, local
+
+IP Route Table for VRF "vPC_Keepalive"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
