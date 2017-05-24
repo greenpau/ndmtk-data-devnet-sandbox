@@ -1,0 +1,18 @@
+System info:
+  Globals Timers: msg_tx_hold : 120, reinit_delay :2
+                  msg_tx_interval : 30, tx_delay_interval : 2
+  Chassis MAC address:  fa:16:3e:f3:5f:22
+  System name: nx-osv-2.cisco.com
+  System description: Cisco NX-OS(tm) titanium, Software (titanium-d1), Version 7.2(0)D1(1), Interim version 7.2(0)ZD(0.120), RELEASE SOFTWARE Copyright (c) 2002-2013 by Cisco Systems, Inc. Compiled  mgmt_ip type:1 : ipv4:  172.16.1.91
+got_mcecm_sys_id: No
+
+Num fex online: 0
+
+
+LLDP GLobal errors:
+int_error_prepare_tlv_failed   : 732165
+int_error_buf_used_frame_size  : 0
+otl_timer_tick: 0 otl_tran_timeouts: 0
+offline_purge_counter: 0 p_node_purge_counter: 0
+otl_cur_tran_nodes: 0, otl_max_tran_nodes:0
+intf up in online: 0
