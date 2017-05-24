@@ -1,0 +1,31 @@
+        OSPF Router with ID (192.168.0.4) (Process ID 1 VRF default)
+
+                Router Link States (Area 0.0.0.0)
+
+   LS age: 971
+   Options: 0x2 (No TOS-capability, No DC)
+   LS Type: Router Links
+   Link State ID: 192.168.0.4
+   Advertising Router: 192.168.0.4
+   LS Seq Number: 0x800001c1
+   Checksum: 0x3c69
+   Length: 60
+    Number of links: 3
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 192.168.0.4
+      (Link Data) Network Mask: 255.255.255.255
+       Number of TOS metrics: 0
+         TOS   0 Metric: 1
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 10.0.0.24
+      (Link Data) Network Mask: 255.255.255.252
+       Number of TOS metrics: 0
+         TOS   0 Metric: 40
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 10.0.0.12
+      (Link Data) Network Mask: 255.255.255.252
+       Number of TOS metrics: 0
+         TOS   0 Metric: 40
