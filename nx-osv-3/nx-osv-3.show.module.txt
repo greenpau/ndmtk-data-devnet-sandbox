@@ -1,0 +1,23 @@
+Mod  Ports  Module-Type                         Model              Status
+---  -----  ----------------------------------- ------------------ ----------
+1    0      NX-OSv Supervisor Module            N7K-SUP1           active *
+2    48     NX-OSv Ethernet Module              N7K-F248XP-25      ok
+3    48     NX-OSv Ethernet Module              N7K-F248XP-25      ok
+4    48     NX-OSv Ethernet Module              N7K-F248XP-25      ok
+
+Mod  Sw               Hw      World-Wide-Name(s) (WWN)
+---  ---------------  ------  --------------------------------------------------
+1    7.2(0)ZD(0.120)  0.0     --
+2    NA               0.0     --
+3    NA               0.0     --
+4    NA               0.0     --
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    fa-16-3e-91-df-bc to fa-16-3e-91-e7-bb  TM3E91DFBCB
+2    02-00-0c-00-02-00 to 02-00-0c-00-02-7f  TM3E91DFBCC
+3    02-00-0c-00-03-00 to 02-00-0c-00-03-7f  TM3E91DFBCD
+4    02-00-0c-00-04-00 to 02-00-0c-00-04-7f  TM3E91DFBCE
+
+* this terminal session
