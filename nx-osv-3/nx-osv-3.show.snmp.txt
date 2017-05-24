@@ -17,8 +17,8 @@ sys location:
         0 General errors
         0 Get Responses
         0 Unknown Context name
-391 SNMP packets output
-        391 Trap PDU
+53 SNMP packets output
+        53 Trap PDU
         0 Too big errors (Maximum packet size 0)
         0 No such name errors
         0 Bad values errors
