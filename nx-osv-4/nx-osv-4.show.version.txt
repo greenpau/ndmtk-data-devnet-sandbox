@@ -23,12 +23,12 @@ Software
 Hardware
   cisco NX-OSv Chassis ("NX-OSv Supervisor Module")
   QEMU Virtual CPU version 2.0 with 3064940 kB of memory.
-  Processor Board ID TM3E8B08A3B
+  Processor Board ID TM3E428B81B
 
   Device name: nx-osv-4
   bootflash:    1582402 kB
 
-Kernel uptime is 9 day(s), 8 hour(s), 58 minute(s), 54 second(s)
+Kernel uptime is 0 day(s), 4 hour(s), 3 minute(s), 17 second(s)
 
 
 plugin
