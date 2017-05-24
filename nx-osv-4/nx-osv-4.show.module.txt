@@ -15,9 +15,9 @@ Mod  Sw               Hw      World-Wide-Name(s) (WWN)
 
 Mod  MAC-Address(es)                         Serial-Num
 ---  --------------------------------------  ----------
-1    fa-16-3e-8b-08-a3 to fa-16-3e-8b-10-a2  TM3E8B08A3B
-2    02-00-0c-00-02-00 to 02-00-0c-00-02-7f  TM3E8B08A3C
-3    02-00-0c-00-03-00 to 02-00-0c-00-03-7f  TM3E8B08A3D
-4    02-00-0c-00-04-00 to 02-00-0c-00-04-7f  TM3E8B08A3E
+1    fa-16-3e-42-8b-81 to fa-16-3e-42-93-80  TM3E428B81B
+2    02-00-0c-00-02-00 to 02-00-0c-00-02-7f  TM3E428B81C
+3    02-00-0c-00-03-00 to 02-00-0c-00-03-7f  TM3E428B81D
+4    02-00-0c-00-04-00 to 02-00-0c-00-04-7f  TM3E428B81E
 
 * this terminal session
