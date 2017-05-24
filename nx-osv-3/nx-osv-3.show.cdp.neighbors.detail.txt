@@ -6,7 +6,7 @@ Interface address(es):
     IPv4 Address: 172.16.1.90
 Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
 Interface: mgmt0, Port ID (outgoing port): mgmt0
-Holdtime: 148 sec
+Holdtime: 126 sec
 
 Version:
 Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
@@ -18,33 +18,14 @@ MTU: 1500
 Mgmt address(es):
     IPv4 Address: 172.16.1.90
 ----------------------------------------
-Device ID:nx-osv-2.cisco.com(TB3EA75626B)
-System Name: nx-osv-2
-
-Interface address(es):
-    IPv4 Address: 172.16.1.91
-Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
-Interface: mgmt0, Port ID (outgoing port): mgmt0
-Holdtime: 155 sec
-
-Version:
-Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
-
-Advertisement Version: 2
-Duplex: full
-
-MTU: 1500
-Mgmt address(es):
-    IPv4 Address: 172.16.1.91
-----------------------------------------
-Device ID:nx-osv-4(TB3E8B08A3B)
+Device ID:nx-osv-4(TB3E428B81B)
 System Name: nx-osv-4
 
 Interface address(es):
     IPv4 Address: 172.16.1.93
 Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
 Interface: mgmt0, Port ID (outgoing port): mgmt0
-Holdtime: 142 sec
+Holdtime: 146 sec
 
 Version:
 Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
@@ -56,14 +37,14 @@ MTU: 1500
 Mgmt address(es):
     IPv4 Address: 172.16.1.93
 ----------------------------------------
-Device ID:nx-osv-3.example.com(TB3E91DFBCB)
-System Name: nx-osv-3
+Device ID:nx-osv-2(TB3E56F6F8B)
+System Name: nx-osv-2
 
 Interface address(es):
-    IPv4 Address: 172.16.10.6
+    IPv4 Address: 172.16.1.91
 Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
-Interface: Ethernet2/1, Port ID (outgoing port): Ethernet2/1
-Holdtime: 136 sec
+Interface: mgmt0, Port ID (outgoing port): mgmt0
+Holdtime: 175 sec
 
 Version:
 Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
@@ -71,9 +52,9 @@ Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
 Advertisement Version: 2
 Duplex: full
 
-MTU: 1600
+MTU: 1500
 Mgmt address(es):
-    IPv4 Address: 172.16.1.92
+    IPv4 Address: 172.16.1.91
 ----------------------------------------
 Device ID:nx-osv-1.rahul(TB3EE4392FB)
 System Name: nx-osv-1
@@ -82,7 +63,7 @@ Interface address(es):
     IPv4 Address: 10.0.0.9
 Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
 Interface: Ethernet2/1, Port ID (outgoing port): Ethernet2/2
-Holdtime: 148 sec
+Holdtime: 126 sec
 
 Version:
 Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
@@ -94,33 +75,14 @@ MTU: 1600
 Mgmt address(es):
     IPv4 Address: 172.16.1.90
 ----------------------------------------
-Device ID:nx-osv-3.example.com(TB3E91DFBCB)
-System Name: nx-osv-3
-
-Interface address(es):
-    IPv4 Address: 10.0.0.18
-Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
-Interface: Ethernet2/2, Port ID (outgoing port): Ethernet2/2
-Holdtime: 155 sec
-
-Version:
-Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
-
-Advertisement Version: 2
-Duplex: full
-
-MTU: 1500
-Mgmt address(es):
-    IPv4 Address: 172.16.1.92
-----------------------------------------
-Device ID:nx-osv-2.cisco.com(TB3EA75626B)
+Device ID:nx-osv-2(TB3E56F6F8B)
 System Name: nx-osv-2
 
 Interface address(es):
     IPv4 Address: 10.0.0.17
 Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
 Interface: Ethernet2/2, Port ID (outgoing port): Ethernet2/2
-Holdtime: 155 sec
+Holdtime: 146 sec
 
 Version:
 Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
@@ -132,35 +94,14 @@ MTU: 1500
 Mgmt address(es):
     IPv4 Address: 172.16.1.91
 ----------------------------------------
-Device ID:nx-osv-3.example.com(TB3E91DFBCB)
-System Name: nx-osv-3
-
-Interface address(es):
-    IPv4 Address: 172.16.100.3
-Platform: N7K-C7018, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
-Interface: Ethernet2/3, Port ID (outgoing port): Ethernet2/3
-Holdtime: 157 sec
-
-Version:
-Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
-
-Advertisement Version: 2
-
-Native VLAN: 1
-Duplex: full
-
-MTU: 1500
-Mgmt address(es):
-    IPv4 Address: 172.16.1.92
-----------------------------------------
-Device ID:nx-osv-4(TB3E8B08A3B)
+Device ID:nx-osv-4(TB3E428B81B)
 System Name: nx-osv-4
 
 Interface address(es):
     IPv4 Address: 10.0.0.26
 Platform: N7K-C7018, Capabilities: Router Switch Supports-STP-Dispute
 Interface: Ethernet2/3, Port ID (outgoing port): Ethernet2/2
-Holdtime: 148 sec
+Holdtime: 176 sec
 
 Version:
 Cisco Nexus Operating System (NX-OS) Software, Version 7.2(0)D1(1)
