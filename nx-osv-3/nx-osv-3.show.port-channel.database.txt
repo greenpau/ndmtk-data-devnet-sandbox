@@ -1,7 +1,0 @@
-port-channel2000
-    Last membership update is successful
-    0 ports in total, 0 ports up
-    Age of the port-channel is 175d:12h:52m:57s
-
-Legend:
-   "*": first operational port
