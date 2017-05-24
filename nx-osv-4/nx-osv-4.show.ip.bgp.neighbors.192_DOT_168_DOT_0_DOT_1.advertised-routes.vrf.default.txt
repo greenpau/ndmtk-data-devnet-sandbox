@@ -1,5 +1,5 @@
 Peer 192.168.0.1 routes for address family IPv4 Unicast:
-BGP table version is 3, local router ID is 192.168.0.4
+BGP table version is 13, local router ID is 192.168.0.4
 Status: s-suppressed, x-deleted, S-stale, d-dampened, h-history, *-valid, >-best
 Path type: i-internal, e-external, c-confed, l-local, a-aggregate, r-redist, I-injected
 Origin codes: i - IGP, e - EGP, ? - incomplete, | - multipath, & - backup
