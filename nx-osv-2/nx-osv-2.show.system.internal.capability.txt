@@ -1,0 +1,4187 @@
+-------------------------------------------------------------------------
+Capabilities for Module:1
+-------------------------------------------------------------------------
+1) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+2) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+3) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+4) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+5) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+6) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+7) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+8) Service:zone, Capability:CAP_FEATURE_ZS_READ_ONLY_ZONING
+    Registered by node:0x101     Description:Zone Server - Read-only zoning configured
+    Value: Enabled
+
+9) Service:zone, Capability:CAP_FEATURE_ZS_LUN_ZONING
+    Registered by node:0x101     Description:Zone Server - LUN zoning configured
+    Value: Enabled
+
+10) Service:port, Capability:CAP_FEATURE_PORT_MODE_ST_CFG
+    Registered by node:0x101     Description:Port - Interface configured in ST port mode
+    Value: Enabled
+
+11) Service:fc-tunnel, Capability:CAP_FEATURE_FC_TUNNEL_CFG
+    Registered by node:0x101     Description:fc-tunnel is enabled
+    Value: Enabled
+
+12) Service:port, Capability:CAP_FEATURE_PORT_PERFORMANCE_BUF
+    Registered by node:0x101     Description:Port - Performance buffer config supported
+    Value: Enabled
+
+13) Service:port, Capability:CAP_FEATURE_PORT_RIV2_FEATURES
+    Registered by node:0x101     Description:Port - Features specific to new port ASICs supported by 1.2(x) or later
+    Value: Enabled
+
+14) Service:qos, Capability:CAP_FEATURE_QOS
+    Registered by node:0x101     Description:QoS - policymap-vsan association and/or dwrr queue config present
+    Value: Enabled
+
+15) Service:zone, Capability:CAP_FEATURE_ZS_ADVANCED_ZONING_3
+    Registered by node:0x101     Description:Zone Server - Interface-domain or Ip-address zone/fcalias members configured
+    Value: Enabled
+
+16) Service:vsan, Capability:CAP_FEATURE_PER_VSAN_FCTIMER
+    Registered by node:0x101     Description:VSAN Manager - Per VSAN FC Timers configured
+    Value: Enabled
+
+17) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+18) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+19) Service:ficon, Capability:CAP_FEATURE_FICON
+    Registered by node:0x101     Description:FICON is enabled. Disable FICON on all VSANs for downgrade
+    Value: Enabled
+
+20) Service:ivr, Capability:CAP_FEATURE_IVR_CFG
+    Registered by node:0x101     Description:ivr is enabled
+    Value: Enabled
+
+21) Service:ips, Capability:CAP_FEATURE_IPS_HA_OPT
+    Registered by node:0x101     Description:IPS High Availability Optimization enabled
+    Value: Enabled
+
+22) Service:capability, Capability:CAP_FEATURE_MIGD_MULTI_DB
+    Registered by node:0x101     Description:MIGD is multi-DB capable
+    Value: Enabled
+
+23) Service:fcdomain, Capability:CAP_FEATURE_DOM_MGR_CFG
+    Registered by node:0x101     Description:fcdomain - allowed domain ID feature enabled
+    Value: Enabled
+
+24) Service:ips, Capability:CAP_FEATURE_ISCSI_INTF_VSAN_MEMBER
+    Registered by node:0x101     Description:iSCSI interface vsan membership enabled
+    Value: Enabled
+
+25) Service:vsan, Capability:CAP_FEATURE_VSAN_INTEROP
+    Registered by node:0x101     Description:Interop mode 3 configured for VSAN(s)
+    Value: Enabled
+
+26) Service:ivr, Capability:CAP_FEATURE_IVR_CFG_REWRITE
+    Registered by node:0x101     Description:ivr is enabled
+    Value: Enabled
+
+27) Service:vsan, Capability:CAP_FEATURE_PER_VSAN_IOD
+    Registered by node:0x101     Description:per-VSAN in-order delivery configuration is present
+    Value: Enabled
+
+28) Service:vsan, Capability:CAP_FEATURE_PER_VSAN_NETWORK_LATENCY
+    Registered by node:0x101     Description:per-VSAN network latency configuration is present
+    Value: Enabled
+
+29) Service:port-channel, Capability:CAP_FEATURE_AUTO_CREATED_PORT_CHANNEL
+    Registered by node:0x101     Description:active mode port channels, auto create enabled ports or auto created port-channels are present
+    Value: Enabled
+
+30) Service:port, Capability:CAP_FEATURE_PORT_HA_OPT
+    Registered by node:0x101     Description:Port High Availability Optimization enabled
+    Value: Enabled
+
+31) Service:flogi, Capability:CAP_FEATURE_NPIV
+    Registered by node:0x101     Description:N_Port_ID Virtualization (NPIV) Feature
+    Value: Enabled
+
+32) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+33) Service:port, Capability:CAP_FEATURE_PORT_TRACK
+    Registered by node:0x101     Description:Port track feature is enabled
+    Value: Enabled
+
+34) Service:fspf, Capability:CAP_FEATURE_MCAST_LOWEST_ROOT
+    Registered by node:0x101     Description:Lowest domain root configured for mcast
+    Value: Enabled
+
+35) Service:zone, Capability:CAP_FEATURE_ZS_ENHANCED_ZONING_ENABLED
+    Registered by node:0x101     Description:Zone Server - Enhanced zoning enabled
+    Value: Enabled
+
+36) Service:zone, Capability:CAP_FEATURE_ZS_QOS
+    Registered by node:0x101     Description:Zone Server - qos attribute configured
+    Value: Enabled
+
+37) Service:port, Capability:CAP_FEATURE_EC_BB_CREDIT
+    Registered by node:0x101     Description:extended rx b2b credit
+    Value: Enabled
+
+38) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+39) Service:dpvm, Capability:CAP_FEATURE_DPVM_CONFIGURED
+    Registered by node:0x101     Description:Dynamic Port Vsan Membership configured
+    Value: Enabled
+
+40) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_VSAN
+    Registered by node:0x101     Description:CFS - Distribution is enabled for FCTIMER
+    Value: Enabled
+
+41) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_SYSLOGD
+    Registered by node:0x101     Description:CFS - Distribution is enabled for SYSLOGD
+    Value: Enabled
+
+42) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_ROLE
+    Registered by node:0x101     Description:CFS - Distribution is enabled for ROLE
+    Value: Enabled
+
+43) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_CALLHOME
+    Registered by node:0x101     Description:CFS - Distribution is enabled for CALLHOME
+    Value: Enabled
+
+44) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_PORT_SECURITY
+    Registered by node:0x101     Description:CFS - Distribution is enabled for PORT-SECURITY
+    Value: Enabled
+
+45) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_NTP
+    Registered by node:0x101     Description:CFS - Distribution is enabled for NTP
+    Value: Enabled
+
+46) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_IVR
+    Registered by node:0x101     Description:CFS - Distribution is enabled for IVR
+    Value: Enabled
+
+47) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_TACACS
+    Registered by node:0x101     Description:CFS - Distribution is enabled for TACACS
+    Value: Enabled
+
+48) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_RADIUS
+    Registered by node:0x101     Description:CFS - Distribution is enabled for RADIUS
+    Value: Enabled
+
+49) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_ISNS
+    Registered by node:0x101     Description:CFS - Distribution is enabled for ISNS
+    Value: Enabled
+
+50) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_SFM
+    Registered by node:0x101     Description:CFS - Distribution is enabled for SFM
+    Value: Enabled
+
+51) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_DPVM
+    Registered by node:0x101     Description:CFS - Distribution is enabled for DPVM
+    Value: Enabled
+
+52) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_DEVICE_ALIAS
+    Registered by node:0x101     Description:CFS - Distribution is enabled for DEVICE-ALIAS
+    Value: Enabled
+
+53) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_FSCM
+    Registered by node:0x101     Description:CFS - Distribution is enabled for FSCM
+    Value: Enabled
+
+54) Service:ivr, Capability:CAP_FEATURE_IVR_FCID_NAT_ENABLED
+    Registered by node:0x101     Description:ivr fcid-nat mode is enabled
+    Value: Enabled
+
+55) Service:ivr, Capability:CAP_FEATURE_IVR_AUTO_VSAN_TOPOLOGY_ENABLED
+    Registered by node:0x101     Description:ivr auto vsan-topology mode is enabled
+    Value: Enabled
+
+56) Service:cfs, Capability:CAP_FEATURE_CFS_DISABLED
+    Registered by node:0x101     Description:CFS - Fabric wide distribution is disabled
+    Value: Enabled
+
+57) Service:ivr, Capability:CAP_FEATURE_IVR_LUN_ZONING
+    Registered by node:0x101     Description:IVR - LUN zoning configured
+    Value: Enabled
+
+58) Service:ivr, Capability:CAP_FEATURE_IVR_ZONE_BASED_QOS
+    Registered by node:0x101     Description:IVR - Zone based QoS configured
+    Value: Enabled
+
+59) Service:ivr, Capability:CAP_FEATURE_IVR_NON_DEFAULT_AFID_MEMBER
+    Registered by node:0x101     Description:IVR - Non-default afid configured for IVR zone member
+    Value: Enabled
+
+60) Service:ivr, Capability:CAP_FEATURE_IVR_PFCID_TABLE
+    Registered by node:0x101     Description:IVR - Persistent FCID table configured
+    Value: Enabled
+
+61) Service:ips, Capability:CAP_FEATURE_ISCSI_DISABLED
+    Registered by node:0x101     Description:iSCSI is disabled (iSCSI needs to be enabled if IPS modules are present)
+    Value: Enabled
+
+62) Service:ethport, Capability:CAP_FEATURE_ETH_PORT_PSS_SYNC_BASED_HA
+    Registered by node:0x101     Description:PSS based Syncing for HA in ethport
+    Value: Enabled
+
+63) Service:port-channel, Capability:CAP_FEATURE_ISOLA_MODE_PORT_CHANNEL
+    Registered by node:0x101     Description:port-channel interface<port-channel number> greater than 128 is present
+    Value: Enabled
+
+64) Service:zone, Capability:CAP_FEATURE_ZS_IPV6_ADDRESS_MEMBER
+    Registered by node:0x101     Description:Zone Server - IPv6-address zone/fcalias members configured
+    Value: Enabled
+
+65) Service:xbar, Capability:CAP_FEATURE_XBM_SUP2_SUPPORT
+    Registered by node:0x101     Description:Xbar manager - Isola linecard support
+    Value: Enabled
+
+66) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_RSCN
+    Registered by node:0x101     Description:CFS - Distribution is enabled for RSCN
+    Value: Enabled
+
+67) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_DOMAIN_MANAGER
+    Registered by node:0x101     Description:CFS - Distribution is enabled for DOMAIN MANAGER
+    Value: Enabled
+
+68) Service:fc-port-security, Capability:CAP_FEATURE_PSM_FB0_CFG
+    Registered by node:0x101     Description:Fabric Binding - Domain id not configured
+    Value: Enabled
+
+69) Service:zone, Capability:CAP_FEATURE_ZS_HUGE_ZONES_ENABLED
+    Registered by node:0x101     Description:Zone Server - More than 2000 zones maybe configured
+    Value: Enabled
+
+70) Service:vsan, Capability:CAP_FEATURE_VSAN_INTEROP4
+    Registered by node:0x101     Description:Interop mode 4 configured for VSAN(s)
+    Value: Enabled
+
+71) Service:ips, Capability:CAP_FEATURE_IPS_ISLB_CONFIGURED
+    Registered by node:0x101     Description:iSLB initiator and/or vrrp load balancing configured
+    Value: Enabled
+
+72) Service:ficon, Capability:CAP_FEATURE_FICON_PN_CHANGED
+    Registered by node:0x101     Description:FICON default port numbers are changed. Restore default FICON port numbers for downgrade
+    Value: Enabled
+
+73) Service:ike, Capability:CAP_FEATURE_IKE_CERT_CONFIGURED
+    Registered by node:0x101     Description:An ike policy has been configured to use X509 certificates for authentication. Configure all the ike policies to use pre-shared key for authentication
+    Value: Enabled
+
+74) Service:ivr, Capability:CAP_FEATURE_IVR_SERVICE_GROUP_CONFIGURED
+    Registered by node:0x101     Description:IVR service group is configured
+    Value: Enabled
+
+75) Service:ike, Capability:CAP_FEATURE_IKE_FQDN_CONFIGURED
+    Registered by node:0x101     Description:The switch DNS name has been configured as the ISAKMP identity. Configure address as the identity
+    Value: Enabled
+
+76) Service:cfs, Capability:CAP_FEATURE_CFS_ENABLED_ISLB
+    Registered by node:0x101     Description:CFS - Distribution is enabled for ISLB
+    Value: Enabled
+
+77) Service:cfs, Capability:CAP_FEATURE_CFS_IP_ENABLED
+    Registered by node:0x101     Description:CFS - Distribution over IPv4/IPv6 is enabled
+    Value: Enabled
+
+78) Service:cert_enroll, Capability:CAP_FEATURE_CERT_EN_CONFIGURED
+    Registered by node:0x101     Description:Trustpoints, key-pairs or certificates configured
+    Value: Enabled
+
+79) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+80) Service:vshd, Capability:CAP_FEATURE_VSHD_CLI_VARIABLE
+    Registered by node:0x101     Description:Persistent CLI variables configured
+    Value: Enabled
+
+81) Service:vshd, Capability:CAP_FEATURE_VSHD_CLI_ALIAS
+    Registered by node:0x101     Description:CLI aliases configured
+    Value: Enabled
+
+82) Service:ipconf, Capability:CAP_FEATURE_IPCONF_IPV6_ADDRESSES_ENABLED
+    Registered by node:0x101     Description:IPv6 addresses configured on some interfaces.
+    Value: Enabled
+
+83) Service:ipfc, Capability:CAP_FEATURE_IPFC_IPV6_ADDRESSES_ENABLED
+    Registered by node:0x101     Description:IPv6 addresses configured on some secondary interfaces.
+    Value: Enabled
+
+84) Service:radius, Capability:CAP_FEATURE_RADIUS_IPV6_ADDRESSES_ENABLED
+    Registered by node:0x101     Description:IPv6 addresses has been configured for RADIUS server.
+    Value: Enabled
+
+85) Service:tacacs, Capability:CAP_FEATURE_TACACS_IPV6_ADDRESSES_ENABLED
+    Registered by node:0x101     Description:IPv6 addresses has been configured for TACACS+ server.
+    Value: Enabled
+
+86) Service:ipsec, Capability:CAP_FEATURE_IPSEC_ADVANCED_ACL_ENABLED
+    Registered by node:0x101     Description:Advanced ACL used for IPSec with protocol/port number info.
+    Value: Enabled
+
+87) Service:ivr, Capability:CAP_FEATURE_IVR_READ_ONLY_ZONE
+    Registered by node:0x101     Description:IVR read-only zone is configured
+    Value: Enabled
+
+88) Service:ipacl, Capability:CAP_FEATURE_IPACL_IPV6_ACCESS_LISTS_ENABLED
+    Registered by node:0x101     Description:IPv6 access list configuration exists.
+    Value: Enabled
+
+89) Service:port, Capability:CAP_FEATURE_PM_MGMT_AUTO_CONFIGURED
+    Registered by node:0x101     Description:Port - Either speed or duplex with auto option configured on management interface
+    Value: Enabled
+
+90) Service:fcdomain, Capability:CAP_FEATURE_DOM_MGR_TURBO_CFG
+    Registered by node:0x101     Description:fcdomain - optimized restart feature enabled
+    Value: Enabled
+
+91) Service:ivr, Capability:CAP_FEATURE_IVR_MAX_2K_ZONE_LIMIT
+    Registered by node:0x101     Description:IVR has more than 2K zones present in either active zoneset or configured database.
+    Value: Enabled
+
+92) Service:ivr, Capability:CAP_FEATURE_IVR_MAX_10K_MEMBER_LIMIT
+    Registered by node:0x101     Description:IVR has more than 10K members present in either active zoneset or configured database.
+    Value: Enabled
+
+93) Service:prefpath, Capability:CAP_FEATURE_PREFPATH
+    Registered by node:0x101     Description:Preferred Path - active fcroute-map configuration present
+    Value: Enabled
+
+94) Service:acl, Capability:CAP_FEATURE_ACL_ADJ_SHARING
+    Registered by node:0x101     Description:ACL - Adjacency sharing is enabled
+    Value: Enabled
+
+95) Service:ivr, Capability:CAP_FEATURE_HW_ENTRIES_SHARING
+    Registered by node:0x101     Description:IVR - Hardware sharing is enabled
+    Value: Enabled
+
+96) Service:zone, Capability:CAP_FEATURE_ZS_DDAS_ZONING_ENABLED
+    Registered by node:0x101     Description:Zone server - Device alias members are configured
+    Value: Enabled
+
+97) Service:ivr, Capability:CAP_FEATURE_IVR_DEVICE_ALIAS_ZONING
+    Registered by node:0x101     Description:IVR - Device-alias based zoning configured
+    Value: Enabled
+
+98) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+99) Service:device-alias, Capability:CAP_FEATURE_DDAS_MAX_8K_DEVICE_ALIAS_LIMIT
+    Registered by node:0x101     Description:Device-alias database has more than 8K device-aliases present.
+    Value: Enabled
+
+100) Service:device-alias, Capability:CAP_FEATURE_DDAS_ENHANCED_MODE
+    Registered by node:0x101     Description:Device-alias enhanced mode is turned on.
+    Value: Enabled
+
+101) Service:port, Capability:CAP_FEATURE_RATEMODE_OSM_UNLIMITED_CFG
+    Registered by node:0x101     Description:rate-mode oversubscription limit restrictions are disabled
+    Value: Enabled
+
+102) Service:sdv, Capability:CAP_FEATURE_SDM_VDEV
+    Registered by node:0x101     Description:SDV - Virtual devices present
+    Value: Enabled
+
+103) Service:port, Capability:CAP_FEATURE_RATEMODE_BW_FAIRNESS_CFG
+    Registered by node:0x101     Description:rate-mode bandwidth fairness is enabled
+    Value: Enabled
+
+104) Service:port, Capability:CAP_FEATURE_SYSDEF_PORT_MODE_CFG
+    Registered by node:0x101     Description:system default switchport mode F is enabled
+    Value: Enabled
+
+105) Service:sdv, Capability:CAP_FEATURE_SDM_LUN_ZONING
+    Registered by node:0x101     Description:SDV - LUN Zoning is used for SDV Virtual Devices.
+    Value: Enabled
+
+106) Service:sdv, Capability:CAP_FEATURE_SDM_VIRTUAL_INITIATOR
+    Registered by node:0x101     Description:SDV - Virtual Initiators Present.
+    Value: Enabled
+
+107) Service:ips, Capability:CAP_FEATURE_ISCSI_DISABLED_MODULE
+    Registered by node:0x101     Description:iSCSI is disabled on some modules (iSCSI needs to be enabled for all IPS modules that are present)
+    Value: Enabled
+
+108) Service:npv, Capability:CAP_FEATURE_NPV_ENABLED
+    Registered by node:0x101     Description:NPV is enabled. Please disable NPV
+    Value: Enabled
+
+109) Service:fc-redirect, Capability:CAP_FEATURE_FC_REDIRECT_ENABLED
+    Registered by node:0x101     Description:Active FC-Redirect configurations present on this switch
+    Value: Enabled
+
+110) Service:cfs, Capability:CAP_FEATURE_CFS_REGION_ENABLED
+    Registered by node:0x101     Description:CFS - Regions are existing. Remove all regions
+    Value: Enabled
+
+111) Service:ilc_helper, Capability:CAP_FEATURE_DMM_ENABLED
+    Registered by node:0x101     Description:DMM feature is enabled, Remove all DMM related config
+    Value: Enabled
+
+112) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+113) Service:cluster, Capability:CAP_FEATURE_CLUSTER_ENABLED
+    Registered by node:0x101     Description:SME and/or Cluster enabled
+    Value: Enabled
+
+114) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+115) Service:zone, Capability:CAP_FEATURE_ZS_OWNER_SNMP_USER
+    Registered by node:0x101     Description:Zone Server - user has acquired lock
+    Value: Enabled
+
+116) Service:fcdomain, Capability:CAP_FEATURE_DOM_MGR_SELECTIVE_BF_RCF_CFG
+    Registered by node:0x101     Description:fcdomain - optimized selective restart feature enabled
+    Value: Enabled
+
+117) Service:npv, Capability:CAP_FEATURE_FLEX_ATTACH_CONFIG
+    Registered by node:0x101     Description:Flex Attach configuration exists.
+    Value: Enabled
+
+118) Service:npv, Capability:CAP_FEATURE_NPV_AUTO_LOAD_BALANCE_DISRUPTIVE
+    Registered by node:0x101     Description:NPV disruptive load balance is turned on.
+    Value: Enabled
+
+119) Service:npv, Capability:CAP_FEATURE_NPV_TRAFFIC_MAP_CONFIG
+    Registered by node:0x101     Description:NPV Traffic Map configuration exists.
+    Value: Enabled
+
+120) Service:fc-redirect, Capability:CAP_FEATURE_FC_REDIRECT_ENABLED_ACL_V2
+    Registered by node:0x101     Description:Active FC-Redirect configurations present on this switch
+    Value: Enabled
+
+121) Service:fc-redirect, Capability:CAP_FEATURE_FC_REDIRECT_ENABLED_CFG_V2
+    Registered by node:0x101     Description:FC-Redirect Version 2 mode configured.
+    Value: Enabled
+
+122) Service:vpd, Capability:CAP_FEATURE_VPD_BCHT
+    Registered by node:0x101     Description:IBM BC-HT chassis detected.
+    Value: Enabled
+
+123) Service:vpd, Capability:CAP_FEATURE_VPD_BCS
+    Registered by node:0x101     Description:IBM BC-S chassis detected.
+    Value: Enabled
+
+124) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+125) Service:ilc_helper, Capability:CAP_FEATURE_SE_ENABLED
+    Registered by node:0x101     Description:Secure Erase feature is enabled, Remove all Secure Erase related config before downgrading
+    Value: Enabled
+
+126) Service:ivr, Capability:CAP_FEATURE_IVR_CFS_RDI_MODE
+    Registered by node:0x101     Description:IVR - CFS RDI mode configured
+    Value: Enabled
+
+127) Service:cfs, Capability:CAP_FEATURE_CFS_IP_ENABLED_IN_NPV
+    Registered by node:0x101     Description:CFS - Distribution enabled in NPV mode
+    Value: Enabled
+
+128) Service:cfs, Capability:CAP_FEATURE_CFS_APP_DISTRIBUTION_ENABLED_IN_NPV
+    Registered by node:0x101     Description:CFS - Atleast one application distribution is enabled in NPV mode
+    Value: Enabled
+
+129) Service:cfs, Capability:CAP_FEATURE_CFS_APP_STATIC_IP_ENABLED
+    Registered by node:0x101     Description:CFS - Static peers configured
+    Value: Enabled
+
+130) Service:snmpd, Capability:CAP_FEATURE_SNMP_PORT_MON
+    Registered by node:0x101     Description:SNMP - Port Monitor configuration present
+    Value: Enabled
+
+131) Service:ilc_helper, Capability:CAP_FEATURE_SANTAPCOCO_ENABLED
+    Registered by node:0x101     Description:Santap - feature is not supported on MSM/9222i in the downgraded release
+    Value: Enabled
+
+132) Service:port, Capability:CAP_FEATURE_EVFP_HOST
+    Registered by node:0x101     Description:Trunking F_Port or F_Port-channel is enabled
+    Value: Enabled
+
+133) Service:snmpd, Capability:CAP_FEATURE_SNMP_PROTOCOL_DISABLE
+    Registered by node:0x101     Description:SNMP - Protocol is disabled
+    Value: Enabled
+
+134) Service:eth_port_channel, Capability:CAP_FEATURE_768_MODE_ETH_PORT_CHANNEL
+    Registered by node:0x101     Description:port-channel interface count greater than 192 present
+    Value: Enabled
+
+135) Service:sdv, Capability:CAP_FEATURE_SDM_AUTO_FAILOVER
+    Registered by node:0x101     Description:SDV - Virtual Devices with failover attributes set.
+    Value: Enabled
+
+136) Service:tunnel, Capability:CAP_FEATURE_TM_CONFIGURED
+    Registered by node:0x101     Description:Tunnel feature is enabled.
+    Value: Enabled
+
+137) Service:port-channel, Capability:CAP_FEATURE_AUTO_CREATED_41_PORT_CHANNEL
+    Registered by node:0x101     Description:auto create enabled ports or auto created port-channels are present
+    Value: Enabled
+
+138) Service:aclmgr, Capability:CAP_FEATURE_ACLMGR_BANK_CHAINING
+    Registered by node:0x101     Description:access-list bank chaining is enabled.
+    Value: Enabled
+
+139) Service:cfs, Capability:CAP_FEATURE_CFS_ETH_ENABLED
+    Registered by node:0x101     Description:CFS - Distribution over Ethernet is enabled
+    Value: Enabled
+
+140) Service:copp, Capability:CAP_FEATURE_COPP_RESOURCE_POOLING
+    Registered by node:0x101     Description:hardware access-list resource pooling is enabled.
+    Value: Enabled
+
+141) Service:acl, Capability:CAP_FEATURE_ACL_UPDATE_NX_PORT_ENTRIES
+    Registered by node:0x101     Description:ACL Manager - Enable Nx_Port update in ACL Manager
+    Value: Enabled
+
+142) Service:wwn, Capability:CAP_FEATURE_WWNM_SUPPORT_SIF_WWN
+    Registered by node:0x101     Description:WWN Manager - Server Interface WWN allocation support
+    Value: Disabled
+
+143) Service:fcfib, Capability:CAP_FEATURE_FCFIB_SERVER_ON_SUP
+    Registered by node:0x101     Description:FC-FIB: - Supervisor based FC FIB Server support
+    Value: Disabled
+
+144) Service:nqosm, Capability:CAP_FEATURE_NQOS_MATCH_ON_COS0
+    Registered by node:0x101     Description:cos 0 based qos matching is enabled
+    Value: Enabled
+
+145) Service:port, Capability:CAP_FEATURE_FPORT_TRUNKING_NPV_ENABLED
+    Registered by node:0x101     Description:Trunking F_Port or F_Port-channel is enabled
+    Value: Enabled
+
+146) Service:tunnel, Capability:CAP_FEATURE_TUNNEL_USE_VRF_CONFIGURED_DEPRECATED
+    Registered by node:0x101     Description:Atleast one tunnel interface is configured with 'tunnel use-vrf <vrf-name>'
+
+    Value: Enabled
+
+147) Service:tunnel, Capability:CAP_FEATURE_TUNNEL_CONFIGURED_IN_VDC_DEPRECATED
+    Registered by node:0x101     Description:Tunnel feature is enabled in non default vdc
+    Value: Enabled
+
+148) Service:cluster, Capability:CAP_FEATURE_CLUSTER_SSL
+    Registered by node:0x101     Description:Cluster SSL support is enabled
+    Value: Enabled
+
+149) Service:cluster, Capability:CAP_FEATURE_CLUSTER_SSL_PUBLIC_KEY
+    Registered by node:0x101     Description:Cluster SSL public key support is enabled
+    Value: Enabled
+
+150) Service:cluster, Capability:CAP_FEATURE_CLUSTER_SSL_PSK
+    Registered by node:0x101     Description:Cluster SSL pre-shared-key support is enabled
+    Value: Enabled
+
+151) Service:cluster, Capability:CAP_FEATURE_CLUSTER_SSL_TRUSTPOINT
+    Registered by node:0x101     Description:Cluster SSL trustpoint support is enabled
+    Value: Enabled
+
+152) Service:cluster, Capability:CAP_FEATURE_CLUSTER_BATCH
+    Registered by node:0x101     Description:Cluster Batching support is enabled
+    Value: Enabled
+
+153) Service:vpc, Capability:CAP_FEATURE_VPC_ENABLED
+    Registered by node:0x101     Description:vPC feature is enabled
+    Value: Enabled
+
+154) Service:copp, Capability:CAP_FEATURE_COPP_EGRESS_EXCEPTION
+    Registered by node:0x101     Description:match on egress exception is enabled.
+    Value: Enabled
+
+155) Service:nqosm, Capability:CAP_FEATURE_NQOS_SYS_POLICY_BW_PRI_ENABLED
+    Registered by node:0x101     Description:bandwidth/priority in system policy is enabled
+    Value: Enabled
+
+156) Service:fex, Capability:CAP_FEATURE_FEX_CONFIGURED
+    Registered by node:0x101     Description:Fabric Extender configuration exists
+    Value: Enabled
+
+157) Service:ethpm, Capability:CAP_FEATURE_FEX_MODE_CONFIGURED
+    Registered by node:0x101     Description:Switch Port(s) configured in fex-fabric mode
+    Value: Enabled
+
+158) Service:nqosm, Capability:CAP_FEATURE_UNTAGGED_COS_CONFIGURED
+    Registered by node:0x101     Description:untagged cos configuration exists
+    Value: Enabled
+
+159) Service:copp, Capability:CAP_FEATURE_COPP_DISTRIBUTED_POLICING
+    Registered by node:0x101     Description:Distributed policing for copp is enabled.
+    Value: Enabled
+
+160) Service:eth_port_channel, Capability:CAP_FEATURE_16_MODE_ETH_PORT_CHANNEL
+    Registered by node:0x101     Description:eth-port-channel interface count greater than 12 present
+    Value: Enabled
+
+161) Service:ethpm, Capability:CAP_FEATURE_PM_VLAN_DOT1Q_TAG_NATIVE
+    Registered by node:0x101     Description:Vlan dot1q tag configuration exists
+    Value: Enabled
+
+162) Service:port, Capability:CAP_FEATURE_XCVR_FREQUENCY_CFG
+    Registered by node:0x101     Description:Transceiver frequency is configured as x2-eth for a module(s)
+    Value: Enabled
+
+163) Service:aclmgr, Capability:CAP_FEATURE_ACLMGR_MAC_PACKET_CLASSIFY
+    Registered by node:0x101     Description:mac packet-classify policy is applied.
+    Value: Enabled
+
+164) Service:flogi, Capability:CAP_FEATURE_NOACL_FCREDIRECT_FLOGI
+    Registered by node:0x101     Description:lightweight fc-redirect virtual nodes are logged in to this switch
+    Value: Enabled
+
+165) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_ACL_CLASSIFICATION
+    Registered by node:0x101     Description:QoS Manager - support for ACL-based classification
+    Value: Enabled
+
+166) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_NQ_PFC_COS
+    Registered by node:0x101     Description:QoS Manager - support for pfc-cos
+    Value: Enabled
+
+167) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_NQ_SET_COS
+    Registered by node:0x101     Description:QoS Manager - support for 'set cos' under network-qos
+    Value: Enabled
+
+168) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_NQ_MC_OPTIMIZE
+    Registered by node:0x101     Description:QoS Manager - multicast-optimize support
+    Value: Enabled
+
+169) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_NQ_QUEUE_LIMIT
+    Registered by node:0x101     Description:QoS Manager - support for queue-limit under type network-qos
+    Value: Enabled
+
+170) Service:ethpm, Capability:CAP_FEATURE_ETHPM_SHUT_LAN
+    Registered by node:0x101     Description:"shutdown lan" is configure on some interfaces.
+    Value: Enabled
+
+171) Service:ethpm, Capability:CAP_FEATURE_ETHPM_ERR_DIS_REC_PAUSE_ENABLED
+    Registered by node:0x101     Description:ETHPM - errdisable recovery pause-rate-limit is enabled
+    Value: Enabled
+
+172) Service:interface-vlan, Capability:CAP_FEATURE_SVI_MAC_ADDR
+    Registered by node:0x101     Description:Mac Address is configured under the interface-vlan
+    Value: Enabled
+
+173) Service:ivr, Capability:CAP_FEATURE_IVR_AAM_ENABLED
+    Registered by node:0x101     Description:ivr aam is registered
+    Value: Enabled
+
+174) Service:port, Capability:CAP_FEATURE_TRUNKING_HBA_ENABLED
+    Registered by node:0x101     Description:F_Port is trunking with HBA
+    Value: Enabled
+
+175) Service:ethpm, Capability:CAP_FEATURE_ETHPM_MAC_ADDR
+    Registered by node:0x101     Description:"mac-address" is configured on some interfaces
+    Value: Enabled
+
+176) Service:ethpm, Capability:CAP_FEATURE_PVLAN_TRUNK
+    Registered by node:0x101     Description:port mode "private-vlan trunk" is configured on some interfaces
+    Value: Enabled
+
+177) Service:copp, Capability:CAP_FEATURE_COPP_MCAST_EXCEPTION
+    Registered by node:0x101     Description:match on multicast exception is enabled.
+    Value: Enabled
+
+178) Service:wccp, Capability:CAP_FEATURE_WCCP
+    Registered by node:0x101     Description:WCCP feature is enabled
+    Value: Enabled
+
+179) Service:vpc, Capability:CAP_FEATURE_VPC_TRACK
+    Registered by node:0x101     Description:vPC "track" is configured under "vpc domain"
+    Value: Enabled
+
+180) Service:lst, Capability:CAP_FEATURE_LST_ENABLED
+    Registered by node:0x101     Description:Link State Tracking is enabled.
+    Value: Enabled
+
+181) Service:fcoe_mgr, Capability:CAP_FEATURE_FCOE_MGR_FCMAP
+    Registered by node:0x101     Description:FCOE Mgr - fcoe fcmap is enabled
+    Value: Enabled
+
+182) Service:fcoe_mgr, Capability:CAP_FEATURE_FCOE_MGR_FKA_ADV
+    Registered by node:0x101     Description:FCOE Mgr - fcoe fka-adv-period is enabled
+    Value: Enabled
+
+183) Service:fcoe_mgr, Capability:CAP_FEATURE_FCOE_MGR_FCF_PRIORITY
+    Registered by node:0x101     Description:FCOE Mgr - fcoe fcf-priority is enabled
+    Value: Enabled
+
+184) Service:fcoe_mgr, Capability:CAP_FEATURE_FCOE_MGR_VFC_BIND_MAC
+    Registered by node:0x101     Description:FCOE Mgr - bind mac-address is enabled for one or more interfaces
+    Value: Enabled
+
+185) Service:fcoe_mgr, Capability:CAP_FEATURE_FCOE_MGR_VFC_FCF_PRIORITY
+    Registered by node:0x101     Description:FCOE Mgr - fcoe fcf-priority is enabled for one or more interfaces
+    Value: Enabled
+
+186) Service:ips, Capability:CAP_FEATURE_IPS_FCIPSSN_CONFIGURED
+    Registered by node:0x101     Description:FCIP/SSN-16 feature enabled
+    Value: Enabled
+
+187) Service:sme, Capability:CAP_FEATURE_SME_SSN_CONFIGURED
+    Registered by node:0x101     Description:SME/SSN-16 feature enabled
+    Value: Enabled
+
+188) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_OVERLAPPING_COS
+    Registered by node:0x101     Description:QoS Manager - support for overlapping match cos values
+    Value: Enabled
+
+189) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_BOTH_IPMULTI_ALLFLOOD
+    Registered by node:0x101     Description:QoS Manager - support for allowing class-ip-multicast and class-all-flood in the same policy-map
+    Value: Enabled
+
+190) Service:snmpd, Capability:CAP_FEATURE_SNMP_PORT_GRP_MON
+    Registered by node:0x101     Description:SNMP - Port Group Monitor configuration present
+    Value: Enabled
+
+191) Service:eth_port_channel, Capability:CAP_FEATURE_PORT_CHANNEL_FEX_HIF
+    Registered by node:0x101     Description:eth-port-channel interface on a FEX HIF port
+    Value: Enabled
+
+192) Service:port-profile, Capability:CAP_FEATURE_PPM_CONFIG_PRESENT
+    Registered by node:0x101     Description:Port-profile configurations present.
+    Value: Enabled
+
+193) Service:ipacl, Capability:CAP_FEATURE_NPV_IPACL_SUPPORT
+    Registered by node:0x101     Description:IPACLs are attached to interfaces.
+    Value: Enabled
+
+194) Service:ilc_helper, Capability:CAP_FEATURE_SANTAP_PREVENT_DOWNGRADE_FROM_421i
+    Registered by node:0x101     Description:ILC Helper - Prevent SUP image downgrade once SANTap is enabled on an ILC running 4.2.1i
+    Value: Enabled
+
+195) Service:ioa, Capability:CAP_FEATURE_IOA_ENABLED
+    Registered by node:0x101     Description:IOA enabled
+    Value: Enabled
+
+196) Service:fcoe_mgr, Capability:CAP_FEATURE_FCOE_MGR_VFC_BIND_PORT_CHANNEL
+    Registered by node:0x101     Description:FCOE Mgr - bind interface port-channel is enabled for one or more interfaces
+    Value: Enabled
+
+197) Service:vpc, Capability:CAP_FEATURE_VPC_SVI_TERMINATE
+    Registered by node:0x101     Description:vPC "peer-gateway" is configured under "vpc domain"
+    Value: Enabled
+
+198) Service:fcsp-mgr, Capability:CAP_FEATURE_FCSP_ESP
+    Registered by node:0x101     Description:FCSP Manager - ESP configured
+    Value: Enabled
+
+199) Service:tunnel, Capability:CAP_FEATURE_TUNNEL_USE_VRF_CONFIGURED
+    Registered by node:0x101     Description:Atleast one tunnel interface is configured with 'tunnel use-vrf <vrf-name>'
+
+    Value: Enabled
+
+200) Service:tunnel, Capability:CAP_FEATURE_TUNNEL_CONFIGURED_IN_VDC
+    Registered by node:0x101     Description:Tunnel feature is enabled in non default vdc
+    Value: Enabled
+
+201) Service:snmpd, Capability:CAP_FEATURE_SNMP_COM_ACL
+    Registered by node:0x101     Description:SNMP - community ACL configuration present
+    Value: Enabled
+
+202) Service:fex, Capability:CAP_FEATURE_FEX_CONFIGURED_GEM_PORT
+    Registered by node:0x101     Description:Fabric Extender configuration exists on gem port
+    Value: Enabled
+
+203) Service:ethpm, Capability:CAP_FEATURE_FEX_MODE_CONFIGURED_GEM_PORT
+    Registered by node:0x101     Description:Switch Port(s) configured in fex-fabric mode on gem port
+    Value: Enabled
+
+204) Service:bfd, Capability:CAP_FEATURE_BFD_CONFIG
+    Registered by node:0x101     Description:Feature bfd is enabled.
+    Value: Enabled
+
+205) Service:fc-redirect, Capability:CAP_FEATURE_FC_REDIRECT_IVR_SUPPORT_ENABLED
+    Registered by node:0x101     Description:FC-Redirect IVR Support is Enabled
+    Value: Enabled
+
+206) Service:ivr, Capability:CAP_FEATURE_IVR_AAM_REGISTERED
+    Registered by node:0x101     Description:ivr aam is registered
+    Value: Enabled
+
+207) Service:vpc, Capability:CAP_FEATURE_VPC_SVI_EXCLUDE
+    Registered by node:0x101     Description:vPC "dual-active exclude interface-vlan" is configured under "vpc domain"
+    Value: Enabled
+
+208) Service:vpc, Capability:CAP_FEATURE_VPC_RELOAD_TIMER
+    Registered by node:0x101     Description:vPC "delay reload" is configured under "vpc domain"
+    Value: Enabled
+
+209) Service:ascii-cfg, Capability:CAP_FEATURE_ASCII_CFG_SYSTEM_CHECKPOINT
+    Registered by node:0x101     Description:System checkpoints were created
+    Value: Enabled
+
+210) Service:cdp, Capability:CAP_FEATURE_CDP
+    Registered by node:0x101     Description:cdp device_id format is not set to default as sysname
+    Value: Enabled
+
+211) Service:ntp, Capability:CAP_FEATURE_NTP_CFS_DIST
+    Registered by node:0x101     Description:NTP distribution is enabled.
+    Value: Enabled
+
+212) Service:snmpd, Capability:CAP_FEATURE_SNMP_CENTRAL_TRAP_INFRA
+    Registered by node:0x101     Description:SNMP - New Central Infra trap configuration present
+    Value: Enabled
+
+213) Service:eth_port_sec, Capability:CAP_FEATURE_PSEC_PORT_CHANNEL_CONFIGURED
+    Registered by node:0x101     Description:Port-security configured on port-channels
+    Value: Enabled
+
+214) Service:private-vlan, Capability:CAP_FEATURE_PVLAN_ISO_TRUNK_ASSOC_CONFIGURED
+    Registered by node:0x101     Description:Associations configured for pvlan isolated trunk
+    Value: Enabled
+
+215) Service:private-vlan, Capability:CAP_FEATURE_PVLAN_PROM_TRUNK_ASSOC_CONFIGURED
+    Registered by node:0x101     Description:Mappings configured for pvlan promiscuous trunk
+    Value: Enabled
+
+216) Service:private-vlan, Capability:CAP_FEATURE_PVLAN_TRUNK_ALLOWED_VLAN_CONFIGURED
+    Registered by node:0x101     Description:Allowed vlans configured for pvlan trunk
+    Value: Enabled
+
+217) Service:private-vlan, Capability:CAP_FEATURE_PVLAN_TRUNK_NATIVE_VLAN_CONFIGURED
+    Registered by node:0x101     Description:Native vlan configured for pvlan trunk
+    Value: Enabled
+
+218) Service:evms, Capability:CAP_FEATURE_EVENT_MONITOR_POLICY_CONFIGURED
+    Registered by node:0x101     Description:Unsupported Event monitoring policies have been configured. Remove all the monitoring policies
+    Value: Enabled
+
+219) Service:wccp, Capability:CAP_FEATURE_WCCP_REDIRECT_BOTH
+    Registered by node:0x101     Description:WCCP - Both types of redirects configured on at least one interface for the same service group
+    Value: Enabled
+
+220) Service:aaa, Capability:CAP_FEATURE_AAA_PER_CMD_AUTHOR
+    Registered by node:0x101     Description:Per command authorization is enabled.
+    Value: Enabled
+
+221) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+222) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+223) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_CONFIG_ACTIVE
+    Registered by node:0x101     Description:F1 LC default policies are active.
+    Value: Enabled
+
+224) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+225) Service:eth_port_channel, Capability:CAP_FEATURE_PORT_CHANNEL_LACP_GRACEFUL_CONVERGENCE_DISABLED
+    Registered by node:0x101     Description:lacp graceful-convergence is disabled on some port-channels.
+    Value: Enabled
+
+226) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_NQ_CMAP_CFG
+    Registered by node:0x101     Description:network-qos class-map configured.
+    Value: Enabled
+
+227) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_NQ_PMAP_CFG
+    Registered by node:0x101     Description:network-qos policy-map configured.
+    Value: Enabled
+
+228) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_QUE_CMAP_CFG
+    Registered by node:0x101     Description:F1 LC queuing class-map configured.
+    Value: Enabled
+
+229) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_QUE_PMAP_CFG
+    Registered by node:0x101     Description:F1 LC queuing policy-map configured.
+    Value: Enabled
+
+230) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_PFC_CFG
+    Registered by node:0x101     Description:Non default priority-flow-control configured.
+    Value: Enabled
+
+231) Service:otm, Capability:CAP_FEATURE_OTM_IPV6_OBJECT_CONFIGURED
+    Registered by node:0x101     Description:IPv6 object(s) configured
+    Value: Enabled
+
+232) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+233) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+234) Service:eth_port_channel, Capability:CAP_FEATURE_PORT_CHANNEL_LACP_SUSPEND_DISABLED
+    Registered by node:0x101     Description:lacp suspend-individual is disabled on some port-channels.
+    Value: Enabled
+
+235) Service:ntp, Capability:CAP_FEATURE_NTP_AUTH_FEATURES
+    Registered by node:0x101     Description:NTP Authentication is enabled, Remove authentication, authentication keys and trusted keys
+    Value: Enabled
+
+236) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+237) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+238) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+239) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+240) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+241) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+242) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+243) Service:zone, Capability:CAP_FEATURE_ZS_RCS_SUPPORT_ENABLED
+    Registered by node:0x101     Description:Zone server - RCS support enabled for interop mode 2 or 3.
+    Value: Enabled
+
+244) Service:zone, Capability:CAP_FEATURE_ZS_INTEROP4_FULLZONEDB_PUBLISHED
+    Registered by node:0x101     Description:Zone Server - Capability to receive full zoneset in interop mode 4 is enabled.
+    Value: Enabled
+
+245) Service:zone, Capability:CAP_FEATURE_ZS_INTEROP4_FULLZONEDB_DISTRIBUTE_ENABLED
+    Registered by node:0x101     Description:Zone Server - Full zoneset distribution is enabled in interop mode 4.
+    Value: Enabled
+
+246) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+247) Service:ifmgr, Capability:CAP_FEATURE_IM_LC_INBAND
+    Registered by node:0x101     Description:"One or more LC Inband interfaces" have been configured
+    Value: Enabled
+
+248) Service:ifmgr, Capability:CAP_FEATURE_IM_FC_INBAND
+    Registered by node:0x101     Description:"One or more FC Inband interfaces" have been configured
+    Value: Enabled
+
+249) Service:ivr, Capability:CAP_FEATURE_IVR_AAM_ACTIVATED
+    Registered by node:0x101     Description:ivr aam is registered
+    Value: Enabled
+
+250) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+251) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+252) Service:ilc_helper, Capability:CAP_FEATURE_SANTAP_PREVENT_DOWNGRADE_FROM_423
+    Registered by node:0x101     Description:ILC Helper - Prevent SUP image downgrade once SANTap is enabled on an ILC running 4.2.3
+    Value: Enabled
+
+253) Service:fc-redirect, Capability:CAP_FEATURE_FC_REDIRECT_FPC_DEV
+    Registered by node:0x101     Description:FC-Redirect cfg exists for Local Devices that use F-port Channel.
+    Value: Enabled
+
+254) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+255) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+256) Service:ethpm, Capability:CAP_FEATURE_ETHPM_DOT1Q_TUNNEL
+    Registered by node:0x101     Description:port mode "dot1q-tunnel" is configured on some interfaces
+    Value: Enabled
+
+257) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+258) Service:hsrp_engine, Capability:CAP_FEATURE_HSRP_IPV6_ENABLED
+    Registered by node:0x101     Description:One or more HSRP IPV6 groups have been configured
+    Value: Enabled
+
+259) Service:ldap, Capability:CAP_FEATURE_LDAPD
+    Registered by node:0x101     Description:feature ldap is enabled
+    Value: Enabled
+
+260) Service:l2pt, Capability:CAP_FEATURE_L2PT_COS
+    Registered by node:0x101     Description:Layer 2 protocol tunneling CoS value set
+    Value: Enabled
+
+261) Service:evms, Capability:CAP_FEATURE_EVENT_CORRELATED_POLICY_CONFIGURED
+    Registered by node:0x101     Description:Unsupported Multiple Event/Correlation has been configured. Remove all the correlated policies
+    Value: Enabled
+
+262) Service:aaa, Capability:CAP_FEATURE_AAA_AUTHENTICATE_CHAP
+    Registered by node:0x101     Description:CHAP authentication method is enabled.
+    Value: Enabled
+
+263) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+264) Service:otm, Capability:CAP_FEATURE_OTM_TRACK_DELAY_CONFIGURED
+    Registered by node:0x101     Description:Objects with track delay configured detected
+    Value: Enabled
+
+265) Service:libbase_svc, Capability:CAP_FEATURE_LIBBASE_SVC_IVR_SUPPORT
+    Registered by node:0x101     Description:One or more IOA flows are configured where the host and target reside in seperate VSAN's using IVR
+    Value: Enabled
+
+266) Service:securityd, Capability:CAP_FEATURE_SECURITY_SCP_SERVER
+    Registered by node:0x101     Description:SCP Server is enabled.
+    Value: Enabled
+
+267) Service:securityd, Capability:CAP_FEATURE_SECURITY_SFTP_SERVER
+    Registered by node:0x101     Description:SFTP Server is enabled.
+    Value: Enabled
+
+268) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+269) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+270) Service:eth_port_channel, Capability:CAP_FEATURE_PORT_CHANNEL_MINLINKS_MAXBUNDLE
+    Registered by node:0x101     Description:lacp min-links or lacp max-bundle is set on some port-channels.
+    Value: Enabled
+
+271) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+272) Service:sme, Capability:CAP_FEATURE_SME_DISK_CONFIGURED
+    Registered by node:0x101     Description:SME disk configuration enabled
+    Value: Enabled
+
+273) Service:sme, Capability:CAP_FEATURE_SME_MULTIPLE_CLUSTERS_CONFIGURED
+    Registered by node:0x101     Description:SME multiple clusters configured
+    Value: Enabled
+
+274) Service:vpc, Capability:CAP_FEATURE_FEX_AA_HIF_PORT_CHANNEL
+    Registered by node:0x101     Description:Active-Active FEX HIF port-channels configured
+    Value: Enabled
+
+275) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+276) Service:ethpm, Capability:CAP_FEATURE_ETHPM_ERR_DIS_REC_ALL_ENABLED
+    Registered by node:0x101     Description:ETHPM - errdisable recovery feature is enabled
+    Value: Enabled
+
+277) Service:ethpm, Capability:CAP_FEATURE_ETHPM_ERR_DIS_DETECT_ALL_ENABLED
+    Registered by node:0x101     Description:ETHPM - errdisable recovery feature is enabled
+    Value: Enabled
+
+278) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+279) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+280) Service:wccp, Capability:CAP_FEATURE_WCCP_NON_DEFAULT_HIA
+    Registered by node:0x101     Description:hia-timeout on one or more WCCP service groups is set
+    Value: Enabled
+
+281) Service:ethpm, Capability:CAP_FEATURE_LOAD_INTERVAL
+    Registered by node:0x101     Description:ETHPM - non-default load-interval configured
+    Value: Enabled
+
+282) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+283) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+284) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+285) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+286) Service:ethpm, Capability:CAP_FEATURE_ETHPM_MODE_PVLAN_TRUNK
+    Registered by node:0x101     Description:port mode "private-vlan trunk" is configured on some interfaces
+    Value: Enabled
+
+287) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+288) Service:ntp, Capability:CAP_FEATURE_NTP_POLL_CONFIG
+    Registered by node:0x101     Description:NTP server/peer configured with poll interval. Unconfigure server and configure without poll interval
+    Value: Enabled
+
+289) Service:cdp, Capability:CAP_FEATURE_CDP_DISABLED_FEX_HIF
+    Registered by node:0x101     Description:Configuration not supported - CDP is disabled in one or more FEX interfaces
+    Value: Enabled
+
+290) Service:lldp, Capability:CAP_FEATURE_LLDP_TLV_SELECT_DISABLED
+    Registered by node:0x101     Description:Configuration not supported - there is one or more lldp tlv-select disabled by the command "no lldp tlv-select <X>"
+    Value: Enabled
+
+291) Service:lldp, Capability:CAP_FEATURE_LLDP_RECEIVE_DISABLED_FEX_HIF
+    Registered by node:0x101     Description:Configuration not supported - LLDP receive is disabled in one or more FEX interfaces
+    Value: Enabled
+
+292) Service:lldp, Capability:CAP_FEATURE_LLDP_TRANSMIT_DISABLED_FEX_HIF
+    Registered by node:0x101     Description:Configuration not supported - LLDP transmit is disabled in one or more FEX interfaces
+    Value: Enabled
+
+293) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+294) Service:feature-mgr, Capability:CAP_FEATURE_SET_FABRICPATH
+    Registered by node:0x101     Description:feature-set fabricpath is installed or enabled in the system
+    Value: Enabled
+
+295) Service:feature-mgr, Capability:CAP_FEATURE_SET_FEX
+    Registered by node:0x101     Description:feature-set fex is installed or enabled in the system
+    Value: Enabled
+
+296) Service:ipconf, Capability:CAP_FEATURE_IPCONF_DHCPCD_ENABLED
+    Registered by node:0x101     Description:dhcp-client is enabled , disable it and do the downgrade
+    Value: Enabled
+
+297) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+298) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+299) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+300) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+301) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+302) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+303) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+304) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+305) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+306) Service:bfd, Capability:CAP_FEATURE_BFD
+    Registered by node:0x101     Description:Feature bfd is enabled.
+    Value: Disabled
+
+307) Service:cluster, Capability:CAP_FEATURE_CLUSTER_CAPABILITY
+    Registered by node:0x101     Description:Cluster Capability support is enabled
+    Value: Enabled
+
+308) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_EEM_SUPPORT
+    Registered by node:0x101     Description:Syslog EEM is supported.
+    Value: Enabled
+
+309) Service:snmpd, Capability:CAP_FEATURE_PMON_SLOWDRAIN
+    Registered by node:0x101     Description:PMON - Port Monitor configuration present
+    Value: Enabled
+
+310) Service:port, Capability:CAP_FEATURE_SLOWDRAIN_CONGESTION_TIMEOUT_MODE_F
+    Registered by node:0x101     Description:global slowdrain congestion timeout is enabled for mode F
+    Value: Enabled
+
+311) Service:port, Capability:CAP_FEATURE_SLOWDRAIN_CONGESTION_TIMEOUT_MODE_E
+    Registered by node:0x101     Description:global slowdrain congestion timeout is enabled for mode E
+    Value: Enabled
+
+312) Service:port, Capability:CAP_FEATURE_SLOWDRAIN_CREDIT_DROP_TIMEOUT_MODE_F
+    Registered by node:0x101     Description:global slowdrain no-credit-drop timeout is enabled for mode F
+    Value: Enabled
+
+313) Service:port, Capability:CAP_FEATURE_SLOWDRAIN_CREDIT_DROP_TIMEOUT_MODE_E
+    Registered by node:0x101     Description:global slowdrain no-credit-drop timeout is enabled for mode E
+    Value: Enabled
+
+314) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+315) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+316) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+317) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+318) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+319) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+320) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+321) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+322) Service:fwm, Capability:CAP_FEATURE_MULTICAST_HW_HASH
+    Registered by node:0x101     Description:'hardware multicast hw-hash' is configured in a port channel interface
+    Value: Enabled
+
+323) Service:lacp, Capability:CAP_FEATURE_LACP_FAST_RATE
+    Registered by node:0x101     Description:Configuration not supported - Lacp fast rate is enabled
+    Value: Enabled
+
+324) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+325) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+326) Service:dpvm, Capability:CAP_FEATURE_DPVM_MAC_CONFIGURED
+    Registered by node:0x101     Description:DPVM DB has MAC Configuration. Either remove MAC config or disable dpvm
+    Value: Enabled
+
+327) Service:snmpd, Capability:CAP_FEATURE_STP_CENTRAL_TRAP_INFRA
+    Registered by node:0x101     Description:SNMP - STP/Bridge trap configuration present
+    Value: Enabled
+
+328) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_ADL_SERVERS
+    Registered by node:0x101     Description:Syslog Additional Servers supported. Unconfigure Additional servers & retain only 3 Logging servers
+    Value: Enabled
+
+329) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+330) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+331) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+332) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+333) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+334) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+335) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+336) Service:eth_port_channel, Capability:CAP_FEATURE_PORT_CHANNEL_LACP_SUSPEND_ENABLED
+    Registered by node:0x101     Description:lacp suspend-individual is enabled on some port-channels.
+    Value: Enabled
+
+337) Service:ilc_helper, Capability:CAP_FEATURE_SANTAP_PREVENT_DOWNGRADE_FROM_504
+    Registered by node:0x101     Description:ILC Helper - Prevent SUP image downgrade once SANTap is enabled on an ILC running 5.0.4
+    Value: Enabled
+
+338) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+339) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+340) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+341) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+342) Service:vshd, Capability:CAP_FEATURE_VSHD_CLI_FEATURE_PRIVILEGE
+    Registered by node:0x101     Description:Privilege is enabled. Please disable this feature
+    Value: Enabled
+
+343) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+344) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+345) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+346) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+347) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+348) Service:pltfm_config, Capability:CAP_FEATURE_PC_FEX_LB_ENABLED
+    Registered by node:0x101     Description:port-channel loadbalance is configured per chassis
+    Value: Enabled
+
+349) Service:mpls_te, Capability:CAP_FEATURE_MPLS_TE
+    Registered by node:0x101     Description:feature mpls traffic-eng enabled
+    Value: Enabled
+
+350) Service:ldp, Capability:CAP_FEATURE_LDP
+    Registered by node:0x101     Description:feature mpls ldp enabled
+    Value: Enabled
+
+351) Service:mpls_oam, Capability:CAP_FEATURE_MPLS_OAM
+    Registered by node:0x101     Description:MPLS OAM enabled for LDP and TE ipv4 FEC's
+    Value: Enabled
+
+352) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+353) Service:bfd, Capability:CAP_FEATURE_BFD_INTF_DISABLE
+    Registered by node:0x101     Description:One or more of following BFD configuration is present:-
+   "BFD disable per address family "
+   "Authentication "
+   "Echo source interface "
+    Value: Enabled
+
+354) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+355) Service:bfd, Capability:CAP_FEATURE_BFD_V2
+    Registered by node:0x101     Description:Feature bfd is enabled.
+    Value: Enabled
+
+356) Service:xbar, Capability:CAP_FEATURE_XBM_SM_SERDES_SYNC_SEQ_SUPPORT
+    Registered by node:0x101     Description:Xbar manager - Santa Monica Serdes Sync Sequence support
+    Value: Enabled
+
+357) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+358) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+359) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+360) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+361) Service:xbar, Capability:CAP_FEATURE_XBM_DISTINCT_SUP_VQIS
+    Registered by node:0x101     Description:Nexus 7000 Silver Stone SUP Support
+    Value: Disabled
+
+362) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+363) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+364) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+365) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+366) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+367) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+368) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+369) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+370) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+371) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+372) Service:pltfm_config, Capability:CAP_FEATURE_PC_ACL_CAPTURE
+    Registered by node:0x101     Description:ACL Capture feature is enabled
+    Value: Enabled
+
+373) Service:ethpm, Capability:CAP_FEATURE_ETHPM_L3_FEX_PORT
+    Registered by node:0x101     Description:L3 satellite port is enabled
+    Value: Enabled
+
+374) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+375) Service:pltfm_config, Capability:CAP_FEATURE_PC_ACL_LOU_THRESHOLD
+    Registered by node:0x101     Description:ACL LOU resource threshold is configured
+    Value: Enabled
+
+376) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+377) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+378) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+379) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+380) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+381) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+382) Service:platform, Capability:CAP_FEATURE_FEX_REVERSIBLE_AIR_FLOW
+    Registered by node:0x101     Description:Reverse-Air-Flow fan/powersupply is installed on FEX.
+    Value: Enabled
+
+383) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+384) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+385) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+386) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+387) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+388) Service:port-profile, Capability:CAP_FEATURE_PPM_VETH_CONFIG
+    Registered by node:0x101     Description:port-profile of type veth is configured
+    Value: Enabled
+
+389) Service:l2vpn, Capability:CAP_FEATURE_L2VPN
+    Registered by node:0x101     Description:Layer 2 Virtual Private Networks
+    Value: Enabled
+
+390) Service:evc, Capability:CAP_FEATURE_EVC
+    Registered by node:0x101     Description:feature evc enabled
+    Value: Enabled
+
+391) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+392) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+393) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+394) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+395) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+396) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+397) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+398) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+399) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+400) Service:vpc, Capability:CAP_FEATURE_VPC_GRACEFUL_TYPE1_CHK
+    Registered by node:0x101     Description:vPC "graceful type1 consistency-check" is configured under "vpc domain"
+    Value: Enabled
+
+401) Service:sksd, Capability:CAP_FEATURE_SKSD_CRYPT_SERVICE_CONFIG
+    Registered by node:0x101     Description:Encryption service feature is enabled and type6 keys are stored in system.
+    Value: Enabled
+
+402) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+403) Service:ntp, Capability:CAP_FEATURE_NTP_MASTER
+    Registered by node:0x101     Description:Unconfigure ntp master configuration.
+    Value: Enabled
+
+404) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+405) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+406) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+407) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+408) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+409) Service:pltfm_config, Capability:CAP_FEATURE_PC_SYSLOG_SUPRESS_ENABLE
+    Registered by node:0x101     Description:IDS check drop syslog suppress is configured
+    Value: Enabled
+
+410) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+411) Service:snmpd, Capability:CAP_FEATURE_PMON_RXTX_DATARATE
+    Registered by node:0x101     Description:PMON - Port Monitor configuration having rx-datarate/tx-dataratecounters present
+    Value: Enabled
+
+412) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+413) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+414) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+415) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+416) Service:vpc, Capability:CAP_FEATURE_VPC_SVI_TERMINATE_EXCLUDE_VLAN
+    Registered by node:0x101     Description:vPC "peer-gateway exclude-vlan" is configured under "vpc domain"
+    Value: Enabled
+
+417) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+418) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+419) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+420) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+421) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+422) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+423) Service:Flexlink, Capability:CAP_FEATURE_FLEXLINK_IF_CONFIGURED
+    Registered by node:0x101     Description:switchport backup is configured on some interfaces
+    Value: Enabled
+
+424) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+425) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+426) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+427) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+428) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+429) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+430) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+431) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+432) Service:pltfm_config, Capability:CAP_FEATURE_PORTCH_FEX_LB_ENABLED
+    Registered by node:0x101     Description:port-channel loadbalance is configured for fex
+    Value: Enabled
+
+433) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+434) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+435) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+436) Service:xbar_driver_usd, Capability:CAP_FEATURE_STANDBY_SUP_FABRIC_PORT_XBAR_DISABLED
+    Registered by node:0x101     Description:Fabric Port connected to standby sup is operating in xbar disabled state
+    Value: Enabled
+
+437) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+438) Service:vpc, Capability:CAP_FEATURE_VPC_ORPHANPORT_SUSPEND
+    Registered by node:0x101     Description:vPC "orphan-port suspend" is configured under "interface"
+    Value: Enabled
+
+439) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+440) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+441) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+442) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+443) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+444) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+445) Service:pltfm_config, Capability:CAP_FEATURE_PC_REV3_RBH_ENABLE
+    Registered by node:0x101     Description:Hash enhancement is enabled on XL card
+    Value: Enabled
+
+446) Service:ethpm, Capability:CAP_FEATURE_ETHPM_ETHERTYPE
+    Registered by node:0x101     Description:"dot1q ethertype" is configured on some interfaces
+    Value: Enabled
+
+447) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+448) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+449) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+450) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+451) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+452) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+453) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+454) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+455) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+456) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+457) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+458) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+459) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+460) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+461) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+462) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+463) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+464) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+465) Service:xbar, Capability:CAP_FEATURE_N7K_XBM_FCOE_SUPPORT
+    Registered by node:0x101     Description:Xbar manager - N7K fcoe version-check support
+    Value: Enabled
+
+466) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+467) Service:cts, Capability:CAP_FEATURE_CTS_NO_ENCRYPT_PAUSE_FRAME
+    Registered by node:0x101     Description:Pause frame encryption disabled on some of the CTS interfaces.
+    Value: Enabled
+
+468) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+469) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+470) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+471) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+472) Service:vlan_mgr, Capability:CAP_FEATURE_NON_DEFAULT_VLAN_RESERVED_RANGE
+    Registered by node:0x101     Description:Non default system reserved vlan range configured
+    Value: Enabled
+
+473) Service:feature-mgr, Capability:CAP_FEATURE_SET_MPLS
+    Registered by node:0x101     Description:feature-set mpls is installed or enabled in the system
+    Value: Enabled
+
+474) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+475) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+476) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+477) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+478) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+479) Service:pltfm_config, Capability:CAP_FEATURE_PC_LOU_THRESHOLD
+    Registered by node:0x101     Description:ACL LOU resource threshold is configured
+    Value: Enabled
+
+480) Service:fcdomain, Capability:CAP_FEATURE_DOM_MGR_FCID_PERSISTENCY_CFG
+    Registered by node:0x101     Description:fcdomain - fcid persistency feature disabled in at least one VSAN
+    Value: Enabled
+
+481) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+482) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+483) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+484) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+485) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+486) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+487) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+488) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+489) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+490) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+491) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+492) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+493) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+494) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+495) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+496) Service:vshd, Capability:CAP_FEATURE_VSHD_RBAC_OID_RULE_CONFIGURED
+    Registered by node:0x101     Description:RBAC oid rule configured
+    Value: Enabled
+
+497) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+498) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+499) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+500) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+501) Service:ivr, Capability:CAP_FEATURE_SAB_IVR_CFG_REWRITE
+    Registered by node:0x101     Description:ivr is enabled in MDS 9148 switches
+    Value: Enabled
+
+502) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+503) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+504) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+505) Service:ifmgr, Capability:CAP_FEATURE_IM_FC_INBAND_LIF
+    Registered by node:0x101     Description:"One or more FC Inband interfaces " programmed for lif alloc
+    Value: Enabled
+
+506) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+507) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+508) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+509) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+510) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+511) Service:snmpd, Capability:CAP_FEATURE_PMON_ASIC_ERROR_COUNTER
+    Registered by node:0x101     Description:PMON - Port Monitor configuration having Asic Error counters present. Whenever a user configures a new policy by default these counters will add though not active by default. Need to remove this policy to downgrade to this version.
+    Value: Enabled
+
+512) Service:interface-vlan, Capability:CAP_FEATURE_SVI_MGMT
+    Registered by node:0x101     Description:Management is configured under the interface-vlan
+    Value: Enabled
+
+513) Service:vrrpv3, Capability:CAP_FEATURE_VRRPV3
+    Registered by node:0x101     Description:VRRPv3 configured
+    Value: Enabled
+
+514) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+515) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+516) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+517) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+518) Service:port, Capability:CAP_FEATURE_TX_CREDIT_QUEUE_TYPE
+    Registered by node:0x101     Description:global tx credit queue type is set to double queue
+    Value: Enabled
+
+519) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+520) Service:zone, Capability:CAP_FEATURE_ZS_SMART_ZONING
+    Registered by node:0x101     Description:Zone Server - Smart zoning is enabled (or) smart-zoning config present in atleast one VSAN
+    Value: Enabled
+
+521) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+522) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+523) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+524) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+525) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+526) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+527) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+528) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+529) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+530) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+531) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+532) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+533) Service:ethpm, Capability:CAP_FEATURE_SLOWDRAIN_CONGESTION_TIMEOUT_MODE_CORE
+    Registered by node:0x101     Description:global slowdrain congestion timeout is enabled for mode core
+    Value: Enabled
+
+534) Service:ethpm, Capability:CAP_FEATURE_SLOWDRAIN_CONGESTION_TIMEOUT_MODE_EDGE
+    Registered by node:0x101     Description:global slowdrain congestion timeout is enabled for mode edge
+    Value: Enabled
+
+535) Service:ethpm, Capability:CAP_FEATURE_SLOWDRAIN_PAUSE_TIMEOUT_MODE_CORE
+    Registered by node:0x101     Description:global slowdrain pause timeout is enabled for mode core
+    Value: Enabled
+
+536) Service:ethpm, Capability:CAP_FEATURE_SLOWDRAIN_PAUSE_TIMEOUT_MODE_EDGE
+    Registered by node:0x101     Description:global slowdrain pause timeout is enabled for mode edge
+    Value: Enabled
+
+537) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_ORIGIN_ID_SUPPORT
+    Registered by node:0x101     Description:Syslog origin_id is enabled.
+    Value: Enabled
+
+538) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+539) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+540) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+541) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+542) Service:snmpd, Capability:CAP_FEATURE_SNMP_IFALIAS_LONG
+    Registered by node:0x101     Description:SNMP - snmp ifmib ifalias long configuration present
+    Value: Enabled
+
+543) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+544) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+545) Service:acllog, Capability:CAP_FEATURE_ACL_LOGGING
+    Registered by node:0x101     Description:Configs related to ACL logging feature are available.
+    Value: Enabled
+
+546) Service:ethpm, Capability:CAP_FEATURE_ETHPM_EEE
+    Registered by node:0x101     Description:"power efficient-ethernet" is configured on some interfaces
+    Value: Enabled
+
+547) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+548) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+549) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+550) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+551) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+552) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+553) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+554) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+555) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+556) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+557) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+558) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+559) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+560) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+561) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+562) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+563) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+564) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+565) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+566) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+567) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_DSCP
+    Registered by node:0x101     Description:QoS Manager - support for match dscp under type queing for ingress
+    Value: Enabled
+
+568) Service:ilc_helper, Capability:CAP_FEATURE_SANTAP_PREVENT_DOWNGRADE_FROM_524
+    Registered by node:0x101     Description:ILC Helper - Prevent SUP image downgrade once SANTap is enabled on an ILC running 5.2.4
+    Value: Enabled
+
+569) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+570) Service:sme, Capability:CAP_FEATURE_SME_DISK_METADATA_MODE_CONFIGURED
+    Registered by node:0x101     Description:SME disk metadata mode configuration enabled
+    Value: Enabled
+
+571) Service:ethpm, Capability:CAP_FEATURE_ETHPM_ERR_DIS_REC_DCBX_ENABLED
+    Registered by node:0x101     Description:ETHPM - errdisable recovery dcbx no ack is enabled
+    Value: Enabled
+
+572) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+573) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+574) Service:ips, Capability:CAP_FEATURE_FCIP_IPCOMP_MODE1_CONFIGURED
+    Registered by node:0x101     Description:FCIP tunnel configured with ip-compression mode "mode1".
+    Value: Enabled
+
+575) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+576) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+577) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+578) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+579) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+580) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+581) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+582) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+583) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+584) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+585) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+586) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+587) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+588) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+589) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+590) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+591) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+592) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+593) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+594) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+595) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+596) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+597) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+598) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+599) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+600) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+601) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+602) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+603) Service:port-channel, Capability:CAP_FEATURE_SABRE_MAX_PORT_CHANNEL_MEMBERS
+    Registered by node:0x101     Description:Total port-channels members in the switch is greater than 16Remove port-channel members  from any port-channel to  limittotal port-channel members to  less than 17.
+    Value: Enabled
+
+604) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+605) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+606) Service:copp, Capability:CAP_FEATURE_COPP_FCoE_FIB_MISS_EXCEPTION
+    Registered by node:0x101     Description:Match on FCoE FIB Miss Exception is Enabled.
+    Value: Enabled
+
+607) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+608) Service:snmpd, Capability:CAP_FEATURE_SNMP_DUAL_ACL
+    Registered by node:0x101     Description:SNMP - snmp-server user/community use-ipv4acl use-ipv6acl configuration present.
+    Value: Enabled
+
+609) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+610) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+611) Service:ethpm, Capability:CAP_FEATURE_ETHPM_FABRICPATH_ENFORCE
+    Registered by node:0x101     Description:"switchport mode fabricpath enforce" is configured on some interfaces
+    Value: Enabled
+
+612) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+613) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+614) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+615) Service:snmpd, Capability:CAP_FEATURE_SNMP_AAA_EXCLUSIVE
+    Registered by node:0x101     Description:SNMP - aaa exclusive behavior is enabled.
+    Value: Enabled
+
+616) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+617) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+618) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+619) Service:ethpm, Capability:CAP_FEATURE_ETHPM_ERR_DIS_REC_LOOPBACK
+    Registered by node:0x101     Description:ETHPM - errdisable recovery loopback is enabled
+    Value: Enabled
+
+620) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+621) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+622) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+623) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+624) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+625) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+626) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+627) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+628) Service:zone, Capability:CAP_FEATURE_ZS_PORT_RSCN
+    Registered by node:0x101     Description:Zone Server - port-address rscn format is configured
+    Value: Enabled
+
+629) Service:lit, Capability:CAP_FEATURE_LIT_SERDES_SETTING
+    Registered by node:0x101     Description:Support Lightning 4.25G Serdes Settings
+    Value: Enabled
+
+630) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+631) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+632) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+633) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+634) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+635) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+636) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+637) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+638) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+639) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+640) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_TEMPLATE_8E_4Q4Q
+    Registered by node:0x101     Description:The DCE-QoS template 8e-4q4q exists.
+    Value: Enabled
+
+641) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+642) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+643) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+644) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+645) Service:stp, Capability:CAP_FEATURE_STP_FEX_HELLO_TIME
+    Registered by node:0x101     Description:Configuration not supported - fex-hello-time is configured on one or more VLANs
+    Value: Enabled
+
+646) Service:vpc, Capability:CAP_FEATURE_VPC_NEW_MAC_ADDRESS_CHK
+    Registered by node:0x101     Description:vPC "mac-address bpdu source version 2" is configured under "vpc domain"
+    Value: Enabled
+
+647) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+648) Service:feature-mgr, Capability:CAP_FEATURE_SET_FABRIC
+    Registered by node:0x101     Description:feature-set fabric is installed or enabled in the system
+    Value: Enabled
+
+649) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+650) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+651) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+652) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+653) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+654) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+655) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+656) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+657) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+658) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+659) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+660) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+661) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+662) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+663) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+664) Service:dhcp_snoop, Capability:CAP_FEATURE_DHCPV6_RELAY
+    Registered by node:0x101     Description:DHCPv6 Relay enabled globally or interface level or both.
+    Value: Enabled
+
+665) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+666) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+667) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+668) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+669) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+670) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+671) Service:xbar, Capability:CAP_FEATURE_XBM_VQI_ALLOC_MAPS_LDI
+    Registered by node:0x101     Description:XBM - Xbar Manager maps if-index to LDI during VQI allocation
+    Value: Disabled
+
+672) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+673) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+674) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+675) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+676) Service:ethpm, Capability:CAP_FEATURE_INT_HIF_STORM_ENABLED
+    Registered by node:0x101     Description:HIF storm control configured.
+    Value: Enabled
+
+677) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+678) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+679) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+680) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+681) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+682) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+683) Service:fcdomain, Capability:CAP_FEATURE_DOM_MGR_FCIDS_OVER_4K
+    Registered by node:0x101     Description:fcdomain - number of persistent fcids is greater than 4096
+    Value: Enabled
+
+684) Service:ospf, Capability:CAP_FEATURE_OSPF_64WAY_ECMP
+    Registered by node:0x101     Description:OSFP ECMP has maximum paths configured larger than 16
+    Value: Enabled
+
+685) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+686) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+687) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+688) Service:fwm, Capability:CAP_FEATURE_BC_CONV_LEARN
+    Registered by node:0x101     Description:Configuration not supported - fabricpath conversation learning mac refresh is enabled for broadcast traffic
+    Value: Enabled
+
+689) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+690) Service:fwm, Capability:CAP_FEATURE_MAC_LOOP_DETECT_PORT_DOWN
+    Registered by node:0x101     Description:Configuration not supported - mac address-table loop-detect port-down mac loop detect port down action is enabled
+    Value: Enabled
+
+691) Service:fwm, Capability:CAP_FEATURE_FWM_IGMP_GROUP_LIMIT_SCALING
+    Registered by node:0x101     Description:IGMP Group limit is configured above 8k
+    Value: Enabled
+
+692) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+693) Service:eigrp, Capability:CAP_FEATURE_EIGRP_64WAY_ECMP
+    Registered by node:0x101     Description:EIGRP ECMP has maximum paths configured larger than 16
+    Value: Enabled
+
+694) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+695) Service:fwm, Capability:CAP_FEATURE_FWM_STM_HRT_RESOURCE_TEMPLATE
+    Registered by node:0x101     Description:Configuration not supported - non-default STM/HRT template profile isconfigured on switch. Apply default template profile using command
+    Value: Enabled
+
+696) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+697) Service:cts, Capability:CAP_FEATURE_CTS_RBACL_BATCHING
+    Registered by node:0x101     Description:SGACL batch programming is enabled.
+    Value: Enabled
+
+698) Service:ethpm, Capability:CAP_FEATURE_SLOWDRAIN_SPEED_PERCENT_MODE_CORE
+    Registered by node:0x101     Description:global slowdrain slow-speed percent is enabled for mode core
+    Value: Enabled
+
+699) Service:ethpm, Capability:CAP_FEATURE_SLOWDRAIN_SPEED_PERCENT_MODE_EDGE
+    Registered by node:0x101     Description:global slowdrain slow-speed percent is enabled for mode edge
+    Value: Enabled
+
+700) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+701) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+702) Service:cmm, Capability:CAP_FEATURE_CABLE_MANAGEMENT
+    Registered by node:0x101     Description:Cable Management feature is configured.
+    Value: Enabled
+
+703) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+704) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+705) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+706) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+707) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+708) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+709) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+710) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+711) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+712) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+713) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+714) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+715) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+716) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+717) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+718) Service:bfd, Capability:CAP_FEATURE_FABRICPATH_BFD
+    Registered by node:0x101     Description:One or more of following BFD configuration is present on fabricpath core ports:-
+   "BFD Fabricpath interval"
+   "BFD Fabricpath Authentication "
+    Value: Enabled
+
+719) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+720) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+721) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+722) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+723) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+724) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+725) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+726) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+727) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_MAP_TABLES
+    Registered by node:0x101     Description:The new qosmgr mapping tables are in effect.
+    Value: Enabled
+
+728) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+729) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+730) Service:ecp, Capability:CAP_FEATURE_ECP
+    Registered by node:0x101     Description:ECP is enabled.
+    Value: Enabled
+
+731) Service:ecp, Capability:CAP_FEATURE_ECP_V_ASTI
+    Registered by node:0x101     Description:One or more of following ECP configuration is present:-
+   "mode"
+   "maximal number of retries"
+   "retransmission timer setting"
+    Value: Enabled
+
+732) Service:evb, Capability:CAP_FEATURE_EVB
+    Registered by node:0x101     Description:EVB is enabled.
+    Value: Enabled
+
+733) Service:evb, Capability:CAP_FEATURE_EVB_V_ASTI
+    Registered by node:0x101     Description:One or more of following EVB configuration is present:-
+   "mac address"
+   "resource wait delay timer setting"
+   "keepalive timer setting"
+    Value: Enabled
+
+734) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+735) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+736) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+737) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+738) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+739) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+740) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+741) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+742) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+743) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+744) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+745) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+746) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+747) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+748) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+749) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+750) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+751) Service:fpoam, Capability:CAP_FEATURE_FPOAM_EN
+    Registered by node:0x101     Description:fabricpath oam profile configured
+    Value: Enabled
+
+752) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_FCOE_FEX
+    Registered by node:0x101     Description:The qosmgr global fcoe-fex knob is enabled.
+    Value: Enabled
+
+753) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+754) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+755) Service:vman, Capability:CAP_FEATURE_VMAN_1_0
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.0 is installed
+    Value: Enabled
+
+756) Service:vman, Capability:CAP_FEATURE_VMAN_1_1
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.1 is installed
+    Value: Enabled
+
+757) Service:vman, Capability:CAP_FEATURE_VMAN_1_2
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.2 is installed
+    Value: Enabled
+
+758) Service:vman, Capability:CAP_FEATURE_VMAN_1_3
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.3 is installed
+    Value: Enabled
+
+759) Service:vman, Capability:CAP_FEATURE_VMAN_1_4
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.4 is installed
+    Value: Enabled
+
+760) Service:vman, Capability:CAP_FEATURE_VMAN_1_5
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.5 is installed
+    Value: Disabled
+
+761) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+762) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+763) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+764) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+765) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+766) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+767) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+768) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+769) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+770) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+771) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+772) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+773) Service:fabric-access, Capability:CAP_FEATURE_FABRIC_ACCESS
+    Registered by node:0x101     Description:Fabric Access feature is configured.
+    Value: Enabled
+
+774) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+775) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+776) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+777) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+778) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+779) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+780) Service:zone, Capability:CAP_FEATURE_ZS_SCALE_SUPPORT_ENABLED
+    Registered by node:0x101     Description:Zone Server - More than 8000 zones maybe configured.
+    Value: Enabled
+
+781) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+782) Service:snmpd, Capability:CAP_FEATURE_UNLOAD_MIBS
+    Registered by node:0x101     Description:Configuration file contains mib unload commands
+    Value: Enabled
+
+783) Service:ifmgr, Capability:CAP_FEATURE_IM_BREAKOUT
+    Registered by node:0x101     Description:Breakout is configured on one or more of the interfaces in the system.
+    Value: Enabled
+
+784) Service:bulkstat, Capability:CAP_FEATURE_BULKSTAT
+    Registered by node:0x101     Description:Bulkstat is enabled.
+    Value: Enabled
+
+785) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+786) Service:fcdomain, Capability:CAP_FEATURE_DOM_MGR_FAST_EFP_CFG
+    Registered by node:0x101     Description:fcdomain - optimized scale restart feature disabled
+    Value: Enabled
+
+787) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+788) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+789) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+790) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+791) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+792) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+793) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+794) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+795) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+796) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+797) Service:fcns, Capability:CAP_FEATURE_NS_BEYOND_10K_ENTRY_ENABLED
+    Registered by node:0x101     Description:Name Server - More than 10K DB Entries
+    Value: Enabled
+
+798) Service:fcns, Capability:CAP_FEATURE_NS_BULK_NOTIFY_ENABLED
+    Registered by node:0x101     Description:Name Server - Bulk notification feature may be disabled.
+    Value: Enabled
+
+799) Service:rscn, Capability:CAP_FEATURE_RSCN_CSWR_ENABLED
+    Registered by node:0x101     Description:RSCN - Coalesce SW-RSCN feature may be configured.
+    Value: Enabled
+
+800) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+801) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+802) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+803) Service:fwm, Capability:CAP_FEATURE_MAC_LOOP_DETECT_PORT_DOWN_EDGE_PORT
+    Registered by node:0x101     Description:Configuration not supported - mac address-table loop-detect port-down edge-portmac loop detect port down for edge port action is enabled
+    Value: Enabled
+
+804) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+805) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+806) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+807) Service:port, Capability:CAP_FEATURE_FEC_ENABLED
+    Registered by node:0x101     Description:FEC is enabled for one of the interfaces.
+    Value: Enabled
+
+808) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+809) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+810) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+811) Service:port, Capability:CAP_FEATURE_MAX_NPIV_LIMIT_CFG
+    Registered by node:0x101     Description:max-npiv-limit configured for one of the interfaces.
+    Value: Enabled
+
+812) Service:port, Capability:CAP_FEATURE_MAX_NPIV_LIMIT_TRUNK_CFG
+    Registered by node:0x101     Description:trunk-max-npiv-limit configured for one of the interfaces.
+    Value: Enabled
+
+813) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+814) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+815) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+816) Service:port, Capability:CAP_FEATURE_PORT_PACER_ENABLED
+    Registered by node:0x101     Description:Port pacing is enabled on the system
+    Value: Enabled
+
+817) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+818) Service:port, Capability:CAP_FEATURE_HW_SLOWDRAIN_CREDIT_DROP_TIMEOUT_MODE_F
+    Registered by node:0x101     Description:Global H/W based slowdrain no-credit-drop timeout is enabled for mode F.
+    Value: Enabled
+
+819) Service:port, Capability:CAP_FEATURE_HW_SLOWDRAIN_CREDIT_DROP_TIMEOUT_MODE_E
+    Registered by node:0x101     Description:Global H/W based slowdrain no-credit-drop timeout is enabled for mode E.
+    Value: Enabled
+
+820) Service:port, Capability:CAP_FEATURE_SLOWDRAIN_SLOWPORT_MONITOR_TIMEOUT_MODE_F
+    Registered by node:0x101     Description:Global slowdrain slowport-monitor timeout is enabled for mode F.
+    Value: Enabled
+
+821) Service:port, Capability:CAP_FEATURE_SLOWDRAIN_SLOWPORT_MONITOR_TIMEOUT_MODE_E
+    Registered by node:0x101     Description:Global  slowdrain slowport-monitor timeout is enabled for mode E.
+    Value: Enabled
+
+822) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+823) Service:ifmgr, Capability:CAP_FEATURE_IM_XBOW_BREAKOUT
+    Registered by node:0x101     Description:Breakout is configured on one or more of the interfaces in the system.
+    Value: Enabled
+
+824) Service:hmm, Capability:CAP_FEATURE_HMM_EN
+    Registered by node:0x101     Description:feature fabric forwarding configured.
+    Value: Enabled
+
+825) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+826) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+827) Service:vman, Capability:CAP_FEATURE_VMAN_1_7
+    Registered by node:0x101     Description:A virtual service package with infrastructure version 1.7 is installed
+    Value: Enabled
+
+828) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+829) Service:aclmgr, Capability:CAP_FEATURE_ACLMGR_IPV6_WILDCARD_MASK
+    Registered by node:0x101     Description:IPV6 wildcard mask is in the use at least one ACL or object-group, please remove the IPV6 wildcard mask  from ACL or object-group rules
+    Value: Enabled
+
+830) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+831) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+832) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+833) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+834) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+835) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+836) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+837) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_SCALE_CLASS_POLICIER_CFG
+    Registered by node:0x101     Description:QoS Manager - support for 1k/4k classmap/policier configuration
+    Value: Enabled
+
+838) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+839) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+840) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+841) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_SHARED_BUFFER
+    Registered by node:0x101     Description:QoS Manager - support for shared buffer feature.
+    Value: Enabled
+
+842) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+843) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+844) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+845) Service:fc-port-security, Capability:CAP_FEATURE_MGMT_SECURITY_ENABLED
+    Registered by node:0x101     Description:FC CT Mgmt Security is enabled.
+    Value: Enabled
+
+846) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+847) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+848) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+849) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+850) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+851) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+852) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+853) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+854) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+855) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+856) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+857) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+858) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+859) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+860) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+861) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+862) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+863) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+864) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_PERSISTENT_LOGGING_CONFIG
+    Registered by node:0x101     Description:Persistent logging default configurations are changed.Restore persistent logging default configuration for downgrade.
+    Value: Enabled
+
+865) Service:fcsp-mgr, Capability:CAP_FEATURE_FCSP_XBOW
+    Registered by node:0x101     Description:FCSP Manager - feature fcsp enabled
+    Value: Enabled
+
+866) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+867) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+868) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+869) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+870) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+871) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+872) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+873) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+874) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+875) Service:ipqosmgr, Capability:CAP_FEATURE_IPQOS_DCE_PFC_LD_CFG
+    Registered by node:0x101     Description:Priority-flow-control long distance feature is enabled
+    Value: Enabled
+
+876) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+877) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+878) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+879) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+880) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+881) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+882) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+883) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+884) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+885) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+886) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+887) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+888) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+889) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+890) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+891) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+892) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+893) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+894) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+895) Service:zone, Capability:CAP_FEATURE_ZS_CONFIRM_COMMIT
+    Registered by node:0x101     Description:Zone Server - confirm-commit is enabled in atleast one VSAN
+    Value: Enabled
+
+896) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+897) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+898) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+899) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+900) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+901) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+902) Service:device-alias, Capability:CAP_FEATURE_DDAS_CONFIRM_COMMIT
+    Registered by node:0x101     Description:Device-Alias confirm commit is enabled.
+    Value: Enabled
+
+903) Service:vpc, Capability:CAP_FEATURE_VPC_PEER_IPV6
+    Registered by node:0x101     Description:peer-keepalive ip address configured as ipv6
+    Value: Enabled
+
+904) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+905) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+906) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+907) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+908) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+909) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+910) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+911) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+912) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+913) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_SNMP_TRAP_CONFIG
+    Registered by node:0x101     Description:Syslog snmp trap default configurations are changed.Restore syslog snmp trap default configuration for downgrade.
+    Value: Enabled
+
+914) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_HISTORY_LOGGING_CONFIG
+    Registered by node:0x101     Description:Logging history default configurations are changed.Restore logging history default configuration for downgrade.
+    Value: Enabled
+
+915) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+916) Service:nxapi, Capability:CAP_FEATURE_NXAPI
+    Registered by node:0x101     Description:NX-API is enabled.
+    Value: Enabled
+
+917) Service:ipqosmgr, Capability:CAP_FEATURE_QOSMGR_NQ_QUEUE_LIMIT_40G
+    Registered by node:0x101     Description:QoS Manager - support for 40g queue-limit under type network-qos
+    Value: Enabled
+
+918) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+919) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+920) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+921) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+922) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+923) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+924) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+925) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+926) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+927) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+928) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+929) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+930) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+931) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+932) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+933) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+934) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+935) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+936) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+937) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+938) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+939) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+940) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+941) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+942) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+943) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+944) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+945) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+946) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+947) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+948) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+949) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+950) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+951) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+952) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+953) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+954) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+955) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+956) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+957) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+958) Service:hsrp_engine, Capability:CAP_FEATURE_HSRP_VIP_SUBNET
+    Registered by node:0x101     Description:HSRP groups with subnet virtual addresses are configured
+    Value: Enabled
+
+959) Service:adbm, Capability:CAP_FEATURE_ADBM_LDAP_SSL_EN
+    Registered by node:0x101     Description:SSL is enabled for fabric database type network.
+    Value: Enabled
+
+960) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+961) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+962) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+963) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+964) Service:adbm, Capability:CAP_FEATURE_ADBM_LDAP_OVERRIDE
+    Registered by node:0x101     Description:Fabric database override is enabled.
+    Value: Enabled
+
+965) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+966) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+967) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+968) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+969) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+970) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+971) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+972) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+973) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+974) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+975) Service:adbm, Capability:CAP_FEATURE_ADBM_LDAP_VRF_OVERRIDE
+    Registered by node:0x101     Description:Fabric database override-vrf-profile  is enabled.
+    Value: Enabled
+
+976) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+977) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+978) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+979) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+980) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+981) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+982) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+983) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+984) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+985) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+986) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+987) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+988) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+989) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+990) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+991) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+992) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+993) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+994) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+995) Service:adbm, Capability:CAP_FEATURE_ADBM_LDAP_BL_DCI
+    Registered by node:0x101     Description:Fabric database type bl-dci is enabled.
+    Value: Enabled
+
+996) Service:adbm, Capability:CAP_FEATURE_ADBM_LDAP_PARTITION
+    Registered by node:0x101     Description:Fabric database type partition is enabled.
+    Value: Enabled
+
+997) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+998) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+999) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1000) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1001) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1002) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1003) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_RATELIMIT_CONFIG
+    Registered by node:0x101     Description:Syslog rate-limit default configurations are changed.Restore syslog rate-limit configuration for downgrade.
+    Value: Enabled
+
+1004) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1005) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1006) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1007) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1008) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1009) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1010) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1011) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1012) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1013) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1014) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1015) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1016) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1017) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1018) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1019) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1020) Service:syslogd, Capability:CAP_FEATURE_SYSLOG_PERSISTENT_THRESHOLD_CONFIG
+    Registered by node:0x101     Description:Persistent logging default configurations are changed.Restore persistent logging default configuration for downgrade.
+    Value: Enabled
+
+1021) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1022) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1023) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1024) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1025) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1026) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1027) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1028) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1029) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1030) Service:(null), Capability:(null)
+    Registered by node:0x101     Description:(null)
+    Value: Disabled
+
+1031) Service:platform, Capability:CAP_TYPE_MODULE_INFO
+    Description:Sets Module online status
+    proc type                  Supervisor
+    status                     Module down
+    sw card id                 262
+    lcm status                 4
+-------------------------------------------------------------------------
+Capabilities for Module:2
+-------------------------------------------------------------------------
+1) Service:platform, Capability:CAP_TYPE_MODULE_INFO
+    Description:Sets Module online status
+    proc type                  Linecard
+    status                     Module Initializing
+    sw card id                 50
+    lcm status                 2
+-------------------------------------------------------------------------
+Capabilities for Module:3
+-------------------------------------------------------------------------
+1) Service:platform, Capability:CAP_TYPE_MODULE_INFO
+    Description:Sets Module online status
+    proc type                  Linecard
+    status                     Module Initializing
+    sw card id                 50
+    lcm status                 2
+-------------------------------------------------------------------------
+Capabilities for Module:4
+-------------------------------------------------------------------------
+1) Service:platform, Capability:CAP_TYPE_MODULE_INFO
+    Description:Sets Module online status
+    proc type                  Linecard
+    status                     Module Initializing
+    sw card id                 50
+    lcm status                 2
+-------------------------------------------------------------------------
+ Global Capabilities
+-------------------------------------------------------------------------
+1) Service:platform, Capability:CAP_TYPE_LIMITS
+    Description:Sets limits db based on chasis type
+     max no of vsan              256
+     max no of vsh sessions      8
+     max no of core files        40
+     max no of ficon ports       80
+2) Service:platform, Capability:CAP_TYPE_CHASSIS
+    Description:Sets chasis database
+    chassis type                Titanium chassis
+    num of slots                32
+    num of supervisor slots     1
+    sup slot 0                  0
+    sup slot 1                  255
+    num of fabric slots         0
+    chassis family              4
