@@ -1,0 +1,3 @@
+User name: cisco
+Current privilege level: -1
+Feature privilege :Disabled
