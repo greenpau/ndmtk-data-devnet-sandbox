@@ -1,0 +1,35 @@
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Documents: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html
+Copyright (c) 2002-2015, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained herein are owned by
+other third parties and are used and distributed under license.
+Some parts of this software are covered under the GNU Public
+License. A copy of the license is available at
+http://www.gnu.org/licenses/gpl.html.
+
+NX-OSv is a demo version of the Nexus Operating System
+
+Software
+  loader:    version N/A
+  kickstart: version 7.2(0)D1(1) [build 7.2(0)ZD(0.120)]
+  system:    version 7.2(0)D1(1) [build 7.2(0)ZD(0.120)]
+  kickstart image file is: bootflash:///titanium-d1-kickstart.7.2.0.ZD.0.120.bin
+  kickstart compile time:  3/8/2015 1:00:00 [03/08/2015 11:04:12]
+  system image file is:    bootflash:///titanium-d1.7.2.0.ZD.0.120.bin
+  system compile time:     3/8/2015 1:00:00 [03/08/2015 15:34:48]
+
+
+Hardware
+  cisco NX-OSv Chassis ("NX-OSv Supervisor Module")
+  QEMU Virtual CPU version 2.0 with 3064940 kB of memory.
+  Processor Board ID TM3E91DFBCB
+
+  Device name: nx-osv-3
+  bootflash:    1582402 kB
+
+Kernel uptime is 196 day(s), 3 hour(s), 23 minute(s), 34 second(s)
+
+
+plugin
+  Core Plugin, Ethernet Plugin
