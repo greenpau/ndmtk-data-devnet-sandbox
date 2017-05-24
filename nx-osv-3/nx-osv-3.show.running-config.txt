@@ -19,14 +19,10 @@ vdc nx-osv-3 id 1
   limit-resource m6route-mem minimum 8 maximum 8
 
 feature telnet
-cfs eth distribute
-feature interface-vlan
-feature hsrp
-feature dhcp
-feature vpc
-feature nxapi
+feature ospf
+feature bgp
 
-username admin password 5 $1$KuOSBsvW$Cy0TSD..gEBGBPjzpDgf51  role network-admin
+username admin password 5 $5$giXu0LWR$8uz9Qj/R9H4QzerMqGW4oCml3284sHNsyMTCvcYsVX/  role network-admin
 username adminbackup password 5 !  role network-operator
 username adminbackup passphrase  lifetime 99999 warntime 14 gracetime 3
 username cisco password 5 $1$Nk7ZkwH0$fyiRmMMfIheqE3BqvcL0C1  role network-operator
@@ -34,16 +30,14 @@ username cisco role network-admin
 username cisco passphrase  lifetime 99999 warntime 14 gracetime 3
 username lab password 5 $1$buoy/oqy$.EXQz8rCn72ii8qtdldj00  role network-admin
 username lab passphrase  lifetime 99999 warntime 14 gracetime 3
-no password strength-check
 ip domain-lookup
-ip domain-name example.com
 vlan dot1Q tag native
 system default switchport
 system jumbomtu 0
 no logging event trunk-status enable
 copp profile strict
 snmp-server user lab network-admin auth md5 0x5ceb414591539ee35159fca86fdfa101 priv 0x5ceb414591539ee35159fca86fdfa101 localizedkey
-snmp-server user admin network-admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey
+snmp-server user admin network-admin auth md5 0x8132cad3f9ab3fd47c2b861270270566 priv 0x8132cad3f9ab3fd47c2b861270270566 localizedkey
 snmp-server user cisco network-admin
 snmp-server user cisco network-operator
 snmp-server user admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey engineID 128:0:0:9:3:0:0:0:0:0:0
@@ -54,60 +48,11 @@ rmon event 4 log trap public description WARNING(4) owner PMON@WARNING
 rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
 snmp-server enable traps link
 
-vlan 1,10,12-15,20,30,51,59-62,64,80,100,400-402,556-557,577-578,752,754-755,777,3001-3002
-vlan 10
-  name web_servers
-vlan 12
-  name tes2
-vlan 13
-  name test3
-vlan 14
-  name test1
-vlan 15
-  name test
-vlan 20
-  name app_servers
-vlan 30
-  name db_servers
-vlan 51
-  name WEB1
-vlan 59
-  name HYUNGSOK_VLAN_59
-vlan 60
-  name WEBGROUP
-vlan 62
-  name Hello
-vlan 100
-  name MG_TEST1
-vlan 400
-  name mg_10
-vlan 401
-  name mg_2
-vlan 402
-  name mg_3
-vlan 557
-  name new_vlan_557
-vlan 577
-  name pula_name_577
-vlan 578
-  name pula_novi_vlan_578
-vlan 754
-  name edn1-xvn-mgmt-754
-vlan 777
-  name JJPARK
-vlan 3001
-  name TechWise_01
-vlan 3002
-  name TechWise_02
+vlan 1
 
-service dhcp
-ip dhcp relay
-ipv6 dhcp relay
 vrf context management
   ip route 0.0.0.0/0 172.16.1.254
 hardware forwarding unicast trace
-vpc domain 1
-  role priority 30
 
 
 interface mgmt0
@@ -115,75 +60,34 @@ interface mgmt0
   vrf member management
   ip address 172.16.1.92/24
 
-interface Vlan1
-
-interface Vlan20
-  ip address 172.16.100.3/24
-  mtu 1600
-  no autostate
-
-interface Vlan752
-  no ip redirects
-  ip address 10.3.33.3/27
-  ip unreachables
-  no ipv6 redirects
-  hsrp version 2
-  hsrp 752
-    ip 10.3.33.1
-  ip dhcp relay address 172.18.10.11
-  description aab1-xvn-gsec-patch-754
-  no shutdown
-
-interface Vlan754
-  no ip redirects
-  ip address 172.19.159.131/27
-  ip unreachables
-  no ipv6 redirects
-  hsrp version 2
-  hsrp 754
-    ip 172.19.159.129
-  ip dhcp relay address 172.19.138.11
-  description edn1-xvn-mgmt-754
-  no shutdown
-
-interface Vlan755
-  no ip redirects
-  ip address 10.3.34.3/27
-  ip unreachables
-  no ipv6 redirects
-  hsrp version 2
-  hsrp 755
-    ip 10.3.34.1
-  ip dhcp relay address 172.18.10.11
-  description aab1-xvn-gsec-patch-754
-  no shutdown
-
-interface port-channel2000
-  no switchport
-
 interface Ethernet2/1
   description to nx-osv-1
   no switchport
-  mtu 1600
-  ip address 172.16.10.6/30
+  ip address 10.0.0.10/30
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/2
   description to nx-osv-2
   no switchport
   ip address 10.0.0.18/30
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/3
   description to nx-osv-4
-  switchport
+  no switchport
+  ip address 10.0.0.25/30
+  no ip ospf passive-interface
+  ip router ospf 1 area 0.0.0.0
   no shutdown
 
 interface Ethernet2/4
   shutdown
-  switchport
-  switchport mode trunk
-  switchport trunk allowed vlan 20
+  no switchport
+  mac-address 0000.0000.002f
 
 interface Ethernet2/5
   shutdown
@@ -886,11 +790,32 @@ interface Ethernet4/48
   mac-address 0000.0000.002f
 
 interface loopback0
-  ip address 172.16.1.2/32
+  description Loopback
+  ip address 192.168.0.3/32
+  ip router ospf 1 area 0.0.0.0
 line console
 line vty
 boot kickstart bootflash:/titanium-d1-kickstart.7.2.0.ZD.0.120.bin sup-1
 boot system bootflash:/titanium-d1.7.2.0.ZD.0.120.bin sup-1
+router ospf 1
+  router-id 192.168.0.3
+  log-adjacency-changes detail
+  passive-interface default
+router ospf 100
+router bgp 1
+  router-id 192.168.0.3
+  address-family ipv4 unicast
+    network 192.168.0.3/32
+  neighbor 192.168.0.1 remote-as 1
+    description iBGP peer nx-osv-1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.2 remote-as 1
+    description iBGP peer nx-osv-2
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.4 remote-as 1
+    description iBGP peer nx-osv-4
+    update-source loopback0
+    address-family ipv4 unicast
 no system default switchport shutdown
-nxapi https port 8001
-nxapi sandbox
