@@ -15,12 +15,12 @@ Logging persistent :            disabled (Reason: Logflash CF card not online.)
 
 Syslog History Table: '1' maximum table entries
 saving level 'warnings' or higher
-1032 messages ignored, 0 dropped, 1241845 table entries flushed
+231 messages ignored, 0 dropped, 25 table entries flushed
 SNMP notifications disabled
 
-        entry number 1241846: VSHD-2-VSHD_SYSLOG_EOL_ERR
-         EOL function show_interface_tables_func from library libif_manager.so exited due to Signal 11
-        Timestamp: 1694664773
+        entry number 26: PLATFORM-2-MOD_PWRUP
+         Module 4 powered up (Serial number TM3E91DFBCE)
+        Timestamp: 8053
 
 
 Facility        Default Severity        Current Session Severity
@@ -30,6 +30,7 @@ aclmgr                  3                       3
 adbm                    2                       2
 auth                    0                       0
 authpriv                3                       3
+bgp                     5                       5
 bootvar                 5                       5
 callhome                2                       2
 capability              2                       2
@@ -42,7 +43,6 @@ copp                    2                       2
 cron                    3                       3
 daemon                  3                       3
 dftm                    2                       2
-dhcp_snoop              2                       2
 ecp                     5                       5
 eltm                    2                       2
 eltmc                   2                       2
@@ -53,11 +53,9 @@ evms                    2                       2
 feature-mgr             2                       2
 fs-daemon               2                       2
 ftp                     3                       3
-hsrp_engine             3                       3
 ifmgr                   5                       5
 iftmc                   2                       2
 igmp_1                  5                       5
-interface-vlan          2                       2
 ip                      3                       3
 ipv6                    3                       3
 kern                    3                       3
@@ -86,8 +84,8 @@ mtm                     2                       2
 mvsh                    2                       2
 news                    3                       3
 ntp                     2                       2
-nxapi                   2                       2
 ori_fwd                 3                       3
+ospf_1                  5                       5
 otm                     3                       3
 patch-installer         3                       3
 pfstat                  2                       2
@@ -117,7 +115,6 @@ uucp                    3                       3
 vdc_mgr                 6                       6
 virtual-service         5                       5
 vlan_mgr                2                       2
-vpc                     2                       2
 vpc_config_sync         2                       2
 vshd                    5                       5
 xmlma                   3                       3
