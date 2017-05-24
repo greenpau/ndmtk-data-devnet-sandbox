@@ -1,0 +1,6 @@
+        OSPF Router with ID (192.168.0.4) (Process ID 1 VRF default)
+
+                Router Link States (Area 0.0.0.0)
+
+Link ID         ADV Router      Age        Seq#       Checksum Link Count
+192.168.0.4     192.168.0.4     969        0x800001c1 0x3c69   3
