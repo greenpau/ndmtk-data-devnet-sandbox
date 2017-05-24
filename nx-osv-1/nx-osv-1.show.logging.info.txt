@@ -20,12 +20,12 @@ Logging persistent :            disabled (Reason: Logflash CF card not online.)
 
 Syslog History Table: '1' maximum table entries
 saving level 'warnings' or higher
-10145 messages ignored, 0 dropped, 590189 table entries flushed
+10725 messages ignored, 0 dropped, 591255 table entries flushed
 SNMP notifications disabled
 
-        entry number 590190: OSPF-4-DUPRID
-          ospf-1 [5960] (default) Router 10.0.0.5 on interface Ethernet2/1 is using our routerid, packet dropped
-        Timestamp: 412959973
+        entry number 591256: LICMGR-2-LOG_LICAPP_NO_LIC
+         Application msdp running without LAN_ENTERPRISE_SERVICES_PKG license, shutdown in 71 days
+        Timestamp: 415092344
 
 
 Facility        Default Severity        Current Session Severity
