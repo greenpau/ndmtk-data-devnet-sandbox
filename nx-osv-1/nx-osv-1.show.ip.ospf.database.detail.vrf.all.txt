@@ -1,0 +1,52 @@
+        OSPF Router with ID (172.16.1.1) (Process ID 100 VRF default)
+
+                Router Link States (Area 0.0.0.10)
+
+   LS age: 1366
+   Options: 0x2 (No TOS-capability, No DC)
+   LS Type: Router Links
+   Link State ID: 172.16.1.1
+   Advertising Router: 172.16.1.1
+   LS Seq Number: 0x80000841
+   Checksum: 0x5e40
+   Length: 36
+    Number of links: 1
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 172.16.10.0
+      (Link Data) Network Mask: 255.255.255.0
+       Number of TOS metrics: 0
+         TOS   0 Metric: 40
+
+
+        OSPF Router with ID (192.168.0.1) (Process ID 1 VRF default)
+
+                Router Link States (Area 0.0.0.0)
+
+   LS age: 1117
+   Options: 0x2 (No TOS-capability, No DC)
+   LS Type: Router Links
+   Link State ID: 192.168.0.1
+   Advertising Router: 192.168.0.1
+   LS Seq Number: 0x800008de
+   Checksum: 0x8c16
+   Length: 60
+    Number of links: 3
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 192.168.0.1
+      (Link Data) Network Mask: 255.255.255.255
+       Number of TOS metrics: 0
+         TOS   0 Metric: 1
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 10.0.0.8
+      (Link Data) Network Mask: 255.255.255.252
+       Number of TOS metrics: 0
+         TOS   0 Metric: 40
+
+     Link connected to: a Stub Network
+      (Link ID) Network/Subnet Number: 10.0.0.4
+      (Link Data) Network Mask: 255.255.255.252
+       Number of TOS metrics: 0
+         TOS   0 Metric: 40
