@@ -19,19 +19,28 @@
  Maximum paths to destination 8
  Number of external LSAs 0, checksum sum 0
  Number of opaque AS LSAs 0, checksum sum 0
- Number of areas is 1, 1 normal, 0 stub, 0 nssa
+ Number of areas is 2, 2 normal, 0 stub, 0 nssa
  Number of active areas is 1, 1 normal, 0 stub, 0 nssa
  Install discard route for summarized external routes.
  Install discard route for summarized internal routes.
+   Area BACKBONE(0.0.0.0) (Inactive)
+        Area has existed for 04:41:57
+        Interfaces in this area: 0 Active interfaces: 0
+        Passive interfaces: 0  Loopback interfaces: 0
+        No authentication available
+        SPF calculation has run 0 times
+         Last SPF ran for 0.000000s
+        Area ranges are
+        Number of LSAs: 0, checksum sum 0
    Area (0.0.0.10) (Inactive)
-        Area has existed for 6w5d
+        Area has existed for 6w6d
         Interfaces in this area: 1 Active interfaces: 1
         Passive interfaces: 1  Loopback interfaces: 0
         No authentication available
         SPF calculation has run 3 times
          Last SPF ran for 0.001421s
         Area ranges are
-        Number of LSAs: 1, checksum sum 0x5e40
+        Number of LSAs: 1, checksum sum 0x444d
 
  Routing Process 1 with ID 192.168.0.1 VRF default
  Routing Process Instance Number 1
@@ -58,12 +67,13 @@
  Number of active areas is 1, 1 normal, 0 stub, 0 nssa
  Install discard route for summarized external routes.
  Install discard route for summarized internal routes.
+ Default Passive Interface is enabled
    Area BACKBONE(0.0.0.0) (Inactive)
-        Area has existed for 6w5d
+        Area has existed for 6w6d
         Interfaces in this area: 3 Active interfaces: 3
         Passive interfaces: 0  Loopback interfaces: 1
         No authentication available
         SPF calculation has run 4 times
          Last SPF ran for 0.000125s
         Area ranges are
-        Number of LSAs: 1, checksum sum 0x8c16
+        Number of LSAs: 1, checksum sum 0x7223
