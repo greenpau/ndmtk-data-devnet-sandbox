@@ -1,0 +1,69 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Eth2/3
+10   web_servers                      active
+12   tes2                             active
+13   test3                            active
+14   test1                            active
+15   test                             active
+20   app_servers                      active    Eth2/4
+30   db_servers                       active
+51   WEB1                             active
+59   HYUNGSOK_VLAN_59                 active
+60   WEBGROUP                         active
+61   VLAN0061                         active
+62   Hello                            active
+64   VLAN0064                         active
+80   VLAN0080                         active
+100  MG_TEST1                         active
+400  mg_10                            active
+401  mg_2                             active
+402  mg_3                             active
+556  VLAN0556                         active
+557  new_vlan_557                     active
+577  pula_name_577                    active
+578  pula_novi_vlan_578               active
+752  VLAN0752                         active
+754  edn1-xvn-mgmt-754                active
+755  VLAN0755                         active
+777  JJPARK                           active
+3001 TechWise_01                      active
+3002 TechWise_02                      active
+
+VLAN Type         Vlan-mode
+---- -----        ----------
+1    enet         CE
+10   enet         CE
+12   enet         CE
+13   enet         CE
+14   enet         CE
+15   enet         CE
+20   enet         CE
+30   enet         CE
+51   enet         CE
+59   enet         CE
+60   enet         CE
+61   enet         CE
+62   enet         CE
+64   enet         CE
+80   enet         CE
+100  enet         CE
+400  enet         CE
+401  enet         CE
+402  enet         CE
+556  enet         CE
+557  enet         CE
+577  enet         CE
+578  enet         CE
+752  enet         CE
+754  enet         CE
+755  enet         CE
+777  enet         CE
+3001 enet         CE
+3002 enet         CE
+
+Remote SPAN VLANs
+-------------------------------------------------------------------------------
+
+Primary  Secondary  Type             Ports
+-------  ---------  ---------------  -------------------------------------------
