@@ -1,0 +1,18 @@
+______________________________________________________________
+                  SNMP USERS
+______________________________________________________________
+
+User                Auth  Priv(enforce) Groups              acl_filter
+____                ____  _____________ ______              __________
+lab             md5             des(no)             network-admin
+admin             md5             des(no)             network-admin
+cisco             no             no             network-admin            network-operator
+fmartinez             md5             des(no)             network-admin
+______________________________________________________________
+ NOTIFICATION TARGET USERS (configured  for sending V3 Inform)
+______________________________________________________________
+
+User                          Auth  Priv
+____                          ____  ____
+admin             md5             des
+(EngineID 128:0:0:9:3:0:0:0:0:0:0)
