@@ -4,17 +4,27 @@ IP Route Table for VRF "default"
 '[x/y]' denotes [preference/metric]
 '%<string>' in via output denotes VRF <string>
 
+10.0.0.4/30, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/120], 03:55:42, ospf-1, intra
+10.0.0.8/30, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/80], 03:55:42, ospf-1, intra
 10.0.0.12/30, ubest/mbest: 1/0, attached
-    *via 10.0.0.14, Eth2/1, [0/0], 1w2d, direct
+    *via 10.0.0.14, Eth2/1, [0/0], 04:01:24, direct
 10.0.0.14/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.14, Eth2/1, [0/0], 1w2d, local
+    *via 10.0.0.14, Eth2/1, [0/0], 04:01:24, local
+10.0.0.16/30, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/80], 03:55:42, ospf-1, intra
 10.0.0.24/30, ubest/mbest: 1/0, attached
-    *via 10.0.0.26, Eth2/2, [0/0], 1w2d, direct
+    *via 10.0.0.26, Eth2/2, [0/0], 04:01:24, direct
 10.0.0.26/32, ubest/mbest: 1/0, attached
-    *via 10.0.0.26, Eth2/2, [0/0], 1w2d, local
+    *via 10.0.0.26, Eth2/2, [0/0], 04:01:24, local
+192.168.0.2/32, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/81], 03:55:42, ospf-1, intra
+192.168.0.3/32, ubest/mbest: 1/0
+    *via 10.0.0.25, Eth2/2, [110/41], 03:55:42, ospf-1, intra
 192.168.0.4/32, ubest/mbest: 2/0, attached
-    *via 192.168.0.4, Lo0, [0/0], 1w2d, local
-    *via 192.168.0.4, Lo0, [0/0], 1w2d, direct
+    *via 192.168.0.4, Lo0, [0/0], 04:01:25, local
+    *via 192.168.0.4, Lo0, [0/0], 04:01:25, direct
 
 IP Route Table for VRF "management"
 '*' denotes best ucast next-hop
@@ -23,8 +33,8 @@ IP Route Table for VRF "management"
 '%<string>' in via output denotes VRF <string>
 
 0.0.0.0/0, ubest/mbest: 1/0
-    *via 172.16.1.254, [1/0], 1w2d, static
+    *via 172.16.1.254, [1/0], 04:01:24, static
 172.16.1.0/24, ubest/mbest: 1/0, attached
-    *via 172.16.1.93, mgmt0, [0/0], 1w2d, direct
+    *via 172.16.1.93, mgmt0, [0/0], 04:01:25, direct
 172.16.1.93/32, ubest/mbest: 1/0, attached
-    *via 172.16.1.93, mgmt0, [0/0], 1w2d, local
+    *via 172.16.1.93, mgmt0, [0/0], 04:01:25, local
