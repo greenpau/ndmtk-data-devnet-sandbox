@@ -29,7 +29,6 @@ license              : notify-license-expiry           Yes
 license              : notify-no-license-for-feature   Yes
 license              : notify-licensefile-missing      Yes
 license              : notify-license-expiry-warning   Yes
-hsrp                 : state-change                    No
 upgrade              : UpgradeOpNotifyOnCompletion     Yes
 upgrade              : UpgradeJobStatusNotify          Yes
 feature-control      : FeatureOpStatusChange           No
@@ -53,3 +52,8 @@ feature-control      : ciscoFeatOpStatusChange         No
 syslog               : message-generated               No
 cbe                  : city new                        Yes
 cbe                  : city flooded                    No
+ospf-1               : OSPF base traps                 No
+ospf-1               : OSPF LSA                        Yes
+ospf-100             : OSPF base traps                 No
+ospf-100             : OSPF LSA                        Yes
+BGP-1                :                                 No
