@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+Trap type                       Description                   Enabled
+--------------------------------------------------------------------------------
+entity               : entity_mib_change               Yes
+entity               : entity_module_status_change     Yes
+entity               : entity_power_status_change      Yes
+entity               : entity_module_inserted          Yes
+entity               : entity_module_removed           Yes
+entity               : entity_unrecognised_module      Yes
+entity               : entity_fan_status_change        Yes
+entity               : entity_power_out_change         Yes
+link                 : linkDown                        Yes
+link                 : linkUp                          Yes
+link                 : extended-linkDown               Yes
+link                 : extended-linkUp                 Yes
+link                 : cieLinkDown                     Yes
+link                 : cieLinkUp                       Yes
+link                 : connUnitPortStatusChange        Yes
+link                 : delayed-link-state-change       Yes
+link                 : fcot-inserted                   Yes
+link                 : fcot-removed                    Yes
+callhome             : event-notify                    No
+callhome             : smtp-send-fail                  No
+cfs                  : state-change-notif              No
+cfs                  : merge-failure                   No
+rf                   : redundancy_framework            Yes
+aaa                  : server-state-change             No
+license              : notify-license-expiry           Yes
+license              : notify-no-license-for-feature   Yes
+license              : notify-licensefile-missing      Yes
+license              : notify-license-expiry-warning   Yes
+hsrp                 : state-change                    No
+upgrade              : UpgradeOpNotifyOnCompletion     Yes
+upgrade              : UpgradeJobStatusNotify          Yes
+feature-control      : FeatureOpStatusChange           No
+sysmgr               : cseFailSwCoreNotifyExtended     No
+rmon                 : risingAlarm                     Yes
+rmon                 : fallingAlarm                    Yes
+rmon                 : hcRisingAlarm                   Yes
+rmon                 : hcFallingAlarm                  Yes
+config               : ccmCLIRunningConfigChanged      No
+snmp                 : authentication                  No
+link                 : cisco-xcvr-mon-status-chg       No
+vtp                  : notifs                          No
+vtp                  : vlancreate                      No
+vtp                  : vlandelete                      No
+entity               : entity_sensor                   Yes
+entity               : cefcMIBEnableStatusNotification Yes
+system               : Clock-change-notification       No
+generic              : coldStart                       Yes
+generic              : warmStart                       Yes
+feature-control      : ciscoFeatOpStatusChange         No
+syslog               : message-generated               No
+cbe                  : city new                        Yes
+cbe                  : city flooded                    No
+pim                  : pimNeighborLoss                 Yes
+lldp                 : lldpRemTablesChange             No
+bfd                  : session-up                      Yes
+bfd                  : session-down                    Yes
+ospf-1               : OSPF base traps                 No
+ospf-1               : OSPF LSA                        Yes
+ospf-100             : OSPF base traps                 No
+ospf-100             : OSPF LSA                        Yes
+BGP-65000            :                                 No
