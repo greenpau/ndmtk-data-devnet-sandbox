@@ -1,0 +1,922 @@
+!Command: show startup-config
+!Time: Wed May 24 15:38:32 2017
+!Startup config saved at: Wed May 24 06:19:52 2017
+
+version 7.2(0)D1(1)
+power redundancy-mode redundant
+license grace-period
+
+hostname nx-osv-2
+vdc nx-osv-2 id 1
+  limit-resource module-type m1 m1xl m2xl f2e
+  allocate interface Ethernet2/1-48
+  allocate interface Ethernet3/1-48
+  allocate interface Ethernet4/1-48
+  limit-resource vlan minimum 16 maximum 4094
+  limit-resource vrf minimum 2 maximum 4096
+  limit-resource port-channel minimum 0 maximum 768
+  limit-resource u4route-mem minimum 96 maximum 96
+  limit-resource u6route-mem minimum 24 maximum 24
+  limit-resource m4route-mem minimum 58 maximum 58
+  limit-resource m6route-mem minimum 8 maximum 8
+
+feature telnet
+feature tacacs+
+cfs eth distribute
+feature interface-vlan
+feature vn-segment-vlan-based
+feature hsrp
+feature dhcp
+feature vpc
+feature lldp
+feature bfd
+onep
+feature nxapi
+
+logging level bfd 5
+
+username admin password 5 $1$KuOSBsvW$Cy0TSD..gEBGBPjzpDgf51  role network-admin
+username adminbackup password 5 !  role network-operator
+username adminbackup passphrase  lifetime 99999 warntime 14 gracetime 3
+username cisco password 5 $1$Nk7ZkwH0$fyiRmMMfIheqE3BqvcL0C1  role network-operator
+username cisco role network-admin
+username cisco passphrase  lifetime 99999 warntime 14 gracetime 3
+username lab password 5 $1$buoy/oqy$.EXQz8rCn72ii8qtdldj00  role network-admin
+username lab passphrase  lifetime 99999 warntime 14 gracetime 3
+no password strength-check
+no ip domain-lookup
+ip domain-name cisco.com
+radius-server host 10.63.101.20 auth-port 1814 acct-port 1815 authentication accounting
+radius-server host 10.120.101.20 auth-port 1814 acct-port 1815 authentication accounting
+radius-server host 10.1.10.26 auth-port 1814 acct-port 1815 authentication accounting
+aaa group server radius BOB-USERS
+    server 10.63.101.20
+    server 10.120.101.20
+    server 10.1.10.26
+aaa group server radius BOB-NETADMINS
+    server 10.63.101.20
+    server 10.120.101.20
+    server 10.1.10.26
+vlan dot1Q tag native
+system default switchport
+system jumbomtu 0
+no logging event trunk-status enable
+ip access-list test
+  10 permit ip 1.1.1.1/32 any log
+  20 permit ip 2.2.2.2/32 any log
+copp profile strict
+snmp-server user lab network-admin auth md5 0x5ceb414591539ee35159fca86fdfa101 priv 0x5ceb414591539ee35159fca86fdfa101 localizedkey
+snmp-server user admin network-admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey
+snmp-server user cisco network-admin
+snmp-server user cisco network-operator
+snmp-server user admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey engineID 128:0:0:9:3:0:0:0:0:0:0
+rmon event 1 log trap public description FATAL(1) owner PMON@FATAL
+rmon event 2 log trap public description CRITICAL(2) owner PMON@CRITICAL
+rmon event 3 log trap public description ERROR(3) owner PMON@ERROR
+rmon event 4 log trap public description WARNING(4) owner PMON@WARNING
+rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
+snmp-server enable traps link
+ntp server 8.8.8.8
+
+vlan 1,10,12-15,20,30,51,59-62,64,80,100-101,103-112,300-301,310,320,340,400-402,556-557,560,577-578,752,754-755,777,3001-3002,3092
+vlan 10
+  name test
+vlan 12
+  name tes2
+vlan 13
+  name test3
+vlan 14
+  name test1
+vlan 20
+  name HOSTS
+vlan 30
+  name VLAN30
+vlan 51
+  name WEB1
+vlan 59
+  name HYUNGSOK_VLAN_59
+vlan 60
+  name WEBGROUP
+vlan 62
+  name Hello
+vlan 100
+  name MG_TEST1
+vlan 101
+  name esv1-nvn-core-101
+vlan 103
+  name esv1-nvn-monitor-103
+vlan 104
+  name esv1-gvn-mgmt-104
+vlan 105
+  name esv1-gvn-vmotion-mgmt-105
+vlan 106
+  name esv1-nvn-sec-106
+vlan 107
+  name esv1-nvn-nac-107
+vlan 108
+  name esv1-svn-monitor-108
+vlan 109
+  name esv1-svn-monitor-109
+vlan 110
+  name esv1-svn-gaudit-110
+vlan 111
+  name esv1-svn-gaudit-stage-111
+vlan 112
+  name esv1-svn-gaudit-patch-112
+vlan 300
+  name esv1-uc-vn-300
+vlan 301
+  name esv1-uc-vn-301
+vlan 310
+  name esv1-uc-vn-310
+vlan 320
+  name esv1-uc-vn-320
+vlan 340
+  name esv1-uc-vn-vmotion-340
+vlan 400
+  name mg_10
+vlan 401
+  name mg_2
+vlan 402
+  name mg_3
+vlan 556
+  name new_vlan_556
+vlan 557
+  name new_vlan_557
+vlan 560
+  name pula_560
+vlan 577
+  name pula_name_577
+vlan 578
+  name pula_novi_vlan_578
+vlan 754
+  name edn1-xvn-mgmt-754
+vlan 777
+  name JJPARK
+vlan 3001
+  name TechWise_01
+vlan 3002
+  name TechWise_02
+
+service dhcp
+ip dhcp relay
+ipv6 dhcp relay
+vrf context management
+  ip route 0.0.0.0/0 172.16.1.254
+vrf context vPC_Keepalive
+hardware forwarding unicast trace
+vpc domain 1
+  role priority 30
+  peer-keepalive destination 172.16.20.2 source 172.16.20.1
+
+
+interface mgmt0
+  description OOB Management
+  vrf member management
+  ip address 172.16.1.91/24
+
+interface Vlan1
+
+interface port-channel10
+  switchport
+
+interface port-channel2000
+  no switchport
+  vrf member vPC_Keepalive
+
+interface Ethernet2/1
+  description to nx-osv-1
+  no switchport
+  ip address 10.0.0.6/30
+  no shutdown
+
+interface Ethernet2/2
+  description to nx-osv-3
+  no switchport
+  ip address 10.0.0.17/30
+  no shutdown
+
+interface Ethernet2/3
+  description Ethernet2/3
+  no switchport
+  channel-group 2000
+  no shutdown
+
+interface Ethernet2/4
+  shutdown
+  switchport
+  switchport mode trunk
+  switchport trunk allowed vlan 20
+
+interface Ethernet2/5
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+  ip address 172.16.100.1/30
+
+interface Ethernet2/6
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/7
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/8
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/9
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/10
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/11
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/12
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/13
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/14
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/15
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/16
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/17
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/18
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/19
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/20
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/21
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/22
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/23
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/24
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/25
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/26
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/27
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/28
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/29
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/30
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/31
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/32
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/33
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/34
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/35
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/36
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/37
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/38
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/39
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/40
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/41
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/42
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/43
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/44
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/45
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/46
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/47
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet2/48
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/1
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/2
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/3
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/4
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/5
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/6
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/7
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/8
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/9
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/10
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/11
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/12
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/13
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/14
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/15
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/16
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/17
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/18
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/19
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/20
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/21
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/22
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/23
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/24
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/25
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/26
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/27
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/28
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/29
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/30
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/31
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/32
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/33
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/34
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/35
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/36
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/37
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/38
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/39
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/40
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/41
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/42
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/43
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/44
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/45
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/46
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/47
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet3/48
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/1
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/2
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/3
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/4
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/5
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/6
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/7
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/8
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/9
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/10
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/11
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/12
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/13
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/14
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/15
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/16
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/17
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/18
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/19
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/20
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/21
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/22
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/23
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/24
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/25
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/26
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/27
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/28
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/29
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/30
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/31
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/32
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/33
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/34
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/35
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/36
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/37
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/38
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/39
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/40
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/41
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/42
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/43
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/44
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/45
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/46
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/47
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+
+interface Ethernet4/48
+  shutdown
+  no switchport
+  mac-address fa16.3ef3.5f22
+line console
+line vty
+boot kickstart bootflash:/titanium-d1-kickstart.7.2.0.ZD.0.120.bin sup-1
+boot system bootflash:/titanium-d1.7.2.0.ZD.0.120.bin sup-1
+no system default switchport shutdown
+nxapi https port 443
+nxapi sandbox
+logging logfile aaa 6 size 4096
+logging server 10.63.103.100
+logging timestamp milliseconds
+no logging monitor
+no logging console
