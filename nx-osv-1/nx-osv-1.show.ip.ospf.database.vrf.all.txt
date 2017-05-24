@@ -3,11 +3,11 @@
                 Router Link States (Area 0.0.0.10)
 
 Link ID         ADV Router      Age        Seq#       Checksum Link Count
-172.16.1.1      172.16.1.1      1365       0x80000841 0x5e40   1
+172.16.1.1      172.16.1.1      382        0x8000084e 0x444d   1
 
         OSPF Router with ID (192.168.0.1) (Process ID 1 VRF default)
 
                 Router Link States (Area 0.0.0.0)
 
 Link ID         ADV Router      Age        Seq#       Checksum Link Count
-192.168.0.1     192.168.0.1     1116       0x800008de 0x8c16   3
+192.168.0.1     192.168.0.1     133        0x800008eb 0x7223   3
