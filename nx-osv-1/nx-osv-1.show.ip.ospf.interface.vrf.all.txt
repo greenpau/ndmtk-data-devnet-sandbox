@@ -1,0 +1,39 @@
+ Vlan10 is up, line protocol is up
+    IP address 172.16.10.1/24
+Process ID 100 VRF default, area 0.0.0.10
+    Enabled by interface configuration
+    State DR, Network type BROADCAST, cost 40
+    Index 1, Passive interface
+
+ loopback0 is up, line protocol is up
+    IP address 192.168.0.1/32
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State LOOPBACK, Network type LOOPBACK, cost 1
+    Index 1
+ Ethernet2/1 is up, line protocol is up
+    IP address 10.0.0.5/30
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State DR, Network type BROADCAST, cost 40
+    Index 3, Transmit delay 1 sec, Router Priority 1
+    Designated Router ID: 192.168.0.1, address: 10.0.0.5
+    No backup designated router on this network
+    0 Neighbors, flooding to 0, adjacent with 0
+    Timer intervals: Hello 10, Dead 40, Wait 40, Retransmit 5
+      Hello timer due in 00:00:03
+    No authentication
+    Number of opaque link LSAs: 0, checksum sum 0
+ Ethernet2/2 is up, line protocol is up
+    IP address 10.0.0.9/30
+Process ID 1 VRF default, area 0.0.0.0
+    Enabled by interface configuration
+    State DR, Network type BROADCAST, cost 40
+    Index 2, Transmit delay 1 sec, Router Priority 1
+    Designated Router ID: 192.168.0.1, address: 10.0.0.9
+    No backup designated router on this network
+    0 Neighbors, flooding to 0, adjacent with 0
+    Timer intervals: Hello 10, Dead 40, Wait 40, Retransmit 5
+      Hello timer due in 00:00:03
+    No authentication
+    Number of opaque link LSAs: 0, checksum sum 0
