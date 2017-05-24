@@ -7,4 +7,4 @@
         (T) - True, (F) - False ,  ~~~ - use 'hardware-age' keyword to retrieve age info
   VLAN/BD   MAC Address      Type      age     Secure NTFY Ports/SWID.SSID.LID
 ---------+-----------------+--------+---------+------+----+------------------
-G     -    fa16.3ef3.5f22    static       -       F    F  sup-eth1(R)
+G     -    fa16.3e95.1b78    static       -       F    F  sup-eth1(R)
