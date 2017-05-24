@@ -1,0 +1,188 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Eth2/3, Eth2/5, Eth2/6, Eth2/7
+2    VLAN0002                         active    Eth2/3, Eth2/5, Eth2/6, Eth2/7
+10   VLAN0010                         active    Eth2/3, Eth2/5, Eth2/6, Eth2/7
+                                                Eth3/2
+12   tes2                             active    Eth2/3, Eth2/5, Eth2/6, Eth2/7
+13   test3                            active    Eth2/3
+14   test1                            active    Eth2/3
+15   VLAN0015                         active    Eth2/3
+20   mg_33                            active    Eth2/3
+50   WEB                              act/lshut Eth2/3, Eth2/5, Eth2/6, Eth2/7
+51   WEB1                             active    Eth2/3, Eth2/5, Eth2/6, Eth2/7
+52   Yoeri                            active    Eth2/3, Eth2/5, Eth2/6, Eth2/7
+53   Yoeri2                           act/lshut Eth2/3, Eth2/5, Eth2/6, Eth2/7
+59   HYUNGSOK_VLAN_59                 active    Eth2/3
+60   WEBGROUP                         active    Eth2/3
+61   VLAN0061                         active    Eth2/3
+62   Hello                            active    Eth2/3
+64   VLAN0064                         active    Eth2/3
+80   VLAN0080                         active    Eth2/3
+101  esv1-nvn-core-101                active    Eth2/3
+103  esv1-nvn-monitor-103             active    Eth2/3
+104  esv1-gvn-mgmt-104                active    Eth2/3
+105  esv1-gvn-vmotion-mgmt-105        active    Eth2/3
+106  esv1-nvn-sec-106                 active    Eth2/3
+107  esv1-nvn-nac-107                 active    Eth2/3
+108  esv1-svn-monitor-108             active    Eth2/3
+109  esv1-svn-monitor-109             active    Eth2/3
+110  voice                            active    Eth2/3
+111  esv1-svn-gaudit-stage-111        active    Eth2/3
+112  esv1-svn-gaudit-patch-112        active    Eth2/3
+200  VLAN0200                         active    Eth2/3
+203  Rahul                            active    Eth2/3
+204  UPSSS                            active    Eth2/3
+205  ppp                              active    Eth2/3
+206  eee                              active    Eth2/3
+207  er                               active    Eth2/3
+208  we                               active    Eth2/3
+300  esv1-uc-vn-300                   active    Eth2/3
+301  esv1-uc-vn-301                   active    Eth2/3
+310  esv1-uc-vn-310                   active    Eth2/3
+320  esv1-uc-vn-320                   active    Eth2/3
+340  esv1-uc-vn-vmotion-340           active    Eth2/3
+350  esv1-uc-vn-350                   active    Eth2/3
+400  mg_1                             active    Eth2/3, Eth3/2
+401  mg_2                             active    Eth2/3, Eth3/2
+402  mg_3                             active    Eth2/3, Eth3/2
+409  mg_9                             active    Eth2/3, Eth3/2
+410  mg_10                            active    Eth2/3, Eth3/2
+413  mg_13                            active    Eth2/3, Eth3/2
+414  mg_14                            active    Eth2/3
+500  esv1-avn-airsupport-500          active    Eth2/3
+510  esv1-svn-dmz-510                 active    Eth2/3
+511  esv1-svn-trust-511               active    Eth2/3
+512  esv1-svn-restrict-512            active    Eth2/3
+515  esv1-svn-auth-ad-515             active    Eth2/3
+516  esv1-svn-auth-ldap-516           active    Eth2/3
+520  esv1-svn-dmz-ppd-520             active    Eth2/3
+521  esv1-svn-trust-ppd-521           active    Eth2/3
+522  esv1-svn-restrict-ppd-522        active    Eth2/3
+527  esv1-svn-mgmt-527                active    Eth2/3
+530  VLAN0530                         active    Eth2/3
+531  VLAN0531                         active    Eth2/3
+532  esv1-svn-gsys-patch-532          active    Eth2/3
+560  esv1-gvn-gtlib-pd-560            active    Eth2/3
+561  esv1-gvn-gservers-pd-561         active    Eth2/3
+562  VLAN0562                         active    Eth2/3
+563  esv1-gvn-gafe-pd-563             active    Eth2/3
+564  esv1-gvn-gmgmt-pd-564            active    Eth2/3
+570  esv1-gvn-gtlib-570               active    Eth2/3
+571  esv1-gvn-gservers-571            active    Eth2/3
+572  esv1-gvn-gvoip-572               active    Eth2/3
+573  esv1-gvn-gafe-573                active    Eth2/3
+574  esv1-gvn-gmgmt-574               active    Eth2/3
+581  esv1-gvn-gvmotion-581            active    Eth2/3
+585  esv1-gvn-server-pxe-585          active    Eth2/3
+590  esv1-svn-590                     active    Eth2/3
+591  esv1-svn-aaa-591                 active    Eth2/3
+601  esv1-svn-vsan-601                active    Eth2/3
+700  esv1-fvn-sec-700                 active    Eth2/3
+750  esv1-xvn-scan-750                active    Eth2/3
+751  esv1-xvn-gsec-751                active    Eth2/3
+752  esv1-xvn-gsec-stage-752          active    Eth2/3
+753  esv1-xvn-gsec-patch-753          active    Eth2/3
+777  JJPARK                           active    Eth2/3
+816  VLAN0816                         active    Eth2/3
+888  test-vlan-888                    active    Eth2/3
+999  test_vlan_999                    active    Eth2/3
+3001 TechWise_01                      active    Eth2/3
+3002 TechWise_02                      active    Eth2/3
+
+VLAN Type         Vlan-mode
+---- -----        ----------
+1    enet         CE
+2    enet         CE
+10   enet         CE
+12   enet         CE
+13   enet         CE
+14   enet         CE
+15   enet         CE
+20   enet         CE
+50   enet         CE
+51   enet         CE
+52   enet         CE
+53   enet         CE
+59   enet         CE
+60   enet         CE
+61   enet         CE
+62   enet         CE
+64   enet         CE
+80   enet         CE
+101  enet         CE
+103  enet         CE
+104  enet         CE
+105  enet         CE
+106  enet         CE
+107  enet         CE
+108  enet         CE
+109  enet         CE
+110  enet         CE
+111  enet         CE
+112  enet         CE
+200  enet         CE
+203  enet         CE
+204  enet         CE
+205  enet         CE
+206  enet         CE
+207  enet         CE
+208  enet         CE
+300  enet         CE
+301  enet         CE
+310  enet         CE
+320  enet         CE
+340  enet         CE
+350  enet         CE
+400  enet         CE
+401  enet         CE
+402  enet         CE
+409  enet         CE
+410  enet         CE
+413  enet         CE
+414  enet         CE
+500  enet         CE
+510  enet         CE
+511  enet         CE
+512  enet         CE
+515  enet         CE
+516  enet         CE
+520  enet         CE
+521  enet         CE
+522  enet         CE
+527  enet         CE
+530  enet         CE
+531  enet         CE
+532  enet         CE
+560  enet         CE
+561  enet         CE
+562  enet         CE
+563  enet         CE
+564  enet         CE
+570  enet         CE
+571  enet         CE
+572  enet         CE
+573  enet         CE
+574  enet         CE
+581  enet         CE
+585  enet         CE
+590  enet         CE
+591  enet         CE
+601  enet         CE
+700  enet         CE
+750  enet         CE
+751  enet         CE
+752  enet         CE
+753  enet         CE
+777  enet         CE
+816  enet         CE
+888  enet         CE
+999  enet         CE
+3001 enet         CE
+3002 enet         CE
+
+Remote SPAN VLANs
+-------------------------------------------------------------------------------
+
+Primary  Secondary  Type             Ports
+-------  ---------  ---------------  -------------------------------------------
