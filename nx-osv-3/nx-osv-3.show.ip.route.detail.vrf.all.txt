@@ -1,0 +1,67 @@
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/32, ubest/mbest: 1/0, pending
+    *via Null0, [220/0], 28w0d, broadcast, discard
+127.0.0.0/8, ubest/mbest: 1/0, pending
+    *via Null0, [220/0], 28w0d, broadcast, discard
+255.255.255.255/32, ubest/mbest: 1/0, pending
+    *via sup-eth1, [0/0], 28w0d, broadcast
+10.0.0.16/30, ubest/mbest: 1/0, attached
+    *via 10.0.0.18, Eth2/2, [0/0], 28w0d, direct
+10.0.0.16/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.16, Null0, [0/0], 28w0d, broadcast
+10.0.0.17/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.17, Eth2/2, [250/0], 00:08:35, am
+10.0.0.18/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.18, Eth2/2, [0/0], 28w0d, local
+10.0.0.19/32, ubest/mbest: 1/0, attached
+    *via 10.0.0.19, Eth2/2, [0/0], 28w0d, broadcast
+172.16.1.2/32, ubest/mbest: 2/0, attached
+    *via 172.16.1.2, Lo0, [0/0], 25w0d, local
+    *via 172.16.1.2, Lo0, [0/0], 25w0d, direct
+172.16.10.4/30, ubest/mbest: 1/0, attached
+    *via 172.16.10.6, Eth2/1, [0/0], 25w0d, direct
+172.16.10.4/32, ubest/mbest: 1/0, attached
+    *via 172.16.10.4, Null0, [0/0], 25w0d, broadcast
+172.16.10.6/32, ubest/mbest: 1/0, attached
+    *via 172.16.10.6, Eth2/1, [0/0], 25w0d, local
+172.16.10.7/32, ubest/mbest: 1/0, attached
+    *via 172.16.10.7, Eth2/1, [0/0], 25w0d, broadcast
+172.16.100.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.100.3, Vlan20, [0/0], 25w0d, direct
+172.16.100.0/32, ubest/mbest: 1/0, attached
+    *via 172.16.100.0, Null0, [0/0], 25w0d, broadcast
+172.16.100.3/32, ubest/mbest: 1/0, attached
+    *via 172.16.100.3, Vlan20, [0/0], 25w0d, local
+172.16.100.255/32, ubest/mbest: 1/0, attached
+    *via 172.16.100.255, Vlan20, [0/0], 25w0d, broadcast
+
+IP Route Table for VRF "management"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/32, ubest/mbest: 1/0
+    *via Null0, [220/0], 28w0d, broadcast, discard
+127.0.0.0/8, ubest/mbest: 1/0
+    *via Null0, [220/0], 28w0d, broadcast, discard
+255.255.255.255/32, ubest/mbest: 1/0
+    *via sup-eth1, [0/0], 28w0d, broadcast
+0.0.0.0/0, ubest/mbest: 1/0
+    *via 172.16.1.254, [1/0], 28w0d, static
+         recursive next hop: 172.16.1.254/32
+172.16.1.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.1.92, mgmt0, [0/0], 28w0d, direct
+172.16.1.0/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.0, Null0, [0/0], 28w0d, broadcast
+172.16.1.92/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.92, mgmt0, [0/0], 28w0d, local
+172.16.1.254/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.254, mgmt0, [250/0], 28w0d, am
+172.16.1.255/32, ubest/mbest: 1/0, attached
+    *via 172.16.1.255, mgmt0, [0/0], 28w0d, broadcast
