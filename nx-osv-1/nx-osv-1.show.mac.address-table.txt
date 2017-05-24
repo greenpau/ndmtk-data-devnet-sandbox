@@ -8,4 +8,5 @@
   VLAN/BD   MAC Address      Type      age     Secure NTFY Ports/SWID.SSID.LID
 ---------+-----------------+--------+---------+------+----+------------------
 G     -    fa16.3e3d.0792    static       -       F    F  sup-eth1(R)
+G 2        fa16.3e3d.0792    static       -       F    F  sup-eth1(R)
 G 10       fa16.3e3d.0792    static       -       F    F  sup-eth1(R)
